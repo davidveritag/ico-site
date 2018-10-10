@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+  font-family: GLECB;
+  src: url('/assets/fonts/GLECB.TTF');
+}
+
+@font-face{
+  font-family: BERN;
+  src: url('/assets/fonts/BERNHC.TTF');
+}
+
+.nav-pills .nav-link{
+    color: grey;
+    background: white;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 0;
+    border: solid 1px lightgrey;
+    border-width: 1px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: rgb(0, 150, 197);
+    color: white;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 0;
+    border: solid 1px rgb(0, 150, 197);
+    border-width: 1px;
+}
+
+:focus{
+    outline: none;
+}
+
+.carousel-control-prev{
+    opacity: 1;
+    width: 5%;
+    position: absolute;
+}
+
+.carousel-control-next{
+    opacity: 1;
+    width: 5%;
+    position: absolute;
+}
+
+.poster-prev-btn{
+    visibility: hidden
+}
+
+.poster-next-btn{
+    visibility: hidden
+}
+
+.carousel-control-prev-icon {
+    background-image: url('./assets/icons/prev.png')!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 80px;
+}
+
+.carousel-indicators {
+    top:110%!important;
+    /* display: none; */
+}
+
+
+.carousel-control-next-icon{
+    background-image: url('./assets/icons/next.png')!important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 80px;
+}
+
+.carousel-indicators li{
+    background: lightgrey;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.carousel-indicators .active{
+    background: rgb(0,150,197)
+}
+
+h1{
+    font-size: 2em;
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}
+
+/* .carousel-control-next-icon{
+    display: none;
+}
+.carousel-control-prev-icon{
+    display: none;
+} */
+
+@media(max-width: 1000px){
+
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    iframe {
+        width:100%!important
+    }
+    
+}

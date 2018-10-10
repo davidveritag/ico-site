@@ -1,0 +1,47 @@
+.container-fluid
+{
+  background-image: url('../../assets/icons/WhyML_Bg.jpg');
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 700px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.container-img{
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+  --card-section-width: 455px;
+}
+.header-image{
+  width: 100%;
+}
+.whymorpheus
+{
+  color: white;
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.whymorpheus h1
+{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+button
+{
+  border-radius: 0;
+  color: white;
+  border-color: white;
+}
+
+p
+{
+  max-width: 700px;
+}

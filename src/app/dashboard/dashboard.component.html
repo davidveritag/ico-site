@@ -1,0 +1,23 @@
+
+<div class="container-fluid">
+    <app-header
+      (clickEvent)="onNavLinkClicked($event)">
+    </app-header>
+    <div class="brand-container" *ngIf="router.url != '/faq'">
+      <div class="brand-desc">
+        {{ 'DASHBOARD.Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.' | translate }}
+       <!-- <a class="btn reg-btn" href="https://goo.gl/forms/gIYLP2JB2Ft3QQ4q1" target="_blank">{{ 'BENEFIT.Register Now' | translate }}</a> -->
+      </div>
+      <img src="./assets/icons/white.png" class="brand-logo">
+      <!-- <div class="brand-title">
+        <h1> {{ 'HEADER.Morpheus Labs' | translate }} </h1>
+      </div> -->
+    </div>
+    <app-timer *ngIf="router.url != '/faq'"></app-timer>
+    <div class="pattern-left"></div>
+    <div class="pattern-right"></div>
+    <div class="pattern-bottom"></div>
+    <div class="sea-main">
+      <div class="sea-box"></div>
+    </div>
+</div>

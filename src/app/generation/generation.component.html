@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col generation-section">
+      <h1>{{ 'GENERATION.header' | translate }}</h1>
+      <p>
+        {{ 'GENERATION.summary' | translate }}
+      </p>
+      <div class="more-text"
+        *ngIf="showMore">
+
+        <div class="content">
+          <table>
+            <tr>
+              <td class="label">{{ 'GENERATION.details-name-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-name-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label">{{ 'GENERATION.details-tokenName-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-tokenName-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label">{{ 'GENERATION.details-totalSupply-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-totalSupply-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label">{{ 'GENERATION.details-tokenSales-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-tokenSales-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label">{{ 'GENERATION.details-decimals-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-decimals-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label">{{ 'GENERATION.details-value-label' | translate }}</td>
+              <td>{{ 'GENERATION.details-value-content' | translate }}</td>
+            </tr>
+
+            <tr>
+              <td class="label-wallet-value">{{ 'GENERATION.details-token-label' | translate }}</td>
+              <td class="label-wallet-chunks">{{ 'GENERATION.details-token-address-frist-chunk' | translate }}
+              <a class="label-wallet-masked-chunks">{{ 'GENERATION.details-token-address-masked-chunk' | translate }}</a>
+              <a class="label-wallet-chunks">{{ 'GENERATION.details-token-address-second-chunk' | translate }}</a></td>
+            </tr>
+
+          </table>
+        </div>
+        <p><strong>{{ 'GENERATION.note-1' | translate }}{{ 'GENERATION.note-emp' | translate }}</strong><a href="{{ 'GENERATION.note-3' | translate }}">{{ 'GENERATION.note-3' | translate }}</a></p>
+        <p>{{ 'GENERATION.foot-1' | translate }}<strong>{{ 'GENERATION.foot-emp' | translate }}</strong>{{ 'GENERATION.foot-3' | translate }}</p>
+      </div>
+      <button
+        class="btn mroe-btn"
+        (click)="toggleShowMore()">{{showMoreLabel}}</button>
+    </div>
+  </div>
+</div>

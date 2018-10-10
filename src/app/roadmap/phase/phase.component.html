@@ -1,0 +1,30 @@
+<div class="phase-container flexbox-container">
+  <div class="indicator">
+    <div 
+      class="line-high-{{content.status}}"
+      [ngStyle]="{'background': (content.isFirst && 'transparent')}">
+    </div>
+    <div class="dot-{{content.status}}"></div>
+    <div 
+      class="line-low-{{content.status}}"
+      [ngStyle]="{'background': (content.isLast && 'transparent')}">
+    </div>
+  </div>
+  <div class="text">
+    <div class="title">
+      <span class="phase">{{ 'ROADMAP.Phase' | translate }} {{content.index}}</span>
+      <span>{{content.title}} -</span>
+      <span class="time">{{content.time}}</span>
+    </div>
+    <div class="desc">
+      <span *ngIf="isArray(content.desc); else desc">
+        <ul>
+          <li *ngFor="let item of content.desc">
+            {{ item }}
+          </li>
+        </ul>
+      </span>
+      <ng-template #desc>{{content.desc}}</ng-template> 
+    </div>
+  </div>
+</div>

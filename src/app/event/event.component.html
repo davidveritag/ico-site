@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="title">
+    <h1>{{ 'STAGE.header' | translate }}</h1>
+  </div>
+  <div class="pattern-left"></div>
+  <div class="pattern-right"></div>
+  <div class="stages">
+    <div class="stage-wrap">
+      <div
+        *ngFor="let stage of stages">
+        <app-stage
+        [stage]="stage">
+        </app-stage>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sea-main">
+    <div class="sea-box"></div>
+  </div>
+</div>

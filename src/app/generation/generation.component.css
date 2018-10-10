@@ -1,0 +1,86 @@
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+  overflow: hidden;
+  --card-section-width: 455px;
+}
+
+
+.generation-section
+{
+  padding: 8%;
+  padding-bottom: 5em;
+}
+
+button
+{
+  border-radius: 0;
+  margin-right: 15px;
+}
+
+.btn-primary
+{
+  background: rgb(0, 150, 197);
+  border-color: rgb(0, 150, 197);
+}
+
+.mroe-btn{
+  border-radius: 0 !important;
+  border:solid 1px #666;
+  color: #666;
+  background: white;
+}
+
+.label{
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.label-wallet-value{
+  font-weight: bold;
+  color: red;
+}
+
+.label-wallet-chunks{
+  font-weight: bold;
+}
+
+.label-wallet-masked-chunks{
+  font-weight: bold;
+  color: gray !important;
+}
+
+.content{
+  margin-left: 3em;
+}
+
+.more-text{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+table tr > td{
+  padding: .2em;
+}
+
+table tr > td:first-child{
+  width:25%;
+}
+
+p{
+  padding-top: 2em;
+}
+
+@media(max-width: 500px){
+  .content{
+    margin-left: 0em;
+  }
+
+  table tr{
+    border-top: 1px solid #aaaaaa;
+  }
+
+  table tr:last-child{
+    border-bottom: 1px solid #aaaaaa;
+  }
+}

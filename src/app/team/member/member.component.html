@@ -1,0 +1,16 @@
+<div class="member-container-{{info.type}}">
+  <div 
+    class="photo"
+    [ngStyle]="{ background: 'url(' + info.photoUrl + ')'}"></div>
+  <div class="text">
+    <a href="{{info.profileUrl}}" class="team-link"><div class="name">
+    	{{info.name}} 
+    	<div *ngIf="(info.profileUrl | slice:0:25) == 'https://www.linkedin.com/'; then showLinkedin else showGlobal"></div>
+    	<ng-template #showLinkedin><img src="./assets/icons/Linkedin03.png" class="profile-icon" /></ng-template>
+    	<ng-template #showGlobal><img src="./assets/icons/Global01.png" class="profile-icon" /></ng-template>
+    </div></a>
+    <div class="country">{{info.country}}</div>
+    <div class="desc1">{{info.desc1}}</div>
+    <div class="desc2">{{info.desc2}}</div>
+  </div>
+</div>

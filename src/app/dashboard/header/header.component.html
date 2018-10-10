@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar-default fixed-top justify-content-between">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/icons/white.png" class="brand-logo">
+        <!-- {{ 'HEADER.Morpheus Labs' | translate }} -->
+      </a>
+    </div>
+    <button 
+      type="button" 
+      class="nav-toggle"
+      (click)="toggleState()">
+    </button>
+    <div 
+      class="navbar-collapse" 
+      [ngClass]="{ 'collapse': isCollapsed }"> 
+      <ul class="nav navbar-nav" >
+        <li 
+          class="nav-item" 
+          *ngFor='let navlink of navlinks'
+          (click) = "onLinkClicked(navlink.label)">
+          <a *ngIf="navlink.link == 'whitepaper'" class="nav-link" (click)="openModal(template)">
+            {{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link != '#' && navlink.link != 'whitepaper'" class="nav-link" href="{{navlink.link}}">
+            {{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">
+            {{ 'HEADER.' + navlink.label | translate }}
+          </a>
+        </li>
+      </ul>
+      <ul class="language nav navbar-nav">
+        <button 
+          *ngFor='let lan of languages'
+          [ngClass]="translate.currentLang == lan ? 'language-btn-selected' : 'language-btn'"
+          (click)="onLanguageSelect(lan)"
+          >
+          {{ 'HEADER.' + lan | translate }}
+        </button>
+       <!--
+        <button 
+          *ngIf="router.url === '/faq'"
+          [ngClass]="translate.currentLang == 'kr' ? 'language-btn-selected' : 'language-btn'"
+          (click)="onLanguageSelect('kr')"
+          >
+          {{ 'HEADER.kr' | translate }}
+        </button>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<ng-template #template> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Whitepaper</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+    </div>
+  </div>
+</ng-template>

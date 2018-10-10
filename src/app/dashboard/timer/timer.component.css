@@ -1,0 +1,243 @@
+.timer-container{
+    background-image: url('../../../assets/icons/countdownAlt.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.stage-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 120px;
+    width: 70%;
+    margin-top: 10px;
+    color: rgb(87, 87, 87);
+}
+
+.stage-text-1{
+    font-size: 16px;
+}
+
+.stage-text-2{
+    font-size: 58px;
+    font-weight: bold;
+    color: #0086b3;
+    line-height: 28px;
+    text-align: center;
+}
+
+.stage-text-3{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+    height: 45px;
+    font-size: 44px;
+    font-weight: bolder;
+    color: rgb(0, 153, 197);
+    margin-right: 9px;
+    line-height: 45px;
+}
+
+.time {
+    width: 65px;
+    text-align: center;
+}
+
+.time-label {
+    font-size: 51px;
+    font-weight: bold;
+    color: #0086b3;
+    line-height: 31px;
+    padding-left: 22px;
+    text-align:left;
+}
+
+.time-labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    height: 20px;
+    margin-right: 9px;
+    font-size: 16px;
+}
+
+.badge-text-1{
+    position: absolute;
+    right: 14px;
+    top: 35px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.badge-text-1.adjust{
+    right: 6px;
+}
+
+.badge-text-2{
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.button-container{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90%;
+    height: 90px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-text-container{
+    margin-right: 15px;
+}
+
+.btn-text-1{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.btn-text-2{
+    font-size: 16px;
+    color: rgb(173, 226, 252);
+    text-align: center;
+}
+
+.btn-icon{
+    background-image: url('../../../assets/icons/arrow.png');
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 50% 50%;
+    margin-top: 10px;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.share-text{
+    width: 40%;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fb-share-button{
+    /* background-image: url('../../../assets/icons/SocialMedia02.png');
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    overflow: hidden; */
+}
+
+.button-container:hover,
+.btn-text-container:hover,
+.btn-text-container:hover .btn-text-1,
+.btn-text-container:hover .btn-text-2,{
+    text-decoration: none;
+}
+
+@media(max-width: 1112px){
+    .timer-container{
+        height: 450px;
+        width: 360px;
+    }
+
+    .badge-text-1{
+        right: 10px;
+        top: 30px;
+        font-size: 13px;
+    }
+
+    .badge-text-2{
+        right: 8px;
+        top: 69px;
+        font-size: 13px;
+    }
+
+    .stage-text-container{
+        margin-top: 0px;
+    }
+
+    .countdown-container{
+        width: 75%;
+        height: 60px;
+    }
+
+    .button-container{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1000px){
+    .timer-container{
+        position:relative;
+        top: 50px;
+        right: 0;
+        height: 450px;
+        width: 360px;
+    }
+
+    .badge-text-1{
+        top: 30px;
+        font-size: 13px;
+    }
+
+    .badge-text-2{
+        right: 8px;
+        top: 69px;
+        font-size: 13px;
+    }
+
+    .stage-text-container{
+        margin-top: 0px;
+    }
+
+    .countdown-container{
+        width: 75%;
+        height: 60px;
+    }
+
+    .button-container{
+        margin-top: 5px;
+    }
+}

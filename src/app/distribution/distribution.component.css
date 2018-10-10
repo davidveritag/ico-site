@@ -1,0 +1,427 @@
+
+.container-fluid{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: start;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-bottom: 5em;
+    padding-top: 9em;
+}
+
+.title{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.stats{
+    width: 45%;
+}
+
+.pie-box{   
+    width: 100%;
+    position: relative;
+    padding: 4em;
+}
+
+.pie-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    font-size: 1.5vw;
+    line-height: .9em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pie-stat{
+    display: block;
+    text-align: left;
+    line-height: 1.5em;
+    color: #4b4b4b;
+    position: absolute;
+}
+
+.pie-stat > .value{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pie-stat > .label{
+    font-size: .8em;
+}
+
+
+.bar-stats{
+    width: 100%;
+    display: block;
+    margin-top: 4em;
+}
+
+.bar-stats > ul{
+    list-style: none;
+}
+
+.bar-stats > ul li{
+    display: block;
+    padding: 1em;
+}
+
+.bar{
+    margin-top: 9px;
+    display: block;
+    vertical-align: top;
+    zoom: 1;
+    position: relative;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 13px;
+    width: 0%;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+.bar-1{
+    background-color: #005f71;
+}
+
+.bar-2{
+    background-color: #007494;
+}
+
+.bar-3{
+    background-color: #0096c5;
+}
+
+.bar-4{
+    background-color: #4cdaed;
+}
+
+.bar-5{
+    background-color: #8de6f5;
+}
+
+/*25*/
+/*.bar-stats.display{ 
+    width: 71.4285714285%;
+}*/
+
+/*20*/
+.bar-stats.display .bar.reserve,
+.bar-stats.display .bar.sales{ 
+    width: 57.1428571428%;
+}
+
+/*15*/
+.bar-stats.display .bar.team,
+.bar-stats.display .bar.foundation,
+.bar-stats.display .bar.others{
+    width: 42.8571428571%;
+}
+
+/*35*/
+.bar-stats.display .bar.devops{ 
+    width: 100%;
+}
+
+/*30*/
+.bar-stats.display .bar.marketing,
+.bar-stats.display .bar.community{ 
+    width: 85.7142857142%;
+}
+
+/*20*/
+.bar-stats.display .bar.rnd{
+    width: 57.1428571428%;
+}
+
+.desc{
+    display: block;
+    margin-top: 0.3em;
+}
+
+.desc > .label{
+    color: #717171;
+}
+
+.desc > .value{
+    font-weight: bold;
+    color: black;
+}
+
+.chart{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.chart img{
+    max-width: 80%;
+    max-height: 500px;
+}
+
+.pie-stat{
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.pie-stat.reserve{
+    top: -7%;
+    right: 7%;
+}
+
+.pie-stat.foundation{
+    bottom: -13%;
+    left: 21%;
+}
+
+.pie-stat.sales{
+    bottom: 45%;
+    left: -10%;
+}
+
+.pie-stat.community{
+    bottom: 5%;
+    right: -10%;
+}
+
+.pie-stat.team{
+    top: -12%;
+    left: 31%;
+}
+
+.pie-stat.devops{
+    top: 20%;
+    right: -30%;
+}
+
+.pie-stat.marketing{
+    left: 42%;
+    bottom: -15%;
+}
+
+.pie-stat.rnd{
+    top: 48%;
+    left: -7%;
+}
+
+.pie-stat.others{
+    top: -8%;
+    left: 7%;
+}
+
+.long.label{
+    line-height: 1.2em;
+}
+
+.short.label{
+    display: none;
+}
+
+@media(min-width: 1440px){
+
+    .pie-stat.devops{
+        top: 20%;
+        right: -26%;
+    }
+
+}
+
+@media(min-width: 1560px){
+    .pie-stat.devops{
+        top: 20%;
+        right: -19%;
+    }
+
+    .pie-stat.rnd{
+        top: 48%;
+        left: -2%;
+    }
+}
+
+@media(max-width: 1440px){
+    .pie-stat.sales{
+        left: -12%;
+    }
+}
+
+@media(max-width: 1300px){
+    .pie-box{
+        padding: 2em;
+    }
+
+    .pie-stat.devops{
+        right: -33%;
+    }
+
+    .pie-stat.marketing{
+        bottom: -22%;
+        left: 40%;
+    }
+}
+
+@media(max-width: 1100px){
+    .chart{
+        width: 70%;
+    }
+
+    .pie-stat.devops{
+        right: -50%;
+    }
+
+    .pie-stat.reserve{
+        top: -5%;
+        right: -1%;
+    }
+
+    .pie-stat.foundation{
+        bottom: -24%;
+        left: 12%;
+    }
+
+    .pie-stat.sales{
+        bottom: 34%;
+        left: -19%;
+    }
+
+    .pie-stat.community{
+        top: 62%;
+        right: -20%;
+    }
+
+    .pie-stat.team{
+        top: -24%;
+        left: 28%;
+    }
+
+    .pie-stat.others{
+        top: -17%;
+        left: -9%;
+    }
+
+    .pie-stat.marketing{
+        bottom: -28%;
+    }
+
+    .pie-stat.rnd{
+        left: -14%;
+    }
+
+}
+
+@media(max-width: 768px){
+    .container-fluid{
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stats{
+        width: 100%;
+        margin-bottom: 9em;
+    }
+
+    .pie-title{
+        font-size: 1.5em;
+    }
+
+    .pie-stat.devops{
+        top: 6%;
+        right: -16%;
+    }
+
+    .bar-stats > ul{
+        padding: 1em;
+    }
+
+    .pie-stat.others{
+        top: -11%;
+        left: 3%;
+    }
+
+}
+
+@media(max-width: 760px){
+    .long.label{
+        display: none;
+    }
+
+    .short.label{
+        display: block;
+        line-height: 1em;
+    }
+
+    .pie-stat.devops{
+        right: -10%;
+    }
+}
+
+@media(max-width: 560px){
+    .pie-stat.devops{
+        right: -20%;
+    }
+
+    .pie-stat.others{
+        top: -19%;
+        left: -1%;
+    }
+}
+
+@media(max-width: 500px){
+    .pie-title{
+        top: -5em;
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, 0%);
+        font-size: 2em;
+    }
+
+    .pie-box{
+        padding: 4em 1em 1em 1em;
+    }
+
+    .chart{
+        padding: 1em;
+    }
+}
+
+
+@media(max-width: 1150px){
+    .screens{
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 760px){
+    .screens{
+        justify-content: flex-start;
+        height: 200px;
+        width: 90%;
+    }
+    .image {
+        height: auto;
+        max-height: auto;
+        width: 100%;
+    }
+}
+
+@media(max-width: 426px){
+    .pie-stat.devops{
+        right: -27%;
+    }
+
+    .pie-stat.marketing{
+        bottom: -22%;
+    }
+}

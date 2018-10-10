@@ -1,0 +1,164 @@
+.container-fluid{
+    background: url('../../assets/icons/TokenEventBG.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    position: relative;
+    height: 620px;
+}
+
+.stages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 100vw;
+    align-items: center;
+    z-index:1;
+    position: absolute;
+    top: 130px;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.stage-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top:45px;
+}
+
+.desc{
+    width: 60%;
+    color: rgb(173, 226, 252);
+    font-size: 0.9em;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    bottom:45px;
+}
+
+.pattern-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGShape1.png');
+    width: 100%;
+    height: 60%;
+    background-size: auto 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../../assets/icons/BGShape2.png');
+    width: 100%;
+    height: 60%;
+    background-size: auto 100%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+/* SEA ANIMATION */
+.sea-box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.sea-box img{
+  vertical-align: top;
+}
+.sea-box:after,.sea-box:before{
+  content: "";
+  position: absolute;
+  left:0;
+  top:-10%;
+  width: 100%;
+  height: 100%;
+  background:url(../../assets/img/sea_light.png) left top no-repeat;
+  background-size:100% 100%;
+  -webkit-transform-origin:top;
+  transform-origin:top;
+}
+.sea-box:after{ 
+  -webkit-animation: light 8s infinite alternate;
+  animation: light 8s infinite alternate;
+}
+.sea-box:before{
+  -webkit-animation: lightTwo 5s infinite  alternate;
+  animation: lightTwo 5s infinite  alternate;
+}
+.sea-main{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/BannerBlackShadow.png) left top no-repeat;
+  background-size:100% 100%;
+}
+@keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@-webkit-keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+@-webkit-keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+/* END OF SEA ANIMATION*/
+
+@media(max-width: 1365px){
+    .pattern-right, .pattern-left {
+        display: none;
+    }
+
+    .stages{
+        justify-content: flex-start;
+    }
+    
+}

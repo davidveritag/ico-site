@@ -1,0 +1,67 @@
+<div class="persistent-footer hide hidden">
+  <div class="row">
+    <div class="col">
+      <span class="stat-title">1 ML token price</span>
+      <span class="stat-value">{{ stat.price }}</span>
+    </div>
+
+    <div class="col">
+      <span class="stat-title">Earn tokens up to</span>
+      <span class="stat-value">{{ stat.earn }}</span>
+    </div>
+
+    <div class="col">
+      <span class="stat-title">ICO Participants</span>
+      <span class="stat-value">{{ stat.participants }}</span>
+    </div>
+
+    <div class="col">
+      <!-- <a class="btn buy-btn" onclick="location.href='mailto:token@morpheuslabs.io?subject=Token Purchase Enquiry'">Buy Token</a> -->
+      <a class="btn buy-btn" href="https://goo.gl/forms/gIYLP2JB2Ft3QQ4q1" target="_blank">Buy Token</a>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container-fluid">
+    <nav class="nav">
+      <ul class="nav-links" >
+        <li
+          class="nav-item"
+          *ngFor='let navlink of navlinks'
+          (click) = "onLinkClicked(navlink.label)">
+          <a *ngIf="navlink.link != '#'" class="nav-link" href={{navlink.link}}>{{ 'HEADER.' + navlink.label | translate }}</a>
+          <a *ngIf="navlink.link == '#'" class="nav-link">{{ 'HEADER.' + navlink.label | translate }}</a>
+        </li>
+      </ul>
+      <div class="social-buttons ml-auto">
+        <a href="http://t.me/morpheuslabs">
+          <img src="./assets/icons/SocialMedia05.png">
+        </a>
+        <a href="mailto:info@morpheuslabs.io">
+          <img src="./assets/icons/SocialMedia01.png">
+        </a>
+        <a href="https://www.facebook.com/morpheusblockchain">
+          <img src="./assets/icons/SocialMedia02.png">
+        </a>
+        <a href="https://www.linkedin.com/company/27162662/">
+          <img src="./assets/icons/SocialMedia03.png">
+        </a>
+        <a href="https://twitter.com/morpheus_labs_">
+          <img src="./assets/icons/SocialMedia04.png">
+        </a>
+        <a href="https://github.com/Morpheuslabs-io">
+          <img src="./assets/icons/SocialMedia07.png">
+        </a>
+      </div>
+    </nav>
+    <div class="copyright-container">
+      <div style="width: 90%;">{{ 'FOOTER.legal-1' | translate }} <br><br>
+        {{ 'FOOTER.legal-2' | translate }}
+        </div>
+      <button
+        class="btn go-btn"
+        (click)="onLinkClicked('Dashboard')">
+      </button>
+    </div>
+  </div>
+</footer>

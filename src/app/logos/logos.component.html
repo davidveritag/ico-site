@@ -1,0 +1,74 @@
+<div class="container-fluid">
+  <h1 class="title">{{'LOGO.title1' | translate}}</h1>
+  <div class="logo-row">
+    <div *ngFor="let logo of logos.cornerstone">
+      <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </a>
+
+      <ng-template #img_only>
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </ng-template>
+    </div>
+  </div>
+</div>
+
+<div class="light container-fluid">
+  <h1 class="title">{{'LOGO.title2' | translate}}</h1>
+  <div class="logo-row">
+    <div *ngFor="let logo of logos.partners">
+      <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </a>
+
+      <ng-template #img_only>
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </ng-template>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <h1 class="title">{{'LOGO.title3' | translate}}</h1>
+  <div class="logo-row">
+    <div *ngFor="let logo of logos.supported">
+      <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </a>
+
+      <ng-template #img_only>
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </ng-template>
+    </div>
+
+    <div class="subgroup">
+      <h5>Member of</h5>
+      <div class="sub-logos">
+        <div *ngFor="let logo of logos.member_of">
+          <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+            <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+          </a>
+
+          <ng-template #img_only>
+            <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="light container-fluid">
+  <h1 class="title">{{'LOGO.title4' | translate}}</h1>
+  <div class="tight logo-row">
+    <div *ngFor="let logo of logos.featurings">
+      <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </a>
+
+      <ng-template #img_only>
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </ng-template>
+    </div>
+  </div>
+</div>

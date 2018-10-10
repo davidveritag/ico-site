@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <h1>{{ 'SOLUTION.header' | translate }}</h1>
+    <div class="row">
+      <div class="col"
+        *ngFor="let content of solutions">
+        <app-bubble
+        [content]="content">
+        </app-bubble>
+      </div>
+    </div>
+  </div>

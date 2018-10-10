@@ -1,0 +1,201 @@
+.container-fluid{
+    height: 780px;
+    padding: 0!important;
+    background: url('../../assets/img/BannerBG01.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.brand-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.brand-logo{
+  height: 75px;
+}
+
+.brand-title, .brand-desc{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brand-title>h1{
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.brand-desc{
+    width: 30%;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.pattern-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesLeft.png');
+    width: 100%;
+    height: 80%;
+    background-size: auto 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesRight.png');
+    width: 100%;
+    height: 80%;
+    background-size: auto 100%;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.pattern-bottom{
+    position: absolute;
+    bottom: 0;
+    background-image: url('../../assets/icons/BGLinesBottom.png');
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* SEA ANIMATION */
+.sea-box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.sea-box img{
+  vertical-align: top;
+}
+.sea-box:after,.sea-box:before{
+  content: "";
+  position: absolute;
+  left:0;
+  top:-10%;
+  width: 100%;
+  height: 100%;
+  background:url(../../assets/img/sea_light.png) left top no-repeat;
+  background-size:100% 100%;
+  -webkit-transform-origin:top;
+  transform-origin:top;
+}
+.sea-box:after{ 
+  -webkit-animation: light 8s infinite alternate;
+  animation: light 8s infinite alternate;
+}
+.sea-box:before{
+  -webkit-animation: lightTwo 5s infinite  alternate;
+  animation: lightTwo 5s infinite  alternate;
+}
+.sea-main{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/img/BannerBlackShadow.png) left top no-repeat;
+  background-size:100% 100%;
+}
+
+.reg-btn{
+  color: white;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgb(0, 151, 200);
+  border-radius: 0;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+@keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@-webkit-keyframes light  {
+  0% {-webkit-transform:rotate(0deg);opacity: 1;}
+  100% { -webkit-transform: rotate(10deg);opacity: 0.1;}
+}
+@keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+@-webkit-keyframes lightTwo  {
+  0% {-webkit-transform:rotate(10deg);opacity: 1;}
+  100% { -webkit-transform: rotate(0deg);opacity: 0.8;}
+}
+/* END OF SEA ANIMATION*/
+
+@media(max-width: 1300px){
+  .brand-container{
+    align-items: flex-start;
+    padding-left: 20%;
+  }
+  .brand-desc{
+    width: 50%;
+    text-align: left;
+  }
+}
+
+@media(max-width: 1000px){
+    .container-fluid{
+        height: 1000px;
+    }
+
+    /* .brand-container{
+        display: none;
+    } */
+
+    .pattern-left, .pattern-right {
+        display: none;
+    }
+
+    .brand-container{
+      align-items: center;
+      padding-left: 0;
+    }
+
+    .brand-desc{
+      width: 50%;
+      text-align: center;
+    }
+}
+  
+@media(max-width: 768px){
+  .brand-desc{
+    width: 50%;
+  }
+}
+  
+@media(max-width: 507px){
+  .brand-logo{
+    margin-top: unset;
+  }
+  .brand-desc{
+    width: 90%;
+  }
+}

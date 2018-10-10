@@ -1,0 +1,499 @@
+{
+    "HEADER": {
+        "Morpheus Labs": "모피어스랩",
+        "About Morpheus": "모피어스랩에 대해",
+        "Solution": "솔루션",
+        "White Paper": "백서",
+        "Token Events": "토큰 이벤트",
+        "Bounty" : "바운티",
+        "Team": "팀",
+        "Bounty": "바운티",
+        "FAQ": "FAQ",
+        "Language": "언어",
+        "whitepaper" : "./assets/documents/WhitePaper.pdf",
+        "en": "영어",
+        "cn": "중국어",
+        "jp": "일본어",
+        "kr": "한국어"
+    },
+    "TIMER": {
+        "BONUS SALE": "공식 판매",
+        "stage starts in:": "스테이지 시작까지",
+        "30% Bonus": "MITx token",
+        "DAYS": "일",
+        "HOURS": "시간",
+        "MINUTES": "분",
+        "SECONDS": "초",
+        "Buy Token Now": "화이트리스트 접수 마감입니다",
+        "We accept BTC, ETH and other": "ETH로 구입 가능합니다",
+        "SHARE WITH": "우리와 함께"
+    },
+    "DASHBOARD":{
+        "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "기업을 위한 Full Stack 서비스를 제공하는 블록체인 플랫폼"
+    },
+    "ABOUT":{
+        "header": "모피어스랩에 대해",
+        "description1": "블록 체인 응용 프로그램 개발을 간소화하고 신속하게 처리하여, 사용자 요구에 더 잘 맞는 유연성을 제공하기 위해 사용 가능한 프로그래밍 언어와 블록 체인 운영시간 사이에서 선택할 수 있게 합니다.",
+        "description2": "통합 협업 개발 환경, 작업 공간 관리, 버전 제어 저장소 및 미리 구성된 많은 작업을 통해 독보적 인 혜택을 누릴 수 있습니다.",
+        "description3": "애플리케이션 제작과 같은 부가가치 작업에 집중하고 블록 체인 기술을 비용과 시간의 일부만으로 실험 할 수 있도록 하여 사용자들의 무거운 짐을 덜어주고자 합니다.",
+        "vh1": "모피어스랩 소개",
+        "vd1-1": "기업을 위한 Full Stack 서비스를 제공하는 블록체인 플랫폼",
+        "vd1-2": "~ 빠른 프로토타입 개발과 사용 가능  ~",
+        "vd1-3": "왜 모피어스랩이 이익창출이 가능한 고객들이 있으며 토큰 이벤트를 진행하는 유일하고 처음인 회사인지 이해해보세요",
+        "vh2": "아이디어 테스트하기 ",
+        "vd2-1": "~ 빠른 프로토타입 개발과 사용 가능 ~",
+        "vd2-2": "주요 기능과 개발자 환경 소개",
+        "vd2-3": "",
+        "vh3": "1 Feb 2018: Morpheus Labs Pte. Ltd. @ BANSEA Pitch (360 Panorama)",
+        "vd3-1": "~ 빠른 프로토타입 개발과 사용 가능 ~ ",
+        "vd3-2": "모피어스랩이 BANSEA에게 선택된 단하나의 프로젝트로서 시장의 제일 큰 pain point 를 해결하며 모든 투자자의 관심이 어떻게 집중되었는지",
+        "vd3-3": "",
+        "vh4": "Smart Nation Certification - Independent Audit Report",
+        "vd4-1": "~ Rapid prototyping and easy deployment ~ ",
+        "vd4-2": "Morpheus Labs ERC20 Token Smart Contract is openly published in GitHub and had been successfully passed independent audit.",
+        "vd4-3": ""
+    },
+    "PROBLEM":{
+        "header": "문제 정의",
+        "title1": "어떤 분산원장기술?",
+        "description1": "기업은 사용할 블록 체인 기술을 선택하는 데 어려움을 겪습니다. 예를 들어 Bitcoin 블록 체인은 통화 전송에 더 적합합니다.",
+        "title2": "실사용 케이스는 무엇입니까?",
+        "description2": "기업은 해당 산업에 적용되는 실사용 케이스를 이해하고 투자 수익 (ROI)을 평가하는 방법을 아는 데 어려움을 겪습니다.",
+        "title3": "배포 및 테스트 방법?",
+        "description3": "블록 체인 노드, 스토리지, 클라우드 개발 환경 및 github을 함께 사용하면 많은 노력이 필요합니다. 그것은 시간이 많이 걸리고 자원 집약적이어서 금전적 여유가 많은 회사를 제외한 대부분의 회사 또는 스타트업은 제외됩니다."
+    },
+    "SOLUTION":{
+        "header": "우리의 솔루션",
+        "title1":"블록 체인 기술을 사용해보십시오.",
+        "title2":"크라우드소싱",
+        "title3":"엔터프라이즈 급",
+        "title4":"앱 배포 준비 (앱 라이브러리에서)",
+        "description1":"하나의 플랫폼에서 다양한 유형의 블록 체인을 실험 해보십시오. 플랫폼을 옮겨다니며  애플리케이션 및 제공자들과의 시간을 낭비하지 않아도됩니다.",
+        "description2":"전문가 커뮤니티의 지혜를 담은 아이디어와 도구를 얻고, 가능한 한 짧은 시간에 혁신적인 솔루션을 모으십시오.",
+        "description3":"신속한 프로토 타이핑과 손쉬운 프로덕션 배포를위한 확장 가능하고 안전하며 강력한 엔터프라이즈 블록 체인 플랫폼.",
+        "description4":"사전 준비가 완료된 블록체인 어플리케이션을 통해 테스트하고자 하는 어플리케이션을 빨리 검증합니다. 이렇게하면 빠르고 안전한 환경을 만드는 데 드는 시간과 비용을 줄일 수 있습니다."
+    },
+    "ADVANTAGE":{
+        "header": "우리의 경쟁력있는 장점",
+        "title1": "견고함 & 확장성",
+        "title2": "Turn-Key 솔루션",
+        "title3": "신뢰성",
+        "title4": "효율적 비용",
+        "title5": "접근성",
+        "description1": "클라우드 솔루션에서 확장성이 뛰어난 플랫폼에 고객이 투자 할 것입니다.",
+        "description2": "사전 배포 된 블록 체인 어플리케이션에서 블록 체인 사용 가능 사례에 신속하게 테스트해보며 유효성 검사를 수행합니다. 이는 시간을 단축하고 비용이 절감하며 실패에도 안전한 환경을 만들어줍니다",
+        "description3": "SGINnovate는 싱가포르 정부 산하 기관으로 우리를 직접 선택하였습니다. 가장 숙련 된 엔지니어와 상을받은 팀멤버로 구성되었습니다.",
+        "description4": "우리는 제품과 서비스의 품질에 중점을 두고 있으며 가치를 가짐과 동시에 합리적 가격으로 제공하고자 합니다. Inclusion 과 블록 체인은 우리의 Mantra 입니다.",
+        "description5": "우리 팀은 다양한 기능을 가진 블록 체인 비즈니스 분야에서 경험을 쌓아왔으며 경험이 풍부합니다"
+    },
+    "STAGE": {
+        "header": "토큰이벤트",
+        "bonus1": "50% 보너스",
+        "bonus2": "35% 보너스",
+        "bonus3": "35% 보너스",
+        "bonus4": "20% 보너스",
+        "bonus5": "10% 보너스",
+        "bonus6": "보너스 없음",
+
+        "desc1": "Pre-ICO Platinum Bonus",
+        "desc2": "Early-bird Premium Bonus",
+        "desc3": "Early-bird Premium Bonus",
+        "desc4": "Pre-sales Additional Bonus",
+        "desc5": "Pre-sales Additional Bonus",
+        "desc6": "Official Sales",
+        "desc7": "Unsold Tokens Release",
+
+        "date1": "2 Jan - 21 Jan",
+        "date2": "24 Feb - 9 Mar",
+        "date3": "9 Mar - 18 Mar",
+        "date4": "10 Mar - 23 Mar",
+        "date5": "2 Apr - 15 Apr",
+        "date6": "24 Mar - 15 Apr",
+        "date7": "27 MAY ONWARD",
+        "time": "from 00:00AM (GMT+8)"
+    },
+    "TIMELINE": {
+        "header": "Token Timeline",
+        "current": "공식 판매",
+        "time": "10 March 00:00:00 (GMT+8) - 15 April 2018",
+        "join-btn": "Join Early Bird Sale",
+        "buy-btn": "Buy Token"
+    },
+    "PLATFORM": {
+        "header": "플랫폼에 대해",
+        "text": "Morpheus Labs BPaaS는 블록 체인 응용 프로그램 개발을 간소화하고 신속하게 처리하며 사용자 요구에 더 적합한 사용 가능한 프로그래밍 언어와 블록 체인 런타임 사이에서 선택할 수있는 유연성을 제공합니다. 통합 협업 개발 환경, 작업 공간 관리, 버전 제어 저장소 및 사전 구성된 많은 작업을 통해 탁월한 이점을 얻을 수 있습니다. 당신이 비용 및 시간의 일부만으로 블록 체인 기술을 사용하여 응용 프로그램 생성 및 실험과 같은 부가가치 작업에 집중하는 동안 저희 플랫폼이 무거운 짐을 들어드릴 수 있도록 하겠습니다."
+    },
+    "WHY US": {
+        "header": "왜 모피어스랩 BPaaS 인가",
+        "text1": "인프라는 세계 경제가 강력해질수록 모든 기능에있어 매우 중요합니다. 그러나 현재 블록체인 세계에서는 적절한 인프라가 부족합니다.",
+        "text2": "Morpheus Labs는 신속한 출시 전략 및 사용자 편의성에 중점을 둔 혁신적인 플랫폼을 구축함으로써 이러한 공백을 메울 것입니다. 우리는 기업 및 개인이 저비용으로 신속하게 비즈니스 아이디어를 프로토타이핑하고 검증하도록 권한을 부여합니다."
+    },
+    "BENEFIT": {
+        "header": "토큰의 이점",
+        "summary": "Morpheus Infrastructure Token (MIT)은 Morpheus BPaaS 네트워크 내에서 렌더링 된 모든 서비스 및 제품, 플랫폼 구독, 배포자 라이센스 및 다른 디지털 통화 또는 토큰과의 토큰 교환에 사용하도록 설계되었습니다.",
+
+        "listtitle1":"MITx 토큰의 주요 용도:",
+        "listtitle2":"플랫폼 구독 지불",
+        "listtitle3":"응용 프로그램 사용료",
+        "listtitle4":"라이센스 배포 비용",
+        "listtitle5":"토큰 교환 및 거래",
+
+        "listtext1":"",
+        "listtext2":"다양한 서비스 계층에 대한 지불",
+        "listtext3":"다운로드를 통해 독점적 인 혜택을 얻은 App Store에서 다양한 응용 프로그램을 사용할 수 있습니다.<br> 다운로드하여 애플리케이션 소유자를 맞춤 설정하거나 참여하여 맞춤 설정하십시오.",
+        "listtext4":"다양한 라이센스 계층의 재정 결제 리소스 지원 및 공유",
+        "listtext5":"네트워크 내의 앱간에 토큰 교환<br>암호화폐거래소 내",
+
+        "detail1": "토큰의 주요 용도는 플랫폼 구독 및 응용 프로그램 관련 사용 모두를위한 것입니다. 사용자는이 토큰을 사용하여 플랫폼 네트워크 내의 모든 서비스를 조달하고 그 안에 서비스 공급자에게 비용을 지불 할 수 있습니다. 사용자는 완전히 유연한 방식으로 서로 다른 구독 Tier간에 전환 할 수 있습니다. 업그레이드는 선택한 응용 프로그램에 적용됩니다.",
+        "detail2": "더 많은 블록 체인 애플리케이션이 앱 스토어에서 선별되므로 MIT는 네트워크 내 다른 ICO에 대한 할인 쿠폰을 교환 할 수 있습니다. 이것은 다른 응용 프로그램의 비용 절감 및 판촉 항목으로 변환됩니다.",
+        "detail3": "유통 업체를 쉽게 관리 할 수있는 라이센스를 받는사람과 라이센스 제공자 간의 재정적 해결 및 자원 지원은 전 세계 모든 유통 업체 또는 하위 유통 업체에 대한 중요한 실시간 지원을 용이하게합니다. 앱 스토어간에 간편한 토큰 교환을 통해 거래 수수료를 절약하고 개인 및 기업 투자자에게보다 효과적인 포트폴리오 관리를 할 수 있습니다.",
+        "detail4": "MITx 는 암호화폐 거래소에서 거래되며 토큰 보유자는 자신이 소유권을 교환 또는 청산 할 수있는 유연성을 제공합니다.소지자는 거래 기회를 활용하고 토큰의 가치를 극대화 할 수 있습니다.",
+
+        "Show More": "더보기",
+        "Show Less": "숨기기",
+        "Read Whitepaper": "백서 읽기",
+        "Register Now": "지금 등록",
+
+        "cardtitle1": "플랫폼 구독 지불",
+        "cardtitle2": "어플리케이션 사용료",
+        "cardtitle3": "배급사 라이센스 수수료",
+        "cardtitle4": "토큰 교환 및 거래",
+        "cardtext1": "다른 Tier 서비스 사용료 지불",
+        "cardtext2": "독점적인 혜택을 통해 앱 스토어에서 다양한 어플리케이션을 사용하도록 다운로드하십시오. 어플리케이션 소유자와 연락하여 개인화 시킬수도 있습니다.",
+        "cardtext3": "다양한 라이센스 Tier에 대한 정산이 가능합니다. 자원 지원 및 공유도 가능합니다",
+        "cardtext4": "네트워크 내 어플리케이션 사이에서의 토큰 스왑 및 암호화폐 거래소에서의 거래"
+
+    },
+    "DISTRIBUTION": {
+        "TOKEN": "토큰",
+        "DISTRIBUTION": "분배",
+        "Team": "팀",
+        "Community": "생태계",
+        "Community-sub": "& 파트너쉽",
+        "Token Sales": "토큰세일",
+        "Foundation": "Foundation",
+        "Foundation-sub": "(전략 & 리서치)",
+        "Reserve Fund": "Reserve",
+
+        "FINANCE": "재무",
+        "Platform Development": "플랫폼 개발 & ",
+        "Operations": "운영",
+        "Platform Dev": "플랫폼 개발 & ",
+        "Ops": "운영",
+        "Marketing": "세일즈 & 마케팅",
+        "Research Development": "리서치 활동",
+        "R&D": "R&D",
+        "Others, Legal": "법률 및 기타"
+    },
+    "ROADMAP": {
+        "header": "로드맵",
+        "Technical": "기술적",
+        "Business": "비지니스",
+        "Phase": "단계",
+        "tech-title0": "설계 및 버전 알파",
+        "tech-title1": "배포 개발자 도구",
+        "tech-title2": "공동 창작 및 그룹 개발",
+        "tech-title3": "상용화 단계",
+        "tech-title4": "사용자 환경 개선",
+        "tech-title5": "블록체인간의 상호 운용성",
+        "tech-date0": "Q3 2016",
+        "tech-date1": "2018 1월",
+        "tech-date2": "2018 4월",
+        "tech-date3": "Q3 2018",
+        "tech-date4": "Q4 2018",
+        "tech-date5": "Future, 2019",
+        "tech-desc0": "플랫폼 프리젠테이션 레이어 구현에 중점을 둔 Morpheus Labs BPaaS 플랫폼의 알파 버전 개발.",
+        "tech-desc1": "버전 알파의 사용에 대한 피드백을 기반으로 사용자 인터페이스 (UI) 및 기술 향상 기능을 갖춘 MVP 블록 체인 응용 프로그램 및 신속한 프로토 타이핑을 신속하게 개발하는 것을 목표로하는 기본 DevOps 도구를 준비.",
+        "tech-desc2": "공동 작업 및 그룹 개발을 지원하는 DevOps 툴링의 향상. 우리는 마이크로 서비스 기반 블록 체인 어플리케이션 개발을 가능하게하고 API로서의 어플리케이션 서비스 노출을 허용. Multichain은이 단계에서 지원.",
+        "tech-desc3": "사용자가 플랫폼의 월간 사용량을 관리 할 수있게하여 서비스의 상용화를 허용.",
+        "tech-desc4": "플랫폼을 사용하여 다른 블록 체인의 다양한 기능을 평가함으로써 사용자가 다른 블록 체인을 시도하고 해당 제품에 가장 적합한 것을 찾을 수 있도록 권한을 부여하고 장려 할 수있는 새로운 기능을 구축.",
+        "tech-desc5": "블록 체인 간의 상호 운용성.",
+
+        "biz-title0": "",
+        "biz-title1": "",
+        "biz-title2": "",
+        "biz-title3": "",
+        "biz-title4": "",
+        "biz-title5": "",
+        "biz-date0": "Q3 2016",
+        "biz-date1": "2017 6월",
+        "biz-date2": "2017 10월",
+        "biz-date3": "2018 2월",
+        "biz-date4": "2018 6월",
+        "biz-date5": "미래",
+        "biz-desc0": "SGInnovate 에서 아이디어와 설립자가 선택됨",
+        "biz-desc1": [
+            "8월 설립 고문단들이 팀에 합류",
+            "Top 5 (전세계 22 참가자 중) Smart Dubai Government 에서."
+        ],
+        "biz-desc2": [
+            "초기 투자금 유치.",
+            "5-campus Government Polytechnic의 최종 토론에서 커리큘럼을 공동 작성.",
+            "S터키 스마트 국가 프로젝트에서 Proline Integrated Intelligence (최대 시스템 통합 업체 중 하나)와 MoU 체결 (공항에서 시작).",
+            "일본, 말레이시아 및 두바이에서 대리점 및 JV에 대한 제안을 받았습니다."
+        ],
+        "biz-desc3": [
+            "공식 토큰 판매 이벤트를 시작.",
+            "PoC 빌딩 추적에 대한 Y3 기술 협력.",
+            "동남아 지역 공식 판매 제휴 캠페인."
+        ],
+        "biz-desc4": [
+            "아시아 및 UAE 지역의 나머지 지역에 대한 공식 판매 제휴 캠페인.",
+            "동남아시아의 블록 체인 연구소를 설립하고 인정받은 모든 혁신 연구소, 가속기, 공동 작업 공간, 대학에서 시작."
+        ],
+        "biz-desc5": [
+            "혁신 연구소, 가속기, 공동 작업 공간, 대학 및 대학에서 아시아 및 UAE의 나머지 지역에 걸쳐 블록 체인 실험실을 시작.",
+            "판매 활동은 아시아와 UAE의 나머지 지역에서 시작."
+        ]
+    },
+    "GENERATION" : {
+        "header" : "토큰 발행 이벤트 구조",
+        "summary" : "총 10억개의 MITx 가 발행 될 것입니다. 이 토큰 발행 이벤트에서 2억 5천개의 토큰이 발행됩니다. 이는 충분한 자금을 조성하고 모인 자금에 대한 책임감을 부여합니다. 나머지 MITx는 비지니스 확장에 사용되며 로드맵에 따라 판매용으로만 출시될것입니다. 이번 토큰 발행 이벤트에서 모금되는 모든 자금은 제품 개발과 사업의 발전을 위해서만 사용됩니다.",
+
+        "details-name-label" : "이름",
+        "details-name-content" : "Morpheus Infrastructure Platform",
+        "details-tokenName-label" : "토큰이름",
+        "details-tokenName-content" : "MITx (Morpheus Infrastructure Token)",
+        "details-totalSupply-label" : "총 발행량",
+        "details-totalSupply-content" : "1,000,000,000 (1B)",
+        "details-tokenSales-label" : "Token Sales" ,
+        "details-tokenSales-content" : "250,000,000 (250M)" ,
+        "details-decimals-label" : "소수점자리수",
+        "details-decimals-content" : "18",
+        "details-value-content" : "8,000 MITx = 1 ETH",
+        "details-token-label" :  "송금하실 지갑 주소",
+        "details-token-address-frist-chunk" : "0x682e0f",
+        "details-token-address-masked-chunk" : "###################################",
+        "details-token-address-second-chunk" : "a22320a7",
+
+        "note-1" : "전체 지갑 주소는 본인에게 메일로만 발송됩니다.",
+        "note-emp" : "화이트리스트 등록을 하셨으나 저희로부터 어떠한 메일을 받지 못하셨을 경우, 아래 이메일로 연락 부탁드립니다. ",
+        "note-3" : "token@mopheuslabs.io",
+        "details-value-label" : "가격",
+        "details-value-content" : "8,000 MITx = 1 ETH",
+
+        "foot-1" : "ETH 당 발행되는 토큰의 수는, ",
+        "foot-emp" : "ETH 가격에 고정됩니다.",
+        "foot-3" : "모든 토큰이 판매되면 토큰 발행 이벤트가 종료됩니다. 최종 목표 금액을 달성하지 못하더라도 토큰은 거래소에 상장될 것입니다. 앞으로 결정되는 거래소에 있어서는 안내를 추후 드리겠습니다.",
+
+        "Show More": "더보기",
+        "Show Less": "닫기"
+    },
+    "TEAM": {
+        "member-header": "팀 구성원",
+
+        "member-name0": "Chuang Pei-Han",
+        "member-country0": "싱가포르/대만/미얀마",
+        "member-bg0": "정보 시스템 학사 (호주 멜버른 대학교),금융 기술 : 미래 상업 (Ave. 95 % : Global Top Capstone 프로젝트의 리더 - 매사추세츠 공과 대학교).",
+        "member-exp0": "7 년 동안의 은행 업무 경험을 바탕으로, Pei-Han은 첫 벤처 기업으로 진로를 탈바꿈하여 일련의 성공적인 비즈니스를 구축했습니다. 그는 수백만의 투자를 유치한 경험이 있으며 대기업의 계좌 관리에 있어서 검증된 실력을 보유하고 있습니다. 그는 창업자 중 한명이 백만 달러를 벌어들이는 비즈니스를 성공 시킨 경험이 있습니다. 그의 BPaaS 계획은 SGInnovate의 첫번째 인큐베이티로 선택되어 구체화되었습니다.",
+
+        "member-name1": "Branson Lee",
+        "member-country1": "싱가포르/말레이시아/한국",
+        "member-bg1": "컴퓨터 공학 학사 (남양 기술 대학교, 싱가포르); 금융 기술 : 미래 상업 (매사추세츠 공과 대학).",
+        "member-exp1": "브랜슨은 현재 싱가포르 핀테크 협회의 전 공동 회원이며 재능위원회의 책임자입니다. 브랜슨은 사업 개발 및 채널 파트너쉽 분야에서 13 년 이상의 경력을 쌓은 그는 대학 시절에 Sun Microsystems에서 단 2 명의 학부생 중 한 명으로 선정되어 인턴쉽을 했습니다. 브랜슨은 LinkedIn에서 근무했으며 현재는 블록체인 및 신생 생태계에 많은 관심을 가지고 있습니다. 그는 또한 블록체인 및 핀테크 행사에 있어서 활동 중인 강연자 이기도 합니다.",
+
+        "member-name2": "Dorel D. Burcea",
+        "member-country2": "싱가포르/이탈리아",
+        "member-bg2": "물리학 학사 (부카레스트 대학); MBA (리버풀 대학) 국제 금융 연구소 회원",
+        "member-exp2": "Dorel은 애플리케이션 개발 및 인프라 관리 분야에서 16 년 이상의 경험을 보유하고 있습니다. 그는 대규모 B & FSI에서 숙련된 경험을 가진 기술 리더였으며 디지털 매출 스트림, 디지털 원장 비즈니스, 전 채널 비즈니스, 지불 서비스 및 공개 API 서비스에 중점을 둔 수백만 개의 디지털 변환 프로젝트를 감독했습니다. UniCredit Bank의 Digital Transformation ICT Manager-Group CIO로서의 리더십 외에도 Dorel은 Tech Accelerators @CampFlex, 사이버 보안 서비스 @Revel Tech 및 Internet of Things Advisor @ Lucas Bernoulli의 기업가입니다.",
+
+        "member-name3": "Bruce Lu Yang",
+        "member-country3": "싱가포르/중국",
+        "member-bg3": "응용 수학 학사 (천진 대학); 이그제큐티브 MBA (Rutgers 비즈니스 스쿨); 금융 기술 : 미래 상업 (매사추세츠 공과 대학).",
+        "member-exp3": "Bruce는 비즈니스 통찰력으로 소프트웨어 개발 및 기술 혁신 분야에서 20 년 이상의 경력을 쌓았습니다. 클라우드 애플리케이션 개발 및 다양한 산업 분야의 기술 혁신에 중점을 둔 기술 리더로서 IBM과 협력해 왔습니다. 그는 전문 직업을 통해 20 개 이상의 프로젝트를 성공적으로 수행했습니다. 그는 지난 몇 년 동안 블록체인 기술 연구, 프로토 타이핑 및 구현에 주력해 왔습니다. 최근 수석 설계자로서, 그는 HyperLedger Fabric을 사용하여 고객에게 비즈니스 애플리케이션을 성공적으로 구현했습니다. 이 애플리케이션은 해당 지역의 HyperLedger Fabric V1.0을 처음으로 구현 한 제품이며, 아마도 세계 최초로 구현된 몇 안되는 제품 중 하나 일 것입니다." ,
+
+        "member-name4": "Xiao Lei",
+        "member-country4": "중국/홍콩",
+        "member-bg4": "ICMA 석사 (리딩 대학) / 재무 분석사",
+        "member-exp4": "Xiao Lei는 충성심 높은 팔로워들을 거느리며 활동중인 중국 지역의 블록체인 블로거입니다. 10 년간의 홍콩, 태국, 중국에서의 국제 금융 경험이 있습니다. 20개 이상의 프로젝트 주도 은행 변환, 중소기업 위험 모델 개발, Alibaba.com과 Alipay를 통한 중국 - 태국 간 국경 간 지급 솔루션, 8년간의 Bangkok 은행, Kasikorn 은행, 중국의 홍콩 자회사인 윙렁 은행에서 근무한 경험이 있습니다.",
+
+        "member-name5": "Eddy Low",
+        "member-country5": "말레이시아/일본",
+        "member-bg5": "멀티미디어 디자인 학사 (말레이시아 더 원 아카데미)",
+        "member-exp5": "UI 디자이너 Eddy Low는 전략과 디자인 파트를 전문으로 합니다. 그는 모바일 및 데스크톱 클라이언트를 위한 디자인을 통해 더 나은 UI 및 사용자 경험을 창출합니다. Eddy는 디자인 업계에서 10 년 이상의 경력을 쌓았습니다. 그는 고객과 긴밀하게 협력하여 설계 솔루션이 요구 사항 및 비즈니스 방향을 충족시키는 지 확인합니다. UOB, OCBC, DBS, Standard Chartered Bank에서 근무한 경력을 갖고 있습니다.",
+
+        "member-name6": "Edward Loke",
+        "member-country6": "싱가포르",
+        "member-bg6": "정보 시스템 기술 및 디자인 학사 (싱가포르 기술 & 디자인 대학)",
+        "member-exp6": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
+
+        "member-name7": "Eric Xu Cong",
+        "member-country7": "싱가포르/중국",
+        "member-bg7": "정보 시스템 학사 (싱가포르 국립 대학교)",
+        "member-exp7": "IBM의 수석 UX 기술 컨설턴트로 3 년간 근무한 경험이 있으며 은행, 소매 및 제조 등 여러 산업 분야의 글로벌 고객과 수백만 명의 모바일 및 웹 참여 경험을 쌓았습니다. 그는 고객이 혁신적인 기술을 사용하여 디지털 전략을 수립하고, 대담한 혁신을 창출하며, 고객에게 최상의 사용자 경험을 제공할 수 있도록 지원합니다.",
+
+        "member-name8": "Clara Zhou",
+        "member-country8": "중국",
+        "member-bg8": "외국어 학 학사 (제지앙 유시우 대학교)",
+        "member-exp8": "다양한 영어-중국어 번역과 커뮤니티를 구축한 경험을 토대로 테크니컬 뉴스와 기사를 쓰고 있습니다. 탁월한 PR 및 마케팅 기술을 가진 블록체인 추종자입니다.",
+        
+        "member-name9": "Hanna Bae",
+        "member-country9": "한국",
+        "member-bg9": "전문 회계 석사 (퀸즐랜드 공과대학교, 브리스베인); 커뮤니케이션(PR) 학사 (RMIT, 멜버른)",
+        "member-exp9": "한나는 비지니스 언어와 커뮤니케이션 모두 능통합니다. 그녀는 PR과 온라인 마케팅에 훌륭한 경험을 가지고 있습니다. 전략 컨설팅 경력과 관리회계사로서의 그녀의 가장 최근 경험은 사업 운영과 회계에 있어서 더 나은 이해도를 가질 수 있도록 했습니다. 그녀는 블록체인 기술에 있어서 큰 믿음을 가지고 있으며 이것이 미래를 더 나은 곳으로 만들거라고 생각합니다.",
+
+        "advisor-header": "Founding Advisors",
+
+        "advisor-name0": "Liu Siyu",
+        "advisor-country0": "중국",
+        "advisor-bg0": "인터넷 금융 의장 교수 (난징대학: EMBA); 강연자 (캐피탈 대학교 경제, 경영 & 중국대 정치과학 및 법)",
+        "advisor-exp0": "그는 탑 블록체인 투자회사의 설립자이며 2017년 포브스지가 선정한 30세 미만 탑 30인 중 한명이며 중국에서 블록체인에 대해 가장 영향력이 있는 사람 중 한명입니다.",
+
+        "advisor-name1": "Prof. Simon Choi",
+        "advisor-country1": "중국/홍콩",
+        "advisor-bg1": "법률 학사 (LLB, 북경 대학); 법학 석사 (LLM, University of London); CPEC & PCLL (홍콩 대학교); 외래 강사 (커틴 대학교, 노팅 햄 트렌트 대학교, 홍콩 폴리 테크닉 대학교); Acme Ardent의 창립 파트너)",
+        "advisor-exp1": "Simon은 잉글랜드와 웨일즈, 홍콩의 법률 사무소에서 근무하는 국제 변호사입니다. Simon은 북경 대학교, 런던 대학교, 홍콩 대학교의 법대를 졸업했습니다. Simon은 국제법에 대한 심층적 지식을 제공하고 다양한 관할권에서 새로운 블록체인 규정을 자문하고 검토함으로써 전 세계적으로 10 개 이상의 ICO 프로젝트를 자문했습니다. 국제 무역, 투자, 금융 및 M & A 분야에서 25 년 이상의 경력을 쌓은 그는 블록체인 기술에 대한 모든 관련 정부 정책을 최고 수준으로 지지하고 견고하게 합니다. 중국에 막대한 투자자 네트워크를 갖고있는 그는 북아시아에서 가장 많은 ICO 수요를 가지고있는 고문 중 하나입니다.",
+
+        "advisor-name2": "Dr. Rex Yeap",
+        "advisor-country2": "싱가포르",
+        "advisor-bg2": "과학 석사 (구별 - 리즈 대학교); DBA (남호주 대학교); Invention Capital 파트너; BANSEA 부위원장",
+        "advisor-exp2": "Rex Yeap 박사는 현재 Invention Capital의 파트너로 새로운 발명품의 창작 및 상업화, 초기 투자 및  기업 인큐베이팅에 대한 노력을 해오고 있습니다. 또한 BANSEA (비지니스 엔젤 네트워크) 부회장이자 천사 투자 펀드 (BANSEA Fund One)의 공동 창립자이며 펀드의 투자위원회 이사회 의장을 역임했습니다. Dr. Yeap은 싱가포르 Cryptocurrency 및 블록체인 산업 협회 교육 책임자입니다. 지난 수십 년 동안 그의 엔젤 투자 포트폴리오에는 주로 정보 기술 분야의 초기 기술 회사와 핀테크 공간이 점점 더 많이 포함되어 왔습니다. Dr. Yeap은 업계, 정부 및 학계에 걸쳐있는 정보 기술 가치 체인에서 30 년의 경험을 쌓았습니다. 그는 IP Blockchain (특허 출원 중)의 공동 발명가이며 지난 30 년 동안 20 개 이상의 정보 기술 관련 특허와 수천 가지 발명품을 만들었습니다.",
+
+        "advisor-name3": "Lok Choon Hong",
+        "advisor-country3": "말레이시아/싱가포르",
+        "advisor-bg3": "법학 석사 (캠브리지 대학교); MBA (INSEAD); EMBA (칭화대 학교) AIPO (지적 재산권 기업가 및 조직) 협회 창립 회장, MBAN (말레이시아 비즈니스 엔젤 네트워크) 재무 이사.",
+        "advisor-exp3": "IAM Magazine에서 2013, 2014 및 2015년에 전 세계 1000 대 특허 실무자 중 한 명으로 선정되었습니다. 그는 지적 재산권 등록, 양도, 라이선스 부여, 상업화, 집행 및 자문 업무의 모든 측면을 전문으로 합니다. 그는 Global IP Southeast Asia Pte Ltd의 창립 이사이며 싱가포르, 말레이시아, 필리핀 및 브루나이에 지사를 두고 있는 지적 재산권 자문 회사로서 인도네시아, 태국 및 베트남에 대표 사무소를 두고 있습니다. 또한 IP 기반 기업에 벤처 / 엔젤 자본 투자에 적극적으로 참여하고 있습니다.",
+
+        "advisor-name4": "Dr. Allen Yeo",
+        "advisor-country4": "싱가포르",
+        "advisor-bg4": "기계 공학 학사 및 박사 (글래스고 대학교); MBA 장학생 (버팔로 대학교); 부총장 및 주임위원회가 후원하는 연구 학자. 부교수 (싱가포르 국립 대학 총장 겸임)",
+        "advisor-exp4": "알렌 여 박사는 지적 재산권 및 경영 관리 문제, 특히 기술 혁신 및 응용 프로그램 및 IP 상용화에 관한 연설자입니다. 그는 싱가포르의 지적 재산권 관련되어 몇 안되는 IP 컨설턴트 중의 한명입니다. 동시에 그는 미국에 상장회사가 인수한 수백만 달러의 금융 기술 회사 인 Magadallen Quant Pte Ltd.를 비롯한 여러 성공한 회사를 설립한 노련한 기업가입니다. 싱가포르의 정부 기관에서 IP 관련 핵심 직책을 맡았습니다.",
+
+        "advisor-name5": "Dr. Lee 李洛傑",
+        "advisor-country5": "대만/홍콩/유럽",
+        "advisor-bg5": "MBA 및 PhD (심리학 및 경제) (캘리포니아 대학교);설립자 / 회장 (Excitron 파트너 / Excitron Inc)",
+        "advisor-exp5": "4개의 대륙에서 20 년이 넘는 국제 전문 경험을 가진 기업가이자 투자자 및 기업 임원입니다. 지난 10 년이 넘는 기간 동안 그는 중국권 지역의 기업가와 경영자를 도와 문화적 차이를 극복하고 성공적인 비즈니스를 창출했습니다. 그는 적극적인 블록체인 influencer이자 기조 연설자입니다. Lee 박사는 DEC & Compaq과 차이나 모바일& Ericsson의 주요 협상가였습니다.",
+
+        "advisor-name6": "George Han",
+        "advisor-country6": "싱가포르",
+        "advisor-bg6": "학사 경제 및 정치 과학 (싱가포르 국립 대학교); MBA—투자 (헐 비지니스 스쿨)",
+        "advisor-exp6": "George Han은 신생 기업이 투자를 늘리는데 도움이 되는 풍부한 경험을 보유하고 있습니다. 그는 대학 창업 보육 센터에서 6년을 보냈습니다. 그 기간 동안 그는 80명을 스타트업을 창업하는 데 도움을 주었고 창업 계획에 500명이 넘는 창립자를 조언했습니다. 그는 수많은 회사가 후속 조치 및 시리즈 A 투자를 기획하고 더 많은 성공으로 성장할 수 있도록 도왔습니다. ",
+
+        "advisor-name7": "Jared Polites",
+        "advisor-country7": "미국",
+        "advisor-bg7": "회계학 학사 (택사스 오스틴 대학교);금융 석사 (파리 과학대학)",
+        "advisor-exp7": "Jared는 FBI에서 경력을 쌓기 시작했는데 사기방지 보안에 특수한 Intelligence Analyst로 일했다. FBI에서 나온 후 지난 4 년 동안 Jared는 고성장 기술 및선도적 인 아시아 벤처 캐피탈 (VC) 기업에 1 년을 포함하여 블럭 체인 신생 기업에서 일해왔다. 그의 전문분야는 마케팅 성장이고, PR에 집중하고 있으며 제품 마케팅 및 초기 시장 진출을 위한 전략프로젝트이다. Jared는 총 1억 5천만 달러 이상을 모금한 팀과 약 25 개의 ICO에서 일했습니다.",
+
+        "advisor-name8": "Dr. De-Wai (David) Chou",
+        "advisor-country8": "대만",
+        "advisor-bg8": "금융 기술 : 미래 상업 (매사추세츠 공과 대학)MBA, Ph.D. 금융 (LeBow School of Business - 드렉 셀 대학교) ",
+        "advisor-exp8": "David는 15 년 이상 대학교의 교수로 재직했습니다. 그의 전문 지식은 금융, 투자, 기업 지배 구조 및 로봇 거래입니다. 그는 수년간 과학 기술부가 자금을 지원한 연구 프로젝트를 수행했습니다. 그는 또한 Nanoplus, Inc.의 독립 이사회 이사로서 회사의 경영 지원에 대한 전문성을 제공합니다. 2016년에 그는 그의 친구와 함께 eFXhome, Ltd. Co.에 자금을 지원했습니다. 이 회사는 Forex 시장에서의 로봇 거래의 주요 사업입니다.",
+
+        "advisor-name9": "Dr. Yeo Yong-Kee",
+        "advisor-country9": "싱가포르",
+        "advisor-bg9": "전기 전자 공학 학사 (싱가포르 국립 대학교); 전기 및 압축 공학 박사 (조지아 공과 대학); 8 개 특허의 저자이자 통신 분야에서 50 개가 넘는 연구 논문을 발표 한 국가 과학 장학금 (A * STAR).",
+        "advisor-exp9": "Yong-Kee Yeo 박사는 InfoComm을위한 연구소의 연구 프로그램 관리자였습니다. 연구 교부금으로 1천만 달러 이상을 관리한 A * STAR의 연구 (A * STAR의 일부 임). 주요 업무로는 전략적 연구 프로젝트 식별, 연구 팀 선정 및 관리, 지적 재산 상업화 등이 있습니다. 그는 미래의 데이터 중심 세계를 위한 기술 개발 및 활용에 관심이있는 회사의 솔루션 제공 업체인 LightBridge Technologies를 설립했습니다. 싱가포르 정부는 그를 싱가포르 전역의 광섬유 네트워크 표준을 개발하기 위한 실무 그룹을 이끌도록 임명하였습니다."
+    },
+    "LOGO":{
+        "title1": "Cornerstone Investor",
+        "title2": "Partners & Clients",
+        "title3": "Supported by",
+        "title4": "As Seen On"
+    },
+    "FOOTER": {
+        "legal-1":"© Morpheus Labs. Inc | 2017 All rights reserved",
+        "legal-2":"Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions (FAQ)",
+
+        "Q1": "웹사이트 주소가 어떻게 되나요?",
+        "A1": "https://token.morpheuslabs.io/",
+
+        "Q2": "어디서 영문버전 백서를 다운받을 수 있나요?",
+        "A2": "https://token.morpheuslabs.io/assets/documents/WhitePaper.pdf",
+
+        "Q3": "이 ICO는 어디 국가에서 진행하나요?",
+        "A3": "싱가포르 입니다",
+
+        "Q4": "주요 팀 멤버가 어떻게 되나요?",
+        "A4": "메인 웹사이트에서 \"Our Team\" 페이지를 참고해주세요.",
+
+        "Q5": "고문으로는 어떤 분이 계신가요?",
+        "A5": "메인 웹사이트에서 \"Founding Advisers\" 페이지를 참고해주세요.",
+
+        "Q6": "팀이 혹시 현재 설립된 블록체인이나 크립토커런시 연합 (Cryptocurrency Associates)과 연관이 있을까요?",
+        "A6": "네, ACCESS (Singapore Cryptocurrency and Blockchain Industry Association) https://www.access-sg.org 와 SFA (Singapore Fintech Association) https://singaporefintech.org 가 있습니다.",
+
+        "Q7": "지금 현재 투자 스테이지가 어디인가요?",
+        "A7": "현재 프리세일 중입니다. 텔레그램, 홈페이지 등을 통해 지켜봐 주세요.",
+
+        "Q8": "다음 스테이지는 언제 시작하나요? 토큰세일이 일찍 종료할 가능성이 있나요?",
+        "A8-1": "세일 타임라인은 아래와 같습니다;",
+        "A8-bullet-1": "프라이빗 세일 (2월 11일 - 2월 23일)",
+        "A8-bullet-2": "얼리버드 (2월 24일 - 3월 9일)",
+        "A8-bullet-3": "프리세일 (3월 10일 - 3월 23일)",
+        "A8-bullet-4": "오피셜세일 (3월 24일 - 4월 15일)",
+        "A8-2": "지금 현재 진행상황으로 보아, 예상했던 것보다 훨씬 빨리 세일이 종료될 것 같습니다. 세일 참여를 원하시면 화이트리스트 등록해주세요:",
+        "A8-3": "https://tinyurl.com/goomlwl",
+
+        "Q9": "MITx토큰 가격이 어떻게 되나요? 그리고 ETH로 계산되나요 아니면 USD로 계산되나요?",
+        "A9": "이더리움 가격에 기반하며, 1ETH = 8,000 MiTx 입니다.",
+
+        "Q10": "보너스 토큰은 언제 받을 수 있고 락 기간은 어떻게 되나요?",
+        "A10-1": "얼리버드 스테이지부터, 모든 투자자분들께 MiTx 토큰은 개인지갑에서 저희 모피어스랩 지갑으로 이더 전송 그 즉시 발급됩니다. 예. 50ETH를 전송하시면 400,000MITx 의 토큰과 140,000MITx (35%의 보너스) 토큰이 즉시 발급됩니다. 모든 토큰은 4월 15일 이후에만 이동이 가능합니다.",
+
+        "Q11": "토큰 세일 스테이지에 따라 하드캡이 어떻게 분배되어 있나요?",
+        "A11-1": "분배는 이렇게 되어있습니다;",
+        "A11-bullet-1": "프라이빗 세일: 30% (전체 캡의)",
+        "A11-bullet-2": "얼리버드: 30% (전체 캡의)",
+        "A11-bullet-3": "프리세일: 30% (전체 캡의)",
+        "A11-bullet-4": "오피셜세일: 10% (전체 캡의)",
+
+        "Q12": "30% 의 토큰이 커뮤니티를 위해서 예약되었다고 하는데, 그건 무슨뜻인가요?",
+        "A12": "저희의 비지니스 모델은 B2B와 인프라 허브 입니다. 저희는 소매업자 뿐만이 아닌 유통업체, 제휴업체, 투자업체, 주요 거래소의 상장, 중국지역에서의 마케팅, 이벤트 등을 사용하여 강력한 비지니스 커뮤니티를 구축해야 합니다. 그렇게 사용하기 위한 30%의 토큰입니다.",
+
+        "Q13": "MITx의 토큰 가격을 방어할 계획이나 전략이 있을까요?",
+        "A13": "저희의 비즈니스 및 거래에 대한 큰 자신감을 가지고, 우리는 연이익의 10 %를 토큰을 재구매할것이며, 필요한 경우 연간 토큰 발행을 5 %로 제한 할 것입니다",
+
+        "Q14": "현재 비지니스가 어느정도 인지 공유 부탁드려요.",
+        "A14": "현재 우리는 중국, 일본, 말레이시아 및 두바이에 자회사를 설립하고자 하는 제안을 받았습니다. 현재 일본과 말레이시아의 경우 R & D 및 기술 팀을 구성하는 중에 있으며, 2 월 말경 끝날 것이라 예상합니다. 중국의 경우, 큰 시장임을 알고, 리소스를 집중적으로 투자 할 수 있는 전략적 접근 방식을 채택하고 있습니다. 마지막으로, 두바이에 대해서는 여러 이해 관계자들과 협상 중이며, Proline 통합 인텔리전스 (Smart nation-Airport) 및 공급망에 대한 Y3 기술을 사용하여 프로젝트 범위 지정 단계에 있습니다",
+
+        "Q15": "현재 기술적인 진행상황 공유 부탁드려요.",
+        "A15": "저희는 MvP에 대한 개선 작업을 수행 중이며, 2 월 중순까지 앱 스토어를 완성하고 2018 년 3 사분기 첫 상용 출시를 목표로하는 로드맵 마일스톤을 계속 진행할 것을 목표로합니다.",
+
+        "Q16a": "주요 팀 멤버를 볼 수 있는 비디오가 있을까요?",
+        "A16a": "MorpheusLab 팀은 2018 년 2 월 1 일 동남아시아에서 가장 오래된 엔젤투자 네트워크 인 Business Angel Network BANSEA에서 투구했습니다. Branson (MorpheusLab의 공동 창립자)과 다른 팀 멤버들 (Pei-han, Bruce 및 Dorcel), 그리고 80여 비즈니스 엔젤이 나온, 유튜브 동영상 링크입니다:",
+        "A16a-link": "https://youtu.be/g5QfY-SRn-U",
+
+        "Q16b": "비디오에 해당하는 슬라이드를 어디서 찾을 수 있을까요?",
+        "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
+
+        "Q17": "팀의 커뮤니티 관리자는 누군지 알려 줄 수 있을까요?",
+        "A17": "네 저희 관리자 전체는 텔레그램방과 공지사항을 참고해주시길 바라며, 한국 시장을 담당하는 Hanna (hanna@morpheuslabs.io) 가 있습니다. 저희 프로젝트에 관심이 있으신분은 위 관리자분들과 홈페이지, 백서를 참고 부탁드립니다.",
+
+        "Q18": "ICO 팀의 이메일 주소가 뭔가요?",
+        "A18": "token@morpheuslabs.io",
+
+        "Q19": "프라이빗 세일에 대해서 자세히 알려주세요.",
+        "A19": "프라이빗 세일은 2018년 2월 11일 00시 00분 (GMT+8)에 시작하여 2018년 2월 23일 23시 59분 (GMT+8)에 종료됩니다. 프라이빗은 검증된 투자자들과 62.5 ETH의 최소금액에게만 가능한 세일입니다. 현재 프라이빗 세일 관련하여 지갑 주소를 조별로 이메일 발송 중에 있습니다. 2018년 2월 23일 23시 59분 (GMT+8)까지 보내주셔야 하며, 그 다음 부터는 투자에 대한 자리가 확보되지 못할 가능성이 있으십니다.",
+
+        "Q20": "이더를 전송할 지갑 주소가 뭔가요? (앞자리와 뒷자리만 보여드립니다.)",
+        "A20-addr": "0x2d8377 ################################### A25a304",
+        "A20": "공식 웹사이트 \"Token Generation Event (TGE) Structure\" 아래에서 확인하실 수 있습니다: https://token.morpheuslabs.io",
+
+        "Q21": "텔레그램에서 개인 메세지로 이더 주소를 보내주며 투자금을 보내달라고 합니다. 어떻게 해야 하나요?",
+        "A21": "언제나 궁금한점이나 의심가는 점이 있으시다면, (a) email token@morpheuslabs.io 로 이메일을 보내셔서 확인을 하시거나 (b) 오피셜 텔레그램 방 (https://t.me/morpheuslabs) 에서 질문을 해주시길 부탁드립니다. 혹여나 스캠 관련 의혹이 생긴다면 즉각 대응하기 위함임을 알려드립니다.",
+
+        "Q22": "락 (Lock) 기간에 대한 기술적 이유가 뭘까요?",
+        "A22-1": "유동성. ",
+        "A22-2": "저희는 투자자들이 토큰을 거래 및 이동 할 수 있기를 원한다는 것을 이해하지만 좋은 거래소에 상장하기 위해서는 많은 요구 사항이 있습니다. 그 중 하나는 토큰이 ERC-20 규격이어야한다는 것입니다. 따라서 저희의 스마트컨트렉트는 ERC-20 표준을 준수하는 방식으로 작성되었습니다. 그러나 그것 또한 토큰의 거래에 몇몇 조건을 부여하는 다른 요소를 포기해야한다는 것을 의미합니다.",
+        "A22-3": "저희의 이론적 설명 :",
+        "A22-bullet-1": "투자자는 최대한 빨리 토큰을 거래 및 이동 할 수 있기를 원합니다.",
+        "A22-bullet-2": "보너스는 ICO 가 완료된 후 약 1 개월 후에 지급됩니다. 저희는 여러 거래소와 협의중이며 시장 조성자는 가격을 안정 시키는데에 노력하려고 합니다.",
+        "A22-bullet-3": "저희는투자자가 보너스를 제외하고도 수익 구간이 아니면 토큰을 팔지 않을 것이라고 생각합니다.",
+        "A22-bullet-4": "모든 투자자는 기간내에 토큰을 모두 팔지 않을 것을 락 기간에 대한 명시와 이해를 통해 약속합니다. 이 기간동안 판매가 발견되면 보너스는 취소됩니다.",
+        "A22-bullet-5": "몰수 된 보너스는 모든 투자자들에게 재분배 될 것입니다.",
+
+        "Q23": "언제 MITx 토큰을 지갑간 옮길 수 있을까요?",
+        "A23": "4월 15일 이후에만 가능합니다.",
+
+        "Q24": "지금 현재 어느 세일 단계인가요?",
+        "A24-1": "공식 판매.",
+        "A24-2": "",
+        "A24-3": "",
+
+        "Q25": "공식 텔레그램 주소가 뭔가요?",
+        "A25": "https://t.me/morpheuslabs"
+    }
+}

@@ -1,0 +1,133 @@
+.stage-container-new, .stage-container-ongoing, .stage-container-ended{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: white;
+    width: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.stage-container-ongoing{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stage-container-ended{
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.header-new, .header-ongoing {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.header-ended {
+    background: transparent;
+}
+
+.title-new, .title-ongoing, .title-ended {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    text-align: center;
+}
+
+.title-ended {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.subtitle-new, .subtitle-ongoing{
+    color: rgb(173, 226, 252);
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    text-align: center;
+}
+
+.subtitle-ended{
+    display: none;
+}
+
+.finished{
+    color:rgba(0, 98, 133, 1);
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.body-new, .body-ongoing, .body-ended {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.body-ongoing{
+    background: white;
+    padding-bottom: 20px!important;
+}
+
+.date-new, .date-ongoing, .date-ended{
+    color: white;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.date-ongoing{
+    color: rgb(107, 107, 107);
+}
+
+.date-ended{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.time-new, .time-ongoing, .time-ended{
+    color: rgb(173, 226, 252);
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.time-ended{
+    color: rgba(173, 226, 252, 0.4);
+}
+
+.time-ongoing{
+    color: rgb(134, 134, 134);
+}
+
+.buy-btn{
+    width: 85%;
+    height: 45px;
+    border-radius: 0;
+    background: rgb(0,150,197);
+    margin-top: 15px;
+}
+
+@keyframes glowing-stage {
+    0% { box-shadow: 0 0 3px -5px rgba(255, 255, 255, 0.8); }
+    100% { box-shadow: 0 0 3px 20px rgba(255, 255, 255, 0); }
+  }
+  
+  .stage-container-ongoing {
+    animation: glowing-stage 2000ms infinite;
+    animation-timing-function: ease-in-out;
+  }

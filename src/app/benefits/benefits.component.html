@@ -1,0 +1,76 @@
+<div class="container-fluid">
+  <!-- <img class="header-image" src='./assets/icons/BenefitBG.jpg'> -->
+  <div class="row">
+    <div class="col benefits-section">
+      <h1>{{ 'BENEFIT.header' | translate }}</h1>
+      <p>
+        {{ 'BENEFIT.summary' | translate }}
+      </p>
+      <div 
+        class="more-text"
+        *ngIf="showMore">
+        <ul>
+            <li *ngFor="let listitem of listitems">{{listitem.label}}
+              <div class="li-desc" [innerHTML]="listitem.desc"> </div>
+            </li>
+          </ul>
+        <p>
+            {{ 'BENEFIT.detail1' | translate }}
+            <br>
+            <br>
+            {{ 'BENEFIT.detail2' | translate }}
+            <br>
+            <br>
+            {{ 'BENEFIT.detail3' | translate }}
+            <br>
+            <br>
+            {{ 'BENEFIT.detail4' | translate }}
+        </p>
+      </div>
+      <button
+        class="btn mroe-btn" 
+        (click)="toggleShowMore()">{{showMoreLabel}}</button>
+      <!-- <button type="button" class="btn whitepaper-btn">Read Whitepaper</button> -->
+      <a class="btn mroe-btn whitepaper-btn" (click)="openModal(template)">{{ 'BENEFIT.Read Whitepaper' | translate }}</a>
+      <!--
+      <a class="btn reg-btn" style="color: white" (click)="openModal(register)" target="_blank">{{ 'TIMER.Buy Token Now' | translate }}</a>
+      -->
+    </div>
+    <img src='./assets/icons/new_ben.png' class="iphone-image">
+    <!-- <div class="blue-background"></div> -->
+    <!-- <div class="card-container">
+      <app-bubble
+      *ngFor="let content of benefits"
+      [content]="content">
+      </app-bubble>
+      <div class="card-placeholder"></div>
+    </div> -->
+
+  </div>
+</div>
+
+<ng-template #template> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Whitepaper</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #register> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Registration</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let form of forms" href="{{ form.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ form.lang }}</a>
+    </div>
+  </div>
+</ng-template>

@@ -1,0 +1,32 @@
+<div class="circle container-fluid">
+  <div class="circle-1">
+    <div class="circle-2">
+      <div class="circle-3">
+        {{ 'ADVANTAGE.header' | translate }}
+      </div>
+    </div>
+  </div>
+  <div class="title">
+    <h1>{{ 'ADVANTAGE.header' | translate }}</h1>
+  </div>
+  <div class="features">
+    <app-feature  
+      *ngFor="let feature of features"
+      [feature]="feature"
+      >
+    </app-feature>
+    <div class="dot dot-1"></div>
+    <!-- <div class="dot dot-2"></div> -->
+    <div class="dot dot-2"></div>
+    <!-- <div class="dot dot-4"></div> -->
+    <div class="dot dot-3"></div>
+  </div>
+  <div class="row">
+    <div class="col"
+      *ngFor="let feature of features">
+      <app-feature
+      [feature]="feature">
+      </app-feature>
+    </div>
+  </div>
+</div>

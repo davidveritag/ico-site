@@ -1,0 +1,122 @@
+.feature-container-1, .feature-container-2, .feature-container-3, .feature-container-4, .feature-container-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 350px;
+    width: 320px;
+    position: absolute;
+}
+
+.feature-container-1{
+    top: -70px;
+    left: 315px;
+}
+
+.feature-container-2{
+    top: 120px;
+    left: -80px;
+}
+
+.feature-container-3{
+    bottom: 0px;
+    left: -120px;
+}
+
+.feature-container-4{
+    bottom: 0px;
+    right: -120px;
+}
+
+.feature-container-5{
+    top: 120px;
+    right: -80px;
+}
+
+.icon{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    background: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgba(180, 180, 180, 0.2), 0 3px 6px 0 rgba(194, 194, 194, 0.19);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+:host-context(.expand) .icon{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.feature-details{
+    transform: translateY(50px);
+    opacity: 0;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+:host-context(.expand) .feature-details{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.name{
+    margin-top: 10px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 0.9em;
+    text-align: center;
+    color: #999;
+    line-height: 1.3em;
+}
+
+@media(max-width: 1360px){
+    .feature-container-1{
+        top: 137px;
+    left: -13px;
+    }
+    
+    .feature-container-2{
+        top: 636px;
+        left: -23px;
+    }
+    
+    .feature-container-3{
+        bottom: -50px;
+        left: 670px;
+    }
+    
+    .feature-container-4{
+        bottom: 460px;
+        right: -31px;
+    }
+    
+    .feature-container-5{
+        top: 240px;
+        right: -20px;
+    }
+}
+
+
+@media(max-width: 1000px){
+    .feature-container-1, .feature-container-2, .feature-container-3, .feature-container-4, .feature-container-5{
+        position: inherit;
+    }
+}

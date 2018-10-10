@@ -1,0 +1,97 @@
+<div class="timer-container">
+  <div class="stage-text-container">
+   <!-- <div class="stage-text-1">{{stageTitle1}}</div> -->
+    <div class="stage-text-2">{{stageTitle2}}</div>
+    <!-- <div class="stage-text-3">{{stageTitle3}}</div> -->
+  </div>
+  <div class="badge-text-1 {{badgeClass}}">{{badgeLabel1}}</div>
+  <div class="badge-text-2">{{badgeLabel2}}</div>
+
+  <div class="countdown-container">
+     <!--
+    <div class="time">{{days}}</div>
+    :
+    <div class="time">{{hours}}</div>
+    :
+    <div class="time">{{minutes}}</div>
+    :
+    <div class="time">{{seconds}}</div>
+-->
+  </div>
+
+  <div class="time-labels">
+    <div class="time-label">{{ 'TIMER.DAYS' | translate }}</div>
+  </div>
+  <!--
+  <div class="time-labels">
+    <div class="time-label">{{ 'TIMER.DAYS' | translate }}</div>
+
+   <div class="time-label">{{ 'TIMER.HOURS' | translate }}</div>
+    <div class="time-label">{{ 'TIMER.MINUTES' | translate }}</div>
+    <div class="time-label">{{ 'TIMER.SECONDS' | translate }}</div> 
+
+
+  </div>
+
+-->
+
+  <!-- <div class="button-container" onclick="location.href='mailto:token@morpheuslabs.io?subject=Token Purchase Enquiry'"> -->
+ <!--
+  <a 
+    class="button-container" 
+    target="_blank" 
+    (click)="openModal(register)">
+    <div class="btn-text-container">
+      <div class="btn-text-1">{{ 'TIMER.Buy Token Now' | translate }}</div>
+      <div class="btn-text-2">{{ 'TIMER.We accept BTC, ETH and other' | translate }}</div>
+    </div>
+    <div class="btn-icon"></div>
+  </a>
+-->
+    <div class="button-container" onclick="">
+      <div class="btn-text-container">
+          <div class="btn-text-1">{{ 'TIMER.Buy Token Now' | translate }}</div>
+          <div class="btn-text-2">{{ 'TIMER.We accept BTC, ETH and other' | translate }}</div>
+       </div>
+    </div>
+
+  <div class="social-container">
+    <div class="share-text">
+      {{ 'TIMER.SHARE WITH' | translate }}
+    </div>
+    <div class="social-buttons">
+        <!-- <a href="#">
+          <img src="./assets/icons/SocialMedia02.png">
+        </a> -->
+      <div>
+        <a href="http://t.me/morpheuslabs">
+          <img style="height: 32px; margin: 0 4px 0 0;" src="./assets/icons/SocialMedia05.png">
+        </a>
+      </div>
+        <a href="https://www.linkedin.com/company/veritag-pte-ltd/">
+          <img style="height: 32px; margin: 0 4px 0 0;" src="./assets/icons/SocialMedia03.png">
+        </a>
+        <a href="https://twitter.com/veriTAG_">
+          <img style="height: 32px; margin: 0 4px 0 0;" src="./assets/icons/SocialMedia04.png">
+        </a>
+        <a href="https://www.facebook.com/VeriHUB">
+          <img style="height: 32px; margin: 0 4px 0 0;" src="./assets/icons/SocialMedia02.png">
+        </a>
+        <a href="https://github.com/Morpheuslabs-io">
+          <img style="height: 32px; margin: 0 4px 0 0;" src="./assets/icons/SocialMedia07.png">
+        </a>
+      </div>
+  </div>
+</div>
+<ng-template #register> 
+  <div class="whitepaper-select">
+    <h3 class="modal-title pull-left">Registration</h3>
+    <h6 style="color: #606060">Select language</h6>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="whitepaper-buttons">
+      <a *ngFor="let form of forms" href="{{ form.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ form.lang }}</a>
+    </div>
+  </div>
+</ng-template>

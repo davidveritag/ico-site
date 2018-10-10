@@ -1,0 +1,124 @@
+.phase-container {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    width: 80%;
+    margin: auto;
+    --dot-size: 16px;
+    --line-high-height: 10px;
+}
+
+.indicator{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 124px; */
+}
+
+  @keyframes glowing {
+    0% { box-shadow: 0 0 3px -5px rgba(0, 150, 197,0.8); }
+    /* 40% { box-shadow: 0 0 3px 10px rgba(0, 150, 197,0.5); }
+    60% { box-shadow: 0 0 3px 15px rgba(0, 150, 197,0.3); } */
+    100% { box-shadow: 0 0 3px 20px rgba(0, 151, 197, 0); }
+  }
+  
+  .dot-current, .dot-past {
+    animation: glowing 2000ms infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+.line-high-current, .line-high-past{
+    width: 4px;
+    background: rgb(0,150,197);
+    height: var(--line-high-height);
+    z-index: 0;
+}
+
+.line-high-future{
+    width: 4px;
+    background: rgb(222, 222, 222);
+    height: var(--line-high-height);
+    z-index: 0;
+}
+
+
+.dot-current, .dot-past{
+    height: var(--dot-size);
+    width: var(--dot-size);;
+    background: rgb(0,150,197);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.dot-future{
+    height: var(--dot-size);
+    width: var(--dot-size);;
+    background: rgb(150, 150, 150);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.line-low-current, .line-low-future{
+    width: 4px;
+    background: rgb(222, 222, 222);
+    height: calc(100% - var(--dot-size) - var(--line-high-height) + 1px)
+}
+
+.line-low-past{
+    width: 4px;
+    background: rgb(0,150,197);
+    height: calc(100% - var(--dot-size) - var(--line-high-height) + 1px)
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    margin-top: calc(var(--line-high-height)/2 - 0.3em);
+    padding-bottom: 20px;
+}
+
+.title{
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.time{
+    color:rgb(0,150,197);
+}
+
+.desc{
+    font-size: 1em;
+    color: rgb(122, 122, 122);
+}
+
+.phase{
+    font-weight: bold;
+}
+
+@media(max-width: 1023px){
+    .phase-container {
+        width: 100%;
+    }
+
+    .indicator{
+        /* height: 164px; */
+    }
+    
+
+    .text {
+        margin-top: calc(var(--line-high-height)/2);
+    }
+
+    .title{
+        font-size: 1em;
+    }
+    .phase {
+        display: none;
+    }
+}
