@@ -75,7 +75,7 @@ ngb-carousel.carousel.slide{
     }
 
     .text {
-        height: 73%;
+        height: auto;
         padding: 0px 3% 0px 3%;
         width: 62%;
     }
