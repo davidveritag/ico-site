@@ -7,6 +7,8 @@ export const techPhases: Phase[] = [
     new Phase('3','','','','future',false,false),
     new Phase('4','','','','future',false,false),
     new Phase('5','','','','future',false,true),
+    new Phase('6','','','','future',false,true),
+
   ]
 
   export const bizPhases: Phase[] = [
@@ -16,4 +18,9 @@ export const techPhases: Phase[] = [
     new Phase('4','','','','future', false, false),
     new Phase('5','','','','future', false, false),
     new Phase('6','','','','future', false, true),
+    new Phase('7','','','','future', false, true),
+    new Phase('8','','','','future', false, true),
+    new Phase('9','','','','future', false, true),
+    new Phase('10','','','','future', false, true),
+
   ]

@@ -6,6 +6,8 @@
       <p>
         {{ 'BENEFIT.summary' | translate }}
       </p>
+      <p>{{ 'BENEFIT.sum-1' | translate }}</p>
+      <p>{{ 'BENEFIT.sum-2' | translate }}</p>
       <div 
         class="more-text"
         *ngIf="showMore">
@@ -14,8 +16,8 @@
               <div class="li-desc" [innerHTML]="listitem.desc"> </div>
             </li>
           </ul>
-        <p>
-            {{ 'BENEFIT.detail1' | translate }}
+        <!-- <p> -->
+            <!-- {{ 'BENEFIT.detail1' | translate }}
             <br>
             <br>
             {{ 'BENEFIT.detail2' | translate }}
@@ -25,7 +27,7 @@
             <br>
             <br>
             {{ 'BENEFIT.detail4' | translate }}
-        </p>
+        </p> -->
       </div>
       <button
         class="btn mroe-btn" 
@@ -57,7 +59,7 @@
       <span aria-hidden="true">&times;</span>
     </button>
     <div class="whitepaper-buttons">
-      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+      <a *ngFor="let whitepaper of whitepapers" href="https://docs.google.com/document/d/1UyLUPFmdR1vRkDHH749alp8Y1GyyOgOInh9A3GKjIqk" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
     </div>
   </div>
 </ng-template>

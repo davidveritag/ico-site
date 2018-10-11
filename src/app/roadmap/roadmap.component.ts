@@ -36,9 +36,9 @@ export class RoadmapComponent implements OnInit {
       })
 
       bizPhases.forEach( (bizPhase,i) => {
-        this.translate.get('ROADMAP.biz-title' + i).subscribe((res: string) => {
-          bizPhase.title = res
-        });
+        // this.translate.get('ROADMAP.biz-title' + i).subscribe((res: string) => {
+        //   bizPhase.title = res
+        // });
         this.translate.get('ROADMAP.biz-date' + i).subscribe((res: string) => {
           bizPhase.time = res
         });

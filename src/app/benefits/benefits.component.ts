@@ -50,11 +50,11 @@ export class BenefitsComponent implements OnInit {
       }
 
       this.listitems = []
-      for(let i=1;i<=5;i++){
+      for(let i=1;i<=3;i++){
         let item = new BenefitsListItem('','')
-        this.translate.get('BENEFIT.listtitle' + i).subscribe((res: string) => {
-          item.label = res
-        });
+        // this.translate.get('BENEFIT.listtitle' + i).subscribe((res: string) => {
+        //   item.label = res
+        // });
         this.translate.get('BENEFIT.listtext' + i).subscribe((res: string) => {
           item.desc = res
         });
