@@ -15,6 +15,7 @@
 
 <div class="light container-fluid">
   <h1 class="title">{{'LOGO.title2' | translate}}</h1>
+   <h5>More than 50 companies and 100 brands</h5>
   <div class="logo-row">
     <div *ngFor="let logo of logos.partners">
       <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
@@ -41,7 +42,7 @@
       </ng-template>
     </div>
 
-    <div class="subgroup">
+    <!-- <div class="subgroup">
       <h5>Member of</h5>
       <div class="sub-logos">
         <div *ngFor="let logo of logos.member_of">
@@ -54,7 +55,7 @@
           </ng-template>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
