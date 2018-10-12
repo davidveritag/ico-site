@@ -3,7 +3,6 @@ export class Stage {
         public id: number, 
         public title: string,
         public subTitle: string,
-        public perString: string,
         public typeString: string,
         public dateString: string,
         public timeString: string,

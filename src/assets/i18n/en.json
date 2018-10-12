@@ -1,7 +1,7 @@
 {
     "HEADER": {
         "Morpheus Labs": "veriTag",
-        "About Morpheus": "About veriTag",
+        "About Morpheus": "About veriTAG",
         "Solution": "Solution",
         "White Paper": "White Paper",
         "Token Events": "Token Events",
@@ -28,22 +28,22 @@
         "SHARE WITH": "JOIN US"
     },
     "DASHBOARD":{
-        "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises"
+        "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Next generation food ecosystem powered by blockchain"
     },
     "ABOUT":{
-        "header": "About veriTag ecosystem",
+        "header": "About veriTAG ecosystem",
         "description1": "The diagram below is an illustration of proper ideal state of an ecosystem that we have achieved. Each pillar within our ecosystem delivers a key value proposition.",
         "description2": "",
         "description3": "",
-        "vh1": "veriTag",
+        "vh1": "veriTAG",
         "vd1-1": "veriTAG is a blockchain enabled dual tagging system to give a unique identifier to each product. A birth QR that has a unique ID number to identify it through cloud and on the product itself. The tag has a hidden death QR which can only be accessed by peeling the tag. All data are stored in the cloud and on blockchain making it truly immutable and yet accessible anytime anywhere.",
         "vd1-2": "",
         "vd1-3": "",
-        "vh2": "VeriHUB",
+        "vh2": "veriHUB",
         "vd2-1": "veriHUB is a cloud based, Blockchain and Token enabled, one stop food supply chain platform, currently it is mainly targeted for imported food into China. veriHUB effectively creates the most cost-effective way to import food into China. Built on veriTAG food safety as a foundation, veriHUB offers merchants to import their food products into China through consolidation of resources on both logistics, marketing and sales channel.",
         "vd2-2": "",
         "vd2-3": "",
-        "vh3": "Veri$HOP",
+        "vh3": "veri$HOP",
         "vd3-1": "veri$HOP is a WeChat app that links merchants directly with consumers via tags.  It provides referral marketing points and strong backend support.  It also enables customer behaviour through big data analysis thus ensuring higher customer loyalty and greater  profitability via direct selling. vtcash payment from veri$HOP will be enabled in future when the business environment allows it.",
         "vd3-2": "",
         "vd3-3": "",
@@ -139,16 +139,25 @@
         "text": "Container based virtualization technology are adopted to run the platform on the infrastructure hosted in AWS regional cloud data centers. This provides a reliable and scalable cloud environment to support rapid business growth.A  blockchain for food product tracking using private Ethereum blockchain for enterprise and a blockchain using Quorum blockchain for food supply finance. They are implemented in two separate private blockchain networks for better segregation to achieve different security and performance targets."
     },
     "WHY US": {
-        "header": "Why veriTag Blockchain Ecosystem",
+        "header": "Why veriTAG Blockchain Ecosystem",
         "text1": "Food supply chain is one of most complicated verticals as a result of the intersection of diverse  cross-border documentation formats, regulations and approving authorities. As most fundamental of human basic needs, there should be no compromises when it comes to food safety  and efficiency. We believe in the fundamental rights of every human beings to have access to food that are safe for consumption. This is more apparent and especially vital when food is delivered cross borders. veriTAG aims to help developing or developed countries ensure the vision of where rights trump profitability.",
         "text2": "Incorporating of blockchain technology into Food supply chain creates most desirable outcome to solve the immediate society needs.",
         "text3":"We are confident and committed to commercially and viably scaling our blockchain solution and capturing a huge food industry."
     },
     "BENEFIT": {
-        "header": "Tokenomics : vtag and vtcash",
-        "summary": "The beauty of vtag with vtcash.",
-        "sum-1":"vtag, the Exchange Token, is available in ICO token event and will be listed on crypto exchanges.It will be issued during ICO for sales and listed in crypto exchanges.Once changed to vtcash, vtag will be locked.",
-        "sum-2":"vtcash, the Trade Token (or Transaction Token), is used in the Food Supply Chain Ecosystem.It is the key to unlock vtag that have been converted to vtcash and locked. Once vtcash is used (spent), it will be burnt.It is pegged to USD to stabilize prices of services that can be purchased using vtcash",
+        "header": "Tokenomics : ",
+        "and": " and ",
+        "vtag": "vtag",
+        "vtcash": "vtcash",
+        "summary0": "The beauty of ",
+        "summary1": " with ",
+        "sum-1":" ,the Exchange Token, is available in ICO token event and will be listed on crypto exchanges.It will be issued during ICO for sales and listed in crypto exchanges.Once changed to ",
+        "sum-10":" will be locked.",
+        "sum-2":" ,the Trade Token (or Transaction Token), is used in the Food Supply Chain Ecosystem.It is the key to unlock ",
+        "sum-20":" that have been converted to ",
+        "sum-21": " and locked. ",
+        "sum-22":" is used (spent), it will be burnt.It is pegged to USD to stabilize prices of services that can be purchased using ",
+        "Once":"Once ",
 
         "listtitle1":"",
         "listtitle2":"",
@@ -297,13 +306,13 @@
         "summary" : "A total of 1 billion vtag will be minted and only 700 million of vtag will be issued to the public in this Token Generation Event (TGE). The release of the 700 million vtag is to generate sufficient funding for us to achieve the milestones and to hold us accountable for the funds.",
 
         "details-name-label" : "Name",
-        "details-name-content" : "Morpheus Infrastructure Platform",
+        "details-name-content" : "veriTAG token",
         "details-tokenName-label" : "Token Name",
-        "details-tokenName-content" : "MITx (Morpheus Infrastructure Token)",
+        "details-tokenName-content" : "vtag",
         "details-totalSupply-label" : "Total Supply",
         "details-totalSupply-content" : "1,000,000,000 (1B)",
         "details-tokenSales-label" : "Token Sales" ,
-        "details-tokenSales-content" : "250,000,000 (250M)" ,
+        "details-tokenSales-content" : "700,000,000 (700 million)" ,
         "details-decimals-label" : "Decimals",
         "details-decimals-content" : "18",
 
@@ -311,7 +320,7 @@
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
         "note-3" : "token@mopheuslabs.io",
         "details-value-label" : "Value",
-        "details-value-content" : "8,000 MITx = 1 ETH",
+        "details-value-content" : "1 ETH = 20,000 vtag",
         "details-token-label" :  "Wallet Address to Send Funds",
         "details-token-address-frist-chunk" : "0x2d837",
         "details-token-address-masked-chunk" : "#####################",
@@ -319,11 +328,11 @@
 
         "note-1" : "Please note, the full address can be found in our email to you.",
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
-        "note-3" : "token@mopheuslabs.io",
+        "note-3" : "vtag@veritag.com",
 
         "foot-1" : "",
         "foot-emp" : "",
-        "foot-3" : "Once the cap of USD 25M is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
+        "foot-3" : "Once the Hard cap of 25,000 ETH is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
 
         "Show More": "Show More",
         "Show Less": "Show Less"
@@ -332,12 +341,12 @@
         "member-header": "Our Team",
 
         "member-name0": "Jason Lim",
-        "member-country0": "Singapore/Taiwan/Myanmar",
+        "member-country0": "Singapore/China",
         "member-bg0": "National University of Singapore with a BEng. (Honors) in (Mechanical Engineering) in 1996.",
         "member-exp0": "In 2013, Jason founded veriTAG, a Singapore based technology company that focuses on product and asset tagging methods that are linked to the Cloud - henceforth coined as cloud tagging solutions.Such solutions were developed out of use cases to prevent fraudulent warranty claims from semiconductor clients in Jason's existing semiconductor businesses.As such use cases proved to be very successful, veriTAG was set up to commercialise the concept so that it could scale and extend to other industry sectors.  Under Jason's leadership, veriTAG has now penetrated into the food and asset management sectors and will be scaling up through aggressive client acquisition, brand positioning and capital expansion strategies.",
 
         "member-name1": "Patrick Chong ",
-        "member-country1": "Singapore/Malaysia/Korea",
+        "member-country1": "Singapore/China",
         "member-bg1": "",
         "member-exp1": "Patrick Chong has 15 years of experience in Asia’s fund management industry. He has a proven track record in raising assets in these new businesses. Currently, he is Head of Asia Pacific Financial Institutions Business Development of Aviva Investors.",
 
@@ -347,7 +356,7 @@
         "member-exp2": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
 
         "member-name3": "David Peter",
-        "member-country3": "Singapore/China",
+        "member-country3": "Singapore/India",
         "member-bg3": "",
         "member-exp3": "Experienced full stack, .net, Java and hybris developer. Worked on an array of ecommerce platforms. Remain fully involved in client and server side functionalities, including the implementation of new code and redevelopment of existing program structures.",
 
@@ -357,7 +366,7 @@
         "member-exp4": "More than 12 years of experiences in full stack software development and 6 years as technical lead and development manager. He has extensive experiences in blockchain architecture design and smart contract development.",
 
         "member-name5": "Virginia Tan ",
-        "member-country5": "Malaysia/Japan",
+        "member-country5": "Singapore/China",
         "member-bg5": "B.Multimedia Design (The One Academy of Malaysia)",
         "member-exp5": "Virginia Tan is the founding partner of Teja Ventures, a venture capital fund with a gender lens targeting early stage ventures in Asia. She also founded and leads She Loves Tech, a global platform focusing on technology by women and technology for women, and housing the world's largest startup competition for women and technology which launched in 16 international locations in 2018. Virginia is the co-founder and president of Lean In China, a women's platform with over 100,000 members across more than 25 cities and 100 universities in China, which supports the goals and aspirations of Chinese women.",
 
@@ -419,7 +428,7 @@
         "advisor-exp6": "Over 20 years in software development and technology innovation. Implemented a blockchain business application in production using HyperLedger Fabric V1.0, the first in the world.Bruce is the CTO of Morpheus Labs, responsible for blockchain technology research and development. Before joint Morpheus Labs, he worked with IBM, as a technical leader, focusing on cloud application development and technology innovation in various industries.",
 
         "advisor-name7": "Jeffrey Tan ",
-        "advisor-country7": "USA",
+        "advisor-country7": "Singapore",
         "advisor-bg7": "",
         "advisor-exp7": "Fortified with more than 15 years experience internationally across various industry sectors such as smart ports, maritime, shipping, logistics, trade, smart cities, smart buildings, real estate, facility management, property management, education, public sector, finance services, insurance and entertainment. An ever ready attitude to take on senior leadership roles to benefit organization to gain greater market space and execute business transformation globally.Accumulated relevant experiences in various capacities including general management, programme/project management, technical development, business process management, change management, management consulting, product management, key accounts management, business development, sales, presales and bid management.",
 
@@ -447,7 +456,7 @@
         "title1": "Strategic partners",
         "title2": "Clients",
         "title3": "Supported by",
-        "title4": ""
+        "title4": "Global Food Chain"
     },
     "FOOTER": {
         "legal-1":"© veriTag. Inc | 2017 All rights reserved",

@@ -1,18 +1,18 @@
 export var Whitepapers = [
 	{
 		'lang' : 'English',
-		'link' : './assets/documents/WhitePaper.pdf'
+		'link' : 'https://docs.google.com/document/d/1UyLUPFmdR1vRkDHH749alp8Y1GyyOgOInh9A3GKjIqk'
 	},
 	{
 		'lang' : '中文',
-		'link' : './assets/documents/WhitePaperCN.pdf'
+		'link' : 'https://docs.google.com/document/d/1WUC1FjxPUZp-yfdJP_wdi2FMoo0KgpZcyi18PpCWzsw/edit?usp=sharing'
 	},
   {
 		'lang' : '日本語',
-		'link' : './assets/documents/WhitePaperJP.pdf'
+		'link' : ''
 	},
   {
 		'lang' : '한국어',
-		'link' : './assets/documents/WhitePaperKR.pdf'
+		'link' : ''
 	}
 ];

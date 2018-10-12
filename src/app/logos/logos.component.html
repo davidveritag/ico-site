@@ -1,4 +1,18 @@
 <div class="container-fluid">
+  <h1 class="title">{{'LOGO.title4' | translate}}</h1>
+  <div class="logo-row">
+    <div *ngFor="let logo of logos.gfc">
+      <a *ngIf="logo.link != '' ; else img_only" href="{{ logo.link }}" target="_blank">
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </a>
+
+      <ng-template #img_only>
+        <img class="bw logo" src="{{ logo.image }}" alt="{{ logo.name }}">
+      </ng-template>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
   <h1 class="title">{{'LOGO.title1' | translate}}</h1>
   <div class="logo-row">
     <div *ngFor="let logo of logos.cornerstone">
@@ -59,7 +73,7 @@
   </div>
 </div>
 
-<div class="light container-fluid">
+<!-- <div class="light container-fluid">
   <h1 class="title">{{'LOGO.title4' | translate}}</h1>
   <div class="tight logo-row">
     <div *ngFor="let logo of logos.featurings">
@@ -72,4 +86,4 @@
       </ng-template>
     </div>
   </div>
-</div>
+</div> -->

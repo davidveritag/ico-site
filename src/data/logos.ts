@@ -1,10 +1,13 @@
 export var logos = {
-  "cornerstone" : [
+  "gfc":[
     {
       'name'  : 'Top Fund',
       'image' : '../assets/img/logos/sg_0.png',
       'link'  : ''
-    },
+    }
+  ],
+  "cornerstone" : [
+    
     {
       'name'  : 'sg_1',
       'image' : '../assets/img/logos/sg_1.png',
@@ -179,10 +182,6 @@ export var logos = {
       'image' : '../assets/img/logos/c_27.png',
       'link'  : ''
     },{
-      'name'  : 'c_28',
-      'image' : '../assets/img/logos/c_28.png',
-      'link'  : ''
-    },{
       'name'  : 'c_29',
       'image' : '../assets/img/logos/c_29.png',
       'link'  : ''
@@ -217,6 +216,29 @@ export var logos = {
     },{
       'name'  : 'c_37',
       'image' : '../assets/img/logos/c_37.png',
+      'link'  : ''
+    },
+    {
+      'name'  : 'c_38',
+      'image' : '../assets/img/logos/c_38.png',
+      'link'  : ''
+    },{
+      'name'  : 'c_39',
+      'image' : '../assets/img/logos/c_39.png',
+      'link'  : ''
+    },{
+      'name'  : 'c_40',
+      'image' : '../assets/img/logos/c_40.png',
+      'link'  : ''
+    },
+    {
+      'name'  : 'c_41',
+      'image' : '../assets/img/logos/c_41.png',
+      'link'  : ''
+    },
+    {
+      'name'  : 'c_42',
+      'image' : '../assets/img/logos/c_42.png',
       'link'  : ''
     }
   ],

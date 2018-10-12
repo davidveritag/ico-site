@@ -2,12 +2,13 @@
   <!-- <img class="header-image" src='./assets/icons/BenefitBG.jpg'> -->
   <div class="row">
     <div class="col benefits-section">
-      <h1>{{ 'BENEFIT.header' | translate }}</h1>
+      <h1>{{ 'BENEFIT.header' | translate }}<span style="color:#80e5ff">{{ 'BENEFIT.vtag' | translate }}</span>{{ 'BENEFIT.and' | translate }}<span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span></h1>
       <p>
-        {{ 'BENEFIT.summary' | translate }}
+        {{ 'BENEFIT.summary0' | translate }}<span style="color:#80e5ff">{{ 'BENEFIT.vtag' | translate }}</span>{{ 'BENEFIT.summary1' | translate }}<span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span>
       </p>
-      <p>{{ 'BENEFIT.sum-1' | translate }}</p>
-      <p>{{ 'BENEFIT.sum-2' | translate }}</p>
+      <p><span style="color:#80e5ff">{{ 'BENEFIT.vtag' | translate }}</span>{{ 'BENEFIT.sum-1' | translate }}<span style="color:#80e5ff">{{ 'BENEFIT.vtag' | translate }}, </span><span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span>{{ 'BENEFIT.sum-10' | translate }}</p>
+      <p><span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span>{{ 'BENEFIT.sum-2' | translate }}<span style="color:#80e5ff">{{ 'BENEFIT.vtag' | translate }}</span>{{ 'BENEFIT.sum-20' | translate }}<span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span>
+        {{ 'BENEFIT.sum-21' | translate }}{{ 'BENEFIT.Once' | translate }}<span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span>{{ 'BENEFIT.sum-22' | translate }}<span style="color:#ff8080">{{ 'BENEFIT.vtcash' | translate }}</span></p>
       <div 
         class="more-text"
         *ngIf="showMore">
@@ -59,7 +60,7 @@
       <span aria-hidden="true">&times;</span>
     </button>
     <div class="whitepaper-buttons">
-      <a *ngFor="let whitepaper of whitepapers" href="https://docs.google.com/document/d/1UyLUPFmdR1vRkDHH749alp8Y1GyyOgOInh9A3GKjIqk" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
+      <a *ngFor="let whitepaper of whitepapers" href="{{ whitepaper.link }}" class="btn btn-outline-primary btn-lg wp-btn">{{ whitepaper.lang }}</a>
     </div>
   </div>
 </ng-template>

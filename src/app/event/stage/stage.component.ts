@@ -25,9 +25,9 @@ export class StageComponent implements OnInit {
       this.translate.get('STAGE.type'+ this.currentStage.id).subscribe((res: string) => {
         this.currentStage.typeString = res
       });
-      this.translate.get('STAGE.per'+ this.currentStage.id).subscribe((res: string) => {
-        this.currentStage.perString = res
-      });
+      // this.translate.get('STAGE.per'+ this.currentStage.id).subscribe((res: string) => {
+      //   this.currentStage.perString = res
+      // });
     })
   }
 
