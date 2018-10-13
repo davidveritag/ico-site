@@ -1,6 +1,6 @@
 {
     "HEADER": {
-        "Morpheus Labs": "veriTag",
+        "Morpheus Labs": "veriTAG",
         "About Morpheus": "About veriTAG",
         "Solution": "Solution",
         "White Paper": "White Paper",
@@ -83,7 +83,7 @@
         "description1": "Blockchain applications are built using Morpheus Labs BPaaS (Blockchain Platform-as-a-Service) platform and all resources and support are made ready on the AWS cloud.This allows  applications to be built, enhanced and deployed anytime and anywhere in a secure, reliable and scalable environment.",
         "description2": "Our solution has been hand-picked by Singapore government agencies, Infocomm Media Development Authority and Enterprise Singapore, to help Singaporean small and medium enterprises to expand their business overseas.",
         "description3": "Our team is cross functional and has extensive experience in the business of food supply chain and blockchain technology.",
-        "description4": "An ecosystem built on three pillars veriTag, veriHUB and veriSHOP.Each pillar within our ecosystem delivers a key value proposition."
+        "description4": "An ecosystem built on three pillars veriTAG, veriHUB and veriSHOP.Each pillar within our ecosystem delivers a key value proposition."
     },
     "STAGE": {
         "header": "Token Events",
@@ -328,7 +328,7 @@
 
         "note-1" : "Please note, the full address can be found in our email to you.",
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
-        "note-3" : "vtag@veritag.com",
+        "note-3" : "vtag@veriTAG.com",
 
         "foot-1" : "",
         "foot-emp" : "",
@@ -459,7 +459,7 @@
         "title4": "Global Food Chain"
     },
     "FOOTER": {
-        "legal-1":"© veriTag. Inc | 2017 All rights reserved",
+        "legal-1":"© veriTAG. Inc | 2017 All rights reserved",
         "legal-2":"Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
     },
     "FAQ": {
