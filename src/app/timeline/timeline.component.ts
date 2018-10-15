@@ -14,19 +14,19 @@ export class TimelineComponent implements OnInit {
       function showBars(){
         var data =[
             {
-              probability:35, 
+              probability:40, 
               timeline:'9 MAR - 18 MAR', 
               isSale:false,
               active:true 
             },
             {
-              probability:20, 
+              probability:30, 
               timeline:'2 APR - 15 APR', 
               isSale:false,
               active:true 
             },
             {
-              probability:'', 
+              probability:'30', 
               timeline:'27 MAY ONWARD', 
               isSale:false,
               active:true 

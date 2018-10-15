@@ -322,9 +322,9 @@
         "details-value-label" : "Value",
         "details-value-content" : "1 ETH = 20,000 vtag",
         "details-token-label" :  "Wallet Address to Send Funds",
-        "details-token-address-frist-chunk" : "0x2d837",
-        "details-token-address-masked-chunk" : "#####################",
-        "details-token-address-second-chunk" : "A25a304",
+        "details-token-address-frist-chunk" : "",
+        "details-token-address-masked-chunk" : "",
+        "details-token-address-second-chunk" : "",
 
         "note-1" : "Please note, the full address can be found in our email to you.",
         "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
@@ -361,7 +361,7 @@
         "member-exp3": "Experienced full stack, .net, Java and hybris developer. Worked on an array of ecommerce platforms. Remain fully involved in client and server side functionalities, including the implementation of new code and redevelopment of existing program structures.",
 
         "member-name4": "Duong Van Sang",
-        "member-country4": "Greater China/Hong Kong",
+        "member-country4": "Vietnam",
         "member-bg4": "",
         "member-exp4": "More than 12 years of experiences in full stack software development and 6 years as technical lead and development manager. He has extensive experiences in blockchain architecture design and smart contract development.",
 
@@ -397,7 +397,7 @@
         "advisor-bg0": "",
         "advisor-exp0": "Evan is currently CEO of Zhaopin.com is a leading online recruiting company in china. He has vast experience in logistic and freight forwarding industry. He was member of board in Sinotrans - DHL and Chairman of Board in Sinotrans-OCS express. Prior to this, he was a partner in Mckinsey China ",
 
-        "advisor-name1": "Hu Ke (Chief Operation Officer)",
+        "advisor-name1": "Hu Ke",
         "advisor-country1": "",
         "advisor-bg1": "",
         "advisor-exp1": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
@@ -455,7 +455,7 @@
     "LOGO":{
         "title1": "Strategic partners",
         "title2": "Clients",
-        "title3": "Supported by",
+        "title3": "veriHUB3.5 is supported by",
         "title4": "Global Food Chain"
     },
     "FOOTER": {

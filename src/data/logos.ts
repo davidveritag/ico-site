@@ -145,99 +145,105 @@ export var logos = {
       'image' : '../assets/img/logos/c_18.png',
       'link'  : ''
     },
+    // {
+    //   'name'  : 'c_19',
+    //   'image' : '../assets/img/logos/c_19.png',
+    //   'link'  : ''
+    // },
     {
       'name'  : 'c_19',
-      'image' : '../assets/img/logos/c_19.png',
-      'link'  : ''
-    },{
-      'name'  : 'c_20',
       'image' : '../assets/img/logos/c_20.png',
       'link'  : ''
     },{
-      'name'  : 'c_21',
+      'name'  : 'c_20',
       'image' : '../assets/img/logos/c_21.png',
       'link'  : ''
     },{
-      'name'  : 'c_22',
+      'name'  : 'c_21',
       'image' : '../assets/img/logos/c_22.png',
       'link'  : ''
     },{
-      'name'  : 'c_23',
+      'name'  : 'c_22',
       'image' : '../assets/img/logos/c_23.png',
       'link'  : ''
     },{
-      'name'  : 'c_24',
+      'name'  : 'c_23',
       'image' : '../assets/img/logos/c_24.png',
       'link'  : ''
     },{
-      'name'  : 'c_25',
+      'name'  : 'c_24',
       'image' : '../assets/img/logos/c_25.png',
       'link'  : ''
     },{
-      'name'  : 'c_26',
+      'name'  : 'c_25',
       'image' : '../assets/img/logos/c_26.png',
       'link'  : ''
-    },{
-      'name'  : 'c_27',
+    },
+    {
+      'name'  : 'c_26',
       'image' : '../assets/img/logos/c_27.png',
       'link'  : ''
     },{
-      'name'  : 'c_29',
+      'name'  : 'c_27',
+      'image' : '../assets/img/logos/c_28.png',
+      'link'  : ''
+    },{
+      'name'  : 'c_28',
       'image' : '../assets/img/logos/c_29.png',
       'link'  : ''
     },{
-      'name'  : 'c_30',
+      'name'  : 'c_29',
       'image' : '../assets/img/logos/c_30.png',
       'link'  : ''
     },{
-      'name'  : 'c_31',
+      'name'  : 'c_30',
       'image' : '../assets/img/logos/c_31.png',
       'link'  : ''
     },{
-      'name'  : 'c_32',
+      'name'  : 'c_31',
       'image' : '../assets/img/logos/c_32.png',
       'link'  : ''
     },{
-      'name'  : 'c_33',
+      'name'  : 'c_32',
       'image' : '../assets/img/logos/c_33.png',
       'link'  : ''
     },{
-      'name'  : 'c_34',
+      'name'  : 'c_33',
       'image' : '../assets/img/logos/c_34.png',
       'link'  : ''
     },{
-      'name'  : 'c_35',
+      'name'  : 'c_34',
       'image' : '../assets/img/logos/c_35.png',
       'link'  : ''
     },{
-      'name'  : 'c_36',
+      'name'  : 'c_35',
       'image' : '../assets/img/logos/c_36.png',
       'link'  : ''
     },{
-      'name'  : 'c_37',
+      'name'  : 'c_36',
       'image' : '../assets/img/logos/c_37.png',
       'link'  : ''
     },
     {
-      'name'  : 'c_38',
+      'name'  : 'c_37',
       'image' : '../assets/img/logos/c_38.png',
       'link'  : ''
     },{
-      'name'  : 'c_39',
+      'name'  : 'c_38',
       'image' : '../assets/img/logos/c_39.png',
       'link'  : ''
     },{
-      'name'  : 'c_40',
+      'name'  : 'c_39',
       'image' : '../assets/img/logos/c_40.png',
       'link'  : ''
     },
     {
-      'name'  : 'c_41',
+      'name'  : 'c_40',
       'image' : '../assets/img/logos/c_41.png',
       'link'  : ''
     },
     {
-      'name'  : 'c_42',
+      'name'  : 'c_41',
       'image' : '../assets/img/logos/c_42.png',
       'link'  : ''
     }

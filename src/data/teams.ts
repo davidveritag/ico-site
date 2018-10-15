@@ -146,7 +146,7 @@ export const members: Member[] = [
     // ),
     new Member(
       '3',
-      '../assets/icons/Team06.png',
+      '../assets/icons/Team.png',
       'https://www.linkedin.com/in/chuangpeihan',
       'Lok Choon Hong',
       '',
