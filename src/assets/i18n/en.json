@@ -1,6 +1,6 @@
 {
     "HEADER": {
-        "Morpheus Labs": "veriTAG",
+        "Morpheus": "veriTAG",
         "About Morpheus": "About veriTAG",
         "Solution": "Solution",
         "White Paper": "White Paper",
@@ -466,10 +466,10 @@
         "title": "Frequently Asked Questions (FAQ)",
 
         "Q1": "What is the main website for this ICO?",
-        "A1": "https://token.morpheuslabs.io/",
+        "A1": "https://token.veriTAGs.io/",
 
         "Q2": "Where to download the ICO White Paper (English)?",
-        "A2": "https://token.morpheuslabs.io/assets/documents/WhitePaper.pdf",
+        "A2": "https://token.veriTAGs.io/assets/documents/WhitePaper.pdf",
 
         "Q3": "Which country is this ICO from?",
         "A3": "Singapore",
@@ -522,27 +522,27 @@
         "A15": "We are conducting enhancements on our MvP, we aim to complete our app store by mid Feb and continue with our roadmap milestone targeting the first commercial release in Q3, 2018.",
 
         "Q16a": "Is there a video to see the core team members?",
-        "A16a": "The MorpheusLab team pitched in the Business Angel Network BANSEA, the oldest angel investing network in Southeast Asia on 1st Feb 2018. Branson (co-founder of MorpheusLab) and the others (Pei-han, Bruce and Dorcel) were also in the room with over 80 business angels, Youtube video:",
+        "A16a": "The veritag team pitched in the Business Angel Network BANSEA, the oldest angel investing network in Southeast Asia on 1st Feb 2018. Branson (co-founder of veritag) and the others (Pei-han, Bruce and Dorcel) were also in the room with over 80 business angels, Youtube video:",
         "A16a-link": "https://youtu.be/g5QfY-SRn-U",
 
         "Q16b": "Where to locate the accompanied slides for the above video?",
         "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
 
         "Q17": "May I know the Communty Managers in your team?",
-        "A17": "Sure. We have the main community managers for different markets, Clara Zhou (clara@morpheuslabs.io) for Great China region with chinese; Hanna Bae (hanna@morpheuslabs.io) for Korean market. Do not hestate to ask them if you are interested in our project.",
+        "A17": "Sure. We have the main community managers for different markets, Clara Zhou (clara@veritags.io) for Great China region with chinese; Hanna Bae (hanna@veritags.io) for Korean market. Do not hestate to ask them if you are interested in our project.",
 
         "Q18": "What is the email to contact the ICO core team?",
-        "A18": "token@morpheuslabs.io",
+        "A18": "token@veritags.io",
 
         "Q19": "Tell me more about your private sales",
         "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rd Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
 
         "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
         "A20-addr": "0x2d8377 ################################### A25a304",
-        "A20": "This info can also be found under \"Token Generation Event (TGE) Structure\" in the official website: https://token.morpheuslabs.io",
+        "A20": "This info can also be found under \"Token Generation Event (TGE) Structure\" in the official website: https://token.veritags.io",
 
         "Q21": "I received a private telegram message asking me to send my funds to his or her address, what should I do it?",
-        "A21": "When in doubt, either (a) email token@morpheuslabs.io to clarify and/or (b) ask this question in the public Telegram channel so that the admins can detect if scammers have appeared",
+        "A21": "When in doubt, either (a) email token@veritags.io to clarify and/or (b) ask this question in the public Telegram channel so that the admins can detect if scammers have appeared",
 
         "Q22": "What is lock in period mechanic and liquidity?",
         "A22-1": "Liquidity. ",
@@ -564,6 +564,6 @@
         "A24-4": "",
 
         "Q25": "What is the official Telegram Channel?",
-        "A25": "https://t.me/morpheuslabs"
+        "A25": "https://t.me/veritags"
     }
 }
