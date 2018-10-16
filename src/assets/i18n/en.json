@@ -16,10 +16,10 @@
         "jp": "JP"
     },
     "TIMER": {
-        "BONUS SALE": "25% OFF",
-        "stage starts in:": "5% BONUS",
+        "BONUS SALE": "25%",
+        "stage starts in:": "BONUS",
         "30% Bonus": "vtag token",
-        "DAYS": "",
+        "DAYS": "BONUS",
         "HOURS": "HOURS",
         "MINUTES": "MINUTES",
         "SECONDS": "SECONDS",

@@ -31,6 +31,7 @@
 .stage-text-2{
     font-size: 58px;
     font-weight: bold;
+    margin: auto;
     color: #0086b3;
     line-height: 28px;
     text-align: center;
@@ -64,6 +65,9 @@
     font-size: 51px;
     font-weight: bold;
     color: #0086b3;
+    margin: auto;
+    position: relative;
+    bottom: 17.5px;
     line-height: 31px;
     padding-left: 22px;
     text-align:left;
