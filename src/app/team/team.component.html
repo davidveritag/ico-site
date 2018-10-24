@@ -16,8 +16,10 @@
       <h1>{{'TEAM.advisor-header' | translate}}</h1>
     </div>
     <div class="container-fluid member-container">
-      <div class="row">
-          <div class="col"
+      <div class="row" >
+          <div class="col" ng-class="{'some-class':hovering}"
+          ng-mouseenter="hovering=true"
+          ng-mouseleave="hovering=false"
             *ngFor="let advisor of advisors">
             <app-member
             [info]="advisor">

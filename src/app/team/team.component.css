@@ -19,6 +19,12 @@ h1 {
     margin-bottom: 20px;
 }
 
+.mroe-btn{
+    border:solid 1px #666;
+    color: #666;
+    background: white;
+  }
+
 .col {
     padding-left: 0;
     padding-right: 0;

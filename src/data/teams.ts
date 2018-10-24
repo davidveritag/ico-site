@@ -205,14 +205,14 @@ export const members: Member[] = [
       '',
       'adv'
       ),
-    // new Member(
-    //   '9',
-    //   '../assets/icons/Team09.png',
-    //   'https://www.linkedin.com/in/yongkee/',
-    //   'Dr. Yeo Yong-Kee',
-    //   '',
-    //   '',
-    //   '',
-    //   'adv'
-    //   ),   
+    new Member(
+      '9',
+      '../assets/icons/Team09.png',
+      'https://www.linkedin.com/in/lesterlim15/',
+      'Dr. Yeo Yong-Kee',
+      '',
+      '',
+      '',
+      'adv'
+      ),   
   ]

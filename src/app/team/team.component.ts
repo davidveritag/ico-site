@@ -11,9 +11,18 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 export class TeamComponent implements OnInit, AfterViewInit {
   members: Member[] = members
   advisors: Member[] = advisors
-
+  showMore: boolean = false
+  showMoreLabel: string = "Show More"
   constructor(private translate: TranslateService) {
   }
+
+  // toggleShowMore(){
+  //   this.showMore = !this.showMore;
+  //   this.translate.get('TEAM.advisor-exp' + (this.showMore ? "Show Less" : "Show More")).subscribe((res: string) => {
+  //     this.showMoreLabel = res
+  //   });
+  // }
+  
 
   ngOnInit() {
     this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
@@ -31,7 +40,6 @@ export class TeamComponent implements OnInit, AfterViewInit {
           member.desc2 = res
         });
       })
-
       advisors.forEach( (advisor,i) => {
         this.translate.get('TEAM.advisor-name' + advisor.id).subscribe((res: string) => {
           advisor.name = res
