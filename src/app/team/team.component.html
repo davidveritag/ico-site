@@ -1,5 +1,24 @@
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+var rmh=$(".read-more").html();
+var less=rmh.substr(0,10);
+if(rmh.length > 10){
+  $(".read-more").html(less).append("<a  class='read-more-link'>Show More</a>")
+}
+else{
+  $(".read-more").html(rmh);
+}
+$("div").on("click",".read-more-link",function(){
+  $(this).parent(".read-more").html(rmh).append("<a  class='read-more-link'>Show More</a>");
+});
+  });
+  </script>
 <div class="container-fluid">
-  <div class="title">
+  <div class="title read-more">
     <h1>{{'TEAM.member-header' | translate}}</h1>
   </div>
   <div class="container-fluid member-container">
@@ -15,16 +34,14 @@
   <div class="title">
       <h1>{{'TEAM.advisor-header' | translate}}</h1>
     </div>
-    <div class="container-fluid member-container">
+    <div class="container-fluid member-container read-more">
       <div class="row" >
-          <div class="col" ng-class="{'some-class':hovering}"
-          ng-mouseenter="hovering=true"
-          ng-mouseleave="hovering=false"
-            *ngFor="let advisor of advisors">
-            <app-member
-            [info]="advisor">
-            </app-member>
-          </div>
+        <div class="col" 
+        *ngFor="let advisor of advisors">
+        <app-member
+        [info]="advisor">
+        </app-member>
+      </div>
       </div>
     </div>
 </div>
