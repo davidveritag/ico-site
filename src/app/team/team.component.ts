@@ -62,6 +62,7 @@ export class TeamComponent implements OnInit, AfterViewInit {
       var width = $('.photo').outerWidth();
       $('.photo').css('height', width+'px');
     });
+    
   }
 
 }
