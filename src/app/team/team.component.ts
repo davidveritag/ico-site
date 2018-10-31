@@ -61,8 +61,6 @@ export class TeamComponent implements OnInit, AfterViewInit {
     $(document).ready(function(){
       var width = $('.photo').outerWidth();
       $('.photo').css('height', width+'px');
-
-
     var maxLength = 100;
     $(".show-read-more").each(function(){
         var myStr = $(this).text();
@@ -78,7 +76,8 @@ export class TeamComponent implements OnInit, AfterViewInit {
     });
     $(".read-more").click(function(){   
     $(this).siblings(".more-text").toggle(700);
-    $(this).text(function(i, text){ return text === " read more..." ? " read less..." : " read more...";})
+    $(this).text(function(i, text){ return text === " read more..." ? " read less..." : " read more...";});
+    
     });
     }); 
       
