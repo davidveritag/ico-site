@@ -1,3 +1,8 @@
+<style type="text/css">
+  .show-read-more .more-text{
+      display: none;
+  }
+</style>
 <div class="member-container-{{info.type}}">
   <div 
     class="photo"
@@ -11,6 +16,11 @@
     </div></a>
     <div class="country">{{info.country}}</div>
     <div class="desc1">{{info.desc1}}</div>
-    <div class="desc2">{{info.desc2}}</div>
+    <div class="desc2">
+      
+      <p class="show-read-more">{{info.desc2}}</p>
+      
+
+    </div>
   </div>
 </div>

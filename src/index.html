@@ -8,29 +8,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function(){
-    var readMoreHtml=$(".desc2").html();
-    var lesstext=readMoreHtml.substr(0,100);
-    
-    if(readMoreHtml.length > 100){
-    $(".desc2").html(lesstext).append("<button  class='btn mroe-btn read-more-link'>Show More</button>");
-    }
-    else{
-      $(".desc2").html(readMoreHtml);
-    }
-   
-   $(".desc2").on("click",".read-more-link",function(event){
-     event.preventDefault();
-$(this).parent(".desc2").html(readMoreHtml).append("<button  class='btn mroe-btn show-less-link'>Show Less</button>");
-   });
-   $(".desc2").on("click",".show-less-link",function(){
-    event.preventDefault();
-$(this).parent(".desc2").html(readMoreHtml.substr(0,100)).append("<button  class='btn mroe-btn read-more-link'>Show More</button>");
-   });
-
-    });
-    </script>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="veriTAG" />

@@ -16,12 +16,12 @@ export class TeamComponent implements OnInit, AfterViewInit {
   constructor(private translate: TranslateService) {
   }
 
-  // toggleShowMore(){
-  //   this.showMore = !this.showMore;
-  //   this.translate.get('TEAM.advisor-exp' + (this.showMore ? "Show Less" : "Show More")).subscribe((res: string) => {
-  //     this.showMoreLabel = res
-  //   });
-  // }
+  toggleShowMore(){
+    this.showMore = !this.showMore;
+    this.translate.get('TEAM.advisor-exp' + (this.showMore ? "Show Less" : "Show More")).subscribe((res: string) => {
+       this.showMoreLabel = res
+     });
+   }
   
 
   ngOnInit() {
@@ -61,7 +61,27 @@ export class TeamComponent implements OnInit, AfterViewInit {
     $(document).ready(function(){
       var width = $('.photo').outerWidth();
       $('.photo').css('height', width+'px');
+
+
+    var maxLength = 100;
+    $(".show-read-more").each(function(){
+        var myStr = $(this).text();
+        if($.trim(myStr).length > maxLength){
+            var newStr = myStr.substring(0, maxLength);
+            newStr = newStr.substr(0, Math.min(newStr.length, newStr.lastIndexOf(" ")))
+            var removedStr = myStr.substring(newStr.length, $.trim(myStr).length);
+            $(this).empty().html(newStr);            
+            $(this).append('<span class="more-text" style="display:none;">' + removedStr + '</span>');
+            $(this).append('<a href="javascript:void(0);" class="read-more"> read more...</a>');
+
+        }
     });
+    $(".read-more").click(function(){   
+    $(this).siblings(".more-text").toggle(700);
+    $(this).text(function(i, text){ return text === " read more..." ? " read less..." : " read more...";})
+    });
+    }); 
+      
     
   }
 
