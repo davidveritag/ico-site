@@ -24,7 +24,7 @@
     "MINUTES": "MINUTES",
     "SECONDS": "SECONDS",
     "Buy Token Now": "Buy Token Now",
-    "We accept BTC, ETH and other": "54,656,376 ETH worth of vtag",
+    "We accept BTC, ETH and other": "54,656,376 of vtag sold",
     "Soft cap reached": "Soft cap reached",
     "SHARE WITH": "JOIN US"
   },
@@ -89,8 +89,8 @@
   "STAGE": {
     "header": "Token Events",
     "bonus1": "50% OFF + 5% BONUS",
-    "bonus2": "70.93% SOLD",
-    "bonus3": "35% BONUS",
+    "bonus2": "40% ALLOCATION",
+    "bonus3": "10.93% SOLD",
     "soldbonus3": "",
     "bonus4": "30% ALLOCATION",
     "soldbonus4": "",
