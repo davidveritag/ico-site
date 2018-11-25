@@ -26,6 +26,7 @@
     "Buy Token Now": "Buy Token Now",
     "We accept BTC, ETH and other": "54,656,376 of vtag sold",
     "Soft cap reached": "Soft cap reached",
+    "percent-reached": "10.93% reached of TYPE-A",
     "SHARE WITH": "JOIN US"
   },
 
@@ -339,6 +340,7 @@
     "details-chi1": "卡       号",
     "details-chi2": "开户地区",
     "details-chi3": "开户网点",
+    "details-last": "Industrial and Commercial Bank of China, Shanghai Branch",
 
     "note-1": "Please note, the full address can be found in our email to you.",
     "note-emp": "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",

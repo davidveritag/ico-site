@@ -9,7 +9,9 @@
   padding: 8%;
   padding-bottom: 5em;
 }
-
+.break-through {
+  word-wrap: break-word;
+}
 button {
   border-radius: 0;
   margin-right: 15px;
