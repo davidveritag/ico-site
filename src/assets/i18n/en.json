@@ -1,569 +1,580 @@
 {
-    "HEADER": {
-        "Morpheus": "veriTAG",
-        "About Morpheus": "About veriTAG",
-        "Solution": "Solution",
-        "White Paper": "White Paper",
-        "Token Events": "Token Events",
-        "Bounty" : "Bounty",
-        "Team": "Team",
-        "Bounty": "Bounty",
-        "Language": "Language",
-        "whitepaper" : "./assets/documents/WhitePaper.pdf",
-        "en": "EN",
-        "cn": "CN",
-        "kr": "KR",
-        "jp": "JP"
-    },
-    "TIMER": {
-        "BONUS SALE": "25%",
-        "stage starts in:": "BONUS",
-        "30% Bonus": "vtag token",
-        "DAYS": "BONUS",
-        "HOURS": "HOURS",
-        "MINUTES": "MINUTES",
-        "SECONDS": "SECONDS",
-        "Buy Token Now": "Buy Token Now",
-        "We accept BTC, ETH and other": "worth of vtag token raised",
-        "SHARE WITH": "JOIN US"
-    },
-    "DASHBOARD":{
-        "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Next generation food ecosystem powered by blockchain"
-    },
-    "ABOUT":{
-        "header": "About veriTAG ecosystem",
-        "description1": "The diagram below is an illustration of proper ideal state of an ecosystem that we have achieved. Each pillar within our ecosystem delivers a key value proposition.",
-        "description2": "",
-        "description3": "",
-        "vh1": "veriTAG",
-        "vd1-1": "veriTAG is a blockchain enabled dual tagging system to give a unique identifier to each product. A birth QR that has a unique ID number to identify it through cloud and on the product itself. The tag has a hidden death QR which can only be accessed by peeling the tag. All data are stored in the cloud and on blockchain making it truly immutable and yet accessible anytime anywhere.",
-        "vd1-2": "",
-        "vd1-3": "",
-        "vh2": "veriHUB",
-        "vd2-1": "veriHUB is a cloud based, Blockchain and Token enabled, one stop food supply chain platform, currently it is mainly targeted for imported food into China. veriHUB effectively creates the most cost-effective way to import food into China. Built on veriTAG food safety as a foundation, veriHUB offers merchants to import their food products into China through consolidation of resources on both logistics, marketing and sales channel.",
-        "vd2-2": "",
-        "vd2-3": "",
-        "vh3": "veri$HOP",
-        "vd3-1": "veri$HOP is a WeChat app that links merchants directly with consumers via tags.  It provides referral marketing points and strong backend support.  It also enables customer behaviour through big data analysis thus ensuring higher customer loyalty and greater  profitability via direct selling. vtcash payment from veri$HOP will be enabled in future when the business environment allows it.",
-        "vd3-2": "",
-        "vd3-3": "",
-        "vh4": "veriHUB wallet",
-        "vd4-1": "A custom ERC20 compatible Ethereum wallet that is used for holding vtag and vtcash tokens and performing the token transactions, such as send, receive and convert tokens.",
-        "vd4-2": "The Wallet connects to the Token Exchange within the ecosystem to perform token exchanges between vtag and vtcashand other crypto tokens by interfacing with exchanges where vtag is listed.",
-        "vd4-3": "The wallet also provides user account and key management functions."
-    },
-    "PROBLEM":{
-        "header": "Problem Statements",
-        "title1": "Food safety",
-        "description1": "Food safety has been the top concern in the world. There is no foolproof way because a product cannot be uniquely identified. In a similar way, a person has to be identified with a ID card which store a unique signature of the person (fingerprint) that is immutable. Also, when the person moves on, a death certificate will have to be issued.",
-        "title2": "Logistic tracking limitation",
-        "description2": "Current processes in food logistic involve tracking by batches.This procedure is limited by the IOT put in place. At the same time, there is also additional cost of deployment on blockchain and technology limitation like the need for airspace on RFID.",
-        "title3": "Export of food to China ",
-        "description3": "China has regulations on the import of food into China especially, unprocessed food like fresh seafood and meat. Traders are not allowed to export fresh food and meat to China. Singapore, as a hub for wholesale trade is facing difficulties because of these restrictions.",
-        "title4":"Trade finance for food",
-        "description4":"Lack of trade finance instruments for food products due to the perishable nature of food. Perishable products depreciate in value with time and become negative value (need to pay to dispose the goods) when expired."
-    },
-    "SOLUTION":{
-        "header": "Our Solution",
-        "title1":"Track food product",
-        "title2":"One-stop food supply chain",
-        "title3":"Adopt Dual Tokens ",
-        "title4":"Enterprise Grade",
-        "description1":"A unique patented Cloud tagging solution is embedded in product label to track food products. Product tracking info are stored in blockchain which are immutable and are used to determine food origin, expiration date and other key info that concern food safety and authenticity.",
-        "description2":"A one-stop food supply chain platform is built using the latest blockchain technology to link all supply chain participants with trust and transparency which creates a cost-effective way to import food into China, and it will be expanded into Thailand, Canada and Vietnam in near future.",
-        "description3":"A dual token approach is adopted to create efficient tokenomics. A transaction token, called “vtcash”, will be introduced to pay for services within the supply chain ecosystem. It is pegged to the US currency (USD) to provide services with stabilized prices. Preservation of vtag token scarcity in the ecosystem which is directly related to its value is the key.",
-        "description4":"Secure, scalable and robust enterprise-grade blockchain platform for food supply chain and food tracking cross geolocations. A custom wallet is used to securely hold tokens and perform token transactions. The ecosystem can easily and securely onboard  new food products, new supply chain participants and add new supply chain networks; it can be extended for non food products in future."
-    },
-    "ADVANTAGE":{
-        "header": "Our Competitive Advantages",
-        "title1": "Robust & Scalable",
-        "title2": "Trusted",
-        "title3": "Accessible",
-        "title4": "An Ecosystem Approach",
-        "description1": "Blockchain applications are built using Morpheus Labs BPaaS (Blockchain Platform-as-a-Service) platform and all resources and support are made ready on the AWS cloud.This allows  applications to be built, enhanced and deployed anytime and anywhere in a secure, reliable and scalable environment.",
-        "description2": "Our solution has been hand-picked by Singapore government agencies, Infocomm Media Development Authority and Enterprise Singapore, to help Singaporean small and medium enterprises to expand their business overseas.",
-        "description3": "Our team is cross functional and has extensive experience in the business of food supply chain and blockchain technology.",
-        "description4": "An ecosystem built on three pillars veriTAG, veriHUB and veriSHOP.Each pillar within our ecosystem delivers a key value proposition."
-    },
-    "STAGE": {
-        "header": "Token Events",
-        "bonus1": "50% OFF + 5% BONUS",
-        "bonus2": "40% ALLOCATION",
-        "bonus3": "35% BONUS",
-        "bonus4": "30% ALLOCATION",
-        "bonus5": "10% BONUS",
-        "bonus6": "30% ALLOCATION",
-
-        "desc1": "Pre-ICO Platinum Bonus",
-        "desc2": "Type A",
-        "desc3": "Early-bird Premium Bonus",
-        "desc4": "Type B",
-        "desc5": "Pre-sales Additional Bonus",
-        "desc6": "Type C",
-        "desc7": "Unsold Tokens Release",
-
-        "date1": "2 Jan - 21 Jan",
-        "date2": "200 ETH",
-        "date3": "9 Mar - 18 Mar",
-        "date4": "20 ETH",
-        "date5": "2 Apr - 15 Apr",
-        "date6": "1 ETH",
-        "date7": "27 MAY ONWARD",
-        
-        "eth2": "200 ETH",
-        "eth4": "20 ETH",
-        "eth6": "1 ETH",
-         
-        "type2":"Type A",
-        "type4":"Type B",
-        "type6":"Type C",
-
-        "per2": "40%",
-        "per4": "30%",
-        "per6": "30%",
-
-        "time": "from 00:00AM (GMT+8)"
-    },
-    "TIMELINE": {
-        "header": "Token Timeline",
-        "current": "OFFICIAL SALES",
-        "time": "10 March 00:00:00 (GMT+8) - 15 April 2018",
-        "registration":"Registration date: 15th Oct 2018",
-        "ico-launch":"ICO launch date : 31st Oct 2018",
-        "closing":"Closing date: 15th Jan 2019",
-        "join-btn": "Join Early Bird Sale",
-        "buy-btn": "Buy Token"
-    },
-    "PLATFORM": {
-        "header": "Whitelist",
-        "text": "Container based virtualization technology are adopted to run the platform on the infrastructure hosted in AWS regional cloud data centers. This provides a reliable and scalable cloud environment to support rapid business growth.A  blockchain for food product tracking using private Ethereum blockchain for enterprise and a blockchain using Quorum blockchain for food supply finance. They are implemented in two separate private blockchain networks for better segregation to achieve different security and performance targets."
-    },
-    "WHY US": {
-        "header": "Why veriTAG Blockchain Ecosystem",
-        "text1": "Food supply chain is one of most complicated verticals as a result of the intersection of diverse  cross-border documentation formats, regulations and approving authorities. As most fundamental of human basic needs, there should be no compromises when it comes to food safety  and efficiency. We believe in the fundamental rights of every human beings to have access to food that are safe for consumption. This is more apparent and especially vital when food is delivered cross borders. veriTAG aims to help developing or developed countries ensure the vision of where rights trump profitability.",
-        "text2": "Incorporating of blockchain technology into Food supply chain creates most desirable outcome to solve the immediate society needs.",
-        "text3":"We are confident and committed to commercially and viably scaling our blockchain solution and capturing a huge food industry."
-    },
-    "BENEFIT": {
-        "header": "Tokenomics : ",
-        "and": " and ",
-        "vtag": "vtag",
-        "vtcash": "vtcash",
-        "summary0": "The beauty of ",
-        "summary1": " with ",
-        "sum-1":" ,the Exchange Token, is available in ICO token event and will be listed on crypto exchanges.It will be issued during ICO for sales and listed in crypto exchanges.Once changed to ",
-        "sum-10":" will be locked.",
-        "sum-2":" ,the Trade Token (or Transaction Token), is used in the Food Supply Chain Ecosystem.It is the key to unlock ",
-        "sum-20":" that have been converted to ",
-        "sum-21": " and locked. ",
-        "sum-22":" is used (spent), it will be burnt.It is pegged to USD to stabilize prices of services that can be purchased using ",
-        "Once":"Once ",
-
-        "listtitle1":"",
-        "listtitle2":"",
-        "listtitle3":"",
-        "listtitle4":"",
-        "listtitle5":"",
-
-        "listtext1":"vtag or vtcash can be converted within veriHub wallet.",
-        "listtext2":"Core functional services. veriTAG, veriHUB and veri$HOP systems provide functional services for the ecosystem. These systems access blockchains via Blockchain APIs. The functional services are built based microservices that can easily extend existing functions, build new functions or build new off-chain applications required by the ecosystem. The functional services can be exposed as APIs when needed.",
-        "listtext3":"Dual tokens are introduced in the platform. vtag token (an ERC20 token) is minted, distributed and transferred in the public Ethereum network. Token holders use veriTAG wallet to hold both vtcash and vtag token and perform transactions on the tokens.",
-
-        "detail1": "The primary use of the token is for both platform subscription and application-related usage, whereby users can use these tokens to procure any services within the platform network, and pay service providers within it. Users can switch among different subscription tiers with full flexibility. Upgrades are featured for applications that are chosen.",
-        "detail2": "As more blockchain applications are curated on our app store, MITx will also allow convertibility to discount coupons for other ICOs within our network. This will translate into cost savings and promotional items in other applications.",
-        "detail3": "Financial settlement and resources support between licensees and licensors, where distributorship could be easily managed, facilitates critical real-time support for any distributors or sub-distributors in any corner of the world. Easy token swapping among our app stores will also permit savings on transactional fees and more effective portfolio management for individual and corporate investors.",
-        "detail4": "MITx will be traded on crypto exchanges and this offers token holders the flexibility to trade and liquidate their holdings, if they so choose. They will be able to convert to fiat currency or swap to other cryptocurrencies. Holders can capitalise on trading opportunities and maximise value appreciation of their tokens.",
-
-        "Show More": "Show More",
-        "Show Less": "Show Less",
-        "Read Whitepaper": "Read Whitepaper",
-        "Register Now": "Register Now",
-
-        "cardtitle1": "Platform Subscription Payment",
-        "cardtitle2": "Applications Usage Fee",
-        "cardtitle3": "Distributorship Licensing Fee",
-        "cardtitle4": "Token Swapping and Trading",
-        "cardtext1": "Payment for different tiers of services",
-        "cardtext2": "Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you",
-        "cardtext3": "Financial settlement for various tiers of licensing. Resources support and sharing",
-        "cardtext4": "Token swap among apps within the network. Traded on Cryptocurrency exchange"
-
-    },
-    "DISTRIBUTION": {
-        "TOKEN": "Token",
-        "DISTRIBUTION": "Distribution",
-        "Team": "Team",
-        "Community": "Ecosystem",
-        "Community-sub": "& Partnership",
-        "Token Sales": "Token Sales",
-        "Foundation": "Foundation",
-        "Foundation-sub": "(Strategy & Research)",
-        "Reserve Fund": "Reserve",
-
-        "FINANCE": "Financial",
-        "Platform Development": "Platform Development & ",
-        "Operations": "Operation",
-        "Platform Dev": "Platform Dev & ",
-        "Ops": "Ops",
-        "Marketing": "Sales & Marketing",
-        "Research Development": "Research Development",
-        "R&D": "R&D",
-        "Others, Legal": "Legal and Others"
-    },
-    "ROADMAP": {
-        "header": "Road Map",
-        "Technical": "Technical",
-        "Business": "Business",
-        "Phase": "Phase",
-        "tech-title0": "veriTAG",
-        "tech-title1": "veriHUB",
-        "tech-title2": "veri$HOP",
-        "tech-title3": "veriTAG Blockchain for food tracking",
-        "tech-title4": "veriHUB Blockchain for food supply chain phase 1",
-        "tech-title5": "veriHUB Blockchain for food supply chain phase 2",
-        "tech-title6": "veriHUB Blockchain for food supply chain phase 3",
-        "tech-date0": "2013",
-        "tech-date1": "2015",
-        "tech-date2": "2017",
-        "tech-date3": "Aug 2018",
-        "tech-date4": "Dec 2018",
-        "tech-date5": "Mar 2019",
-        "tech-date6": "Sept 2019",
-
-        "tech-desc0": "Developed veriTAG embedded Cloud tagging solution.",
-        "tech-desc1": "Developed veriHUB, one stop food import hub solution for China.",
-        "tech-desc2": "Developed veri$HOP, a WeChat mini app that links customers with merchants for shopping and interactions.",
-        "tech-desc3": "Setup veriTAG blockchain and API Gateway.Developed veriTAG blockchain smart contracts.Developed APIs for veriTAG blockchain smart contracts.",
-        "tech-desc4": "Setup veriHUB blockchain.Develop Token Exchange within veriHUB blockchain.Develop veriTAG wallet.Develop token smart contract.Enhancements for veriTAG blockchain.",
-        "tech-desc5": "Expand veriHUB blockchain network.Enhance Token Exchange within veriHUB blockchain.Enhance veriTAG wallet.Develop veriHUB blockchain smart contracts for food supply chain.",
-        "tech-desc6": "Future enhancements.Bring veri$HOP onto blockchains.",
-
-        "biz-title0": "",
-        "biz-title1": "",
-        "biz-title2": "",
-        "biz-title3": "",
-        "biz-title4": "",
-        "biz-title5": "",
-        "biz-date0": "2013",
-        "biz-date1": "2015",
-        "biz-date2": "2017",
-        "biz-date3": "1H 2018",
-        "biz-date4": "Q3 2018",
-        "biz-date5": "Q4 2018 ",
-        "biz-date6": "Q1 2019",
-        "biz-date7": "Q2 2019",
-        "biz-date8": "Q3 2019",
-        "biz-date9": "Q4 2019",
-        "biz-desc0": [
-            "Setup and develop veriTAG for semiconductor"
-        ],
-        "biz-desc1": [
-            "Setup and develop veriHUB building upon veriTAG success",
-            "Focus on one stop solution for China"
-        ],
-        "biz-desc2": [
-            "Ink MOU with Y3 and Digitnexus to enhance services on veriHUB and to go on board blockchain",
-            "Develop and launch very$HOP"
-        ],
-        "biz-desc3": [
-            "veriTAG goes on blockchain",
-            "veriHUB3.5 upgraded to PSG under IMDA",
-            "Sign MOU with Rizon to extend on blockchain and logistic services in China ChongQing",
-            "Sign agreement with 17 Flash store (an unmanned technology provider under tencent company) to be part of the offline channels on veriHUB 3.5"
-        ],
-        "biz-desc4": [
-            "Ink agreement with SMF (Singapore manufacturing Association) to provide veriHUB services to its members (> 3000)",
-            "In development with 3 seafood associations in Singapore to set up Poseidon, a veriHUB ecosystem for seafood",
-            "In development with Halal Science Center to bring Halal on blockchain through veriTAG and Thailand Halal products through veriHUB to China (veriHUB Thailand)",
-            "Formation of GFCA (Global Food chain Alliance), a food ecosystem on blockchain to share resources for growth and token interoperation. 6 founding members are veriTAG, NULS, Morpheus Lab, Reefic protocol and Sakae Fintech"
-        ],
-        "biz-desc5":[
-            "Bring MUIS (Singapore Halal certification) onto veriTAG blockchain",
-            "Setup 17 unmanned stores in Chengdu China and Singapore",
-            "Establish Singapore booth into Ito Yokado, Isetan and G super in Chengdu",
-            "Establish collaboration linkup with Chengdu Food and Beverage Associations",
-            "Launch of vtag ICO"
-        ],
-        "biz-desc6":[
-            "Schedule to release veriHUB on blockchain in Dec 2018 with e-wallet for token interoperation",
-            "Embark veri$HOP onto Reefic protocol token program. veri$HOP credit points can be used to exchange rewards points for restaurant use in Singapore and Malaysia",
-            "Setup veriHUB Thailand for export of Singapore products to Thailand and Thailand products to China",
-            "Work with HSC in Thailand to bring Thai halal onto veriTAG blockchain"
-        ],
-        "biz-desc7":[
-            "Bring veri$HOP onto blockchain",
-            "Setup veri$HOP in Singapore and extend token to use in Singapore by consumers and merchants and through collaboration with Sakae"
-        ],
-        "biz-desc8":[
-            "Series A fund raising",
-            "Setup veriHUB Vietnam for export of Singapore products to Vietnam and Vietnam products to China"
-        ],
-        "biz-desc9":["Extend veriHUB operation from Chengdu to Chongqing, Guangzhou, Beijing and Shanghai"]
-
-    },
-    "GENERATION" : {
-        "header" : "Token Generation Event (TGE) Structure",
-        "summary" : "A total of 1 billion vtag will be minted and only 700 million of vtag will be issued to the public in this Token Generation Event (TGE). The release of the 700 million vtag is to generate sufficient funding for us to achieve the milestones and to hold us accountable for the funds.",
-
-        "details-name-label" : "Name",
-        "details-name-content" : "veriTAG token",
-        "details-tokenName-label" : "Token Name",
-        "details-tokenName-content" : "vtag",
-        "details-totalSupply-label" : "Total Supply",
-        "details-totalSupply-content" : "1,000,000,000 (1B)",
-        "details-tokenSales-label" : "Token Sales" ,
-        "details-tokenSales-content" : "700,000,000 (700 million)" ,
-        "details-decimals-label" : "Decimals",
-        "details-decimals-content" : "18",
-
-        "note-1" : "Please note, the full address can be found in our email to you.",
-        "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
-        "note-3" : "token@mopheuslabs.io",
-        "details-value-label" : "Value",
-        "details-value-content" : "1 ETH = 20,000 vtag",
-        "details-token-label" :  "Wallet Address to Send Funds",
-        "details-token-address-frist-chunk" : "",
-        "details-token-address-masked-chunk" : "",
-        "details-token-address-second-chunk" : "",
-
-        "note-1" : "Please note, the full address can be found in our email to you.",
-        "note-emp" : "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
-        "note-3" : "vtag@veriTAG.com",
-
-        "foot-1" : "",
-        "foot-emp" : "",
-        "foot-3" : "Once the Hard cap of 25,000 ETH is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
-
-        "Show More": "Show More",
-        "Show Less": "Show Less"
-    },
-    "TEAM": {
-        "member-header": "Our Team",
-
-        "member-name0": "Jason Lim",
-        "member-country0": "Singapore/China",
-        "member-bg0": "National University of Singapore with a BEng. (Honors) in (Mechanical Engineering) in 1996.",
-        "member-exp0": "In 2013, Jason founded veriTAG, a Singapore based technology company that focuses on product and asset tagging methods that are linked to the Cloud - henceforth coined as cloud tagging solutions.Such solutions were developed out of use cases to prevent fraudulent warranty claims from semiconductor clients in Jason's existing semiconductor businesses.As such use cases proved to be very successful, veriTAG was set up to commercialise the concept so that it could scale and extend to other industry sectors.  Under Jason's leadership, veriTAG has now penetrated into the food and asset management sectors and will be scaling up through aggressive client acquisition, brand positioning and capital expansion strategies.",
-
-        "member-name1": "Patrick Chong ",
-        "member-country1": "Singapore/China",
-        "member-bg1": "",
-        "member-exp1": "Patrick Chong has 15 years of experience in Asia’s fund management industry. He has a proven track record in raising assets in these new businesses. Currently, he is Head of Asia Pacific Financial Institutions Business Development of Aviva Investors.",
-
-        "member-name2": "Hu Ke ",
-        "member-country2": "Singapore/Italy",
-        "member-bg2": "",
-        "member-exp2": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
-
-        "member-name3": "David Peter",
-        "member-country3": "Singapore/India",
-        "member-bg3": "",
-        "member-exp3": "Experienced full stack, .net, Java and hybris developer. Worked on an array of ecommerce platforms. Remain fully involved in client and server side functionalities, including the implementation of new code and redevelopment of existing program structures.",
-
-        "member-name4": "Duong Van Sang",
-        "member-country4": "Vietnam",
-        "member-bg4": "",
-        "member-exp4": "More than 12 years of experiences in full stack software development and 6 years as technical lead and development manager. He has extensive experiences in blockchain architecture design and smart contract development.",
-
-        "member-name5": "Virginia Tan ",
-        "member-country5": "Singapore/China",
-        "member-bg5": "B.Multimedia Design (The One Academy of Malaysia)",
-        "member-exp5": "Virginia Tan is the founding partner of Teja Ventures, a venture capital fund with a gender lens targeting early stage ventures in Asia. She also founded and leads She Loves Tech, a global platform focusing on technology by women and technology for women, and housing the world's largest startup competition for women and technology which launched in 16 international locations in 2018. Virginia is the co-founder and president of Lean In China, a women's platform with over 100,000 members across more than 25 cities and 100 universities in China, which supports the goals and aspirations of Chinese women.",
-
-        "member-name6": "Edward Loke",
-        "member-country6": "Singapore",
-        "member-bg6": "B.Info System Tech & Design (Singapore University of technology and Design, Singapore)",
-        "member-exp6": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
-
-        "member-name7": "Eric Xu Cong",
-        "member-country7": "Singapore/China",
-        "member-bg7": "B.Info System (National University of Singapore, Singapore)",
-        "member-exp7": "Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.",
-
-        "member-name8": "Clara Zhou",
-        "member-country8": "China",
-        "member-bg8": "Zhejiang Yuexiu University of Foreign Languages",
-        "member-exp8": "With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.",
-
-        "member-name9": "Hanna Bae",
-        "member-country9": "South Korea",
-        "member-bg9": "M. Professional Accounting, Brisbane, Queensland University of Technology; B.Comms., Public Relations, Melbourne, RMIT University",
-        "member-exp9": "Hanna is fluent in both the language of business and communications. She has had great experience in online marketing and public relations. \n Her most recent experience in management consulting and accounting has equipped her to be better understanding of business operations and numbers. She’s a huge believer of blockchain technology and thinks that this will change the future for the better.",
-
-        "advisor-header": "Founding Advisors",
-
-        "advisor-name0": "Evan Go",
-        "advisor-country0": "China",
-        "advisor-bg0": "",
-        "advisor-exp0": "Evan is currently CEO of Zhaopin.com is a leading online recruiting company in china. He has vast experience in logistic and freight forwarding industry. He was member of board in Sinotrans - DHL and Chairman of Board in Sinotrans-OCS express. Prior to this, he was a partner in Mckinsey China ",
-
-        "advisor-name1": "Hu Ke",
-        "advisor-country1": "Singapore",
-        "advisor-bg1": "",
-        "advisor-exp1": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
-
-        "advisor-name2": "James Ong ",
-        "advisor-country2": "Singapore",
-        "advisor-bg2": "",
-        "advisor-exp2": "Chief Investment Officer at YCH Group. Partner at Supply Chain Angels",
-
-        "advisor-name3": "Chuang Pei-Han",
-        "advisor-country3": "Malaysia/Singapore",
-        "advisor-bg3": "",
-        "advisor-exp3": "After seven years’ experience in banking, Pei-Han turned to his first venture and built a series of successful business. He has experience in raising multi-million investments and has built a proven track record in the management of accounts with large conglomerates. He has successfully grown one of his start-ups to a million dollar–generating business. His BPaaS was selected and incubated in SGInnovate, as first batch incubatees.Having been through the delivery of 25 software development cycles, he has developed core expertise in handling multi-million deals and high-level marketing campaigns. Pei-Han’s past clientele includes Scoot, Singapore Airlines, Vivocity, Shwe Taung Group, Chinsu Myanmar Group, Prince Hotel Group, Taiwan Tourism Board and other major enterprises. Currently he is Founder and CEO of Morpheus Labs Pte Ltd.",
-
-        "advisor-name4": "Branson Lee",
-        "advisor-country4": "Singapore",
-        "advisor-bg4": "Bachelor of Computer Engineering (Nanyang Technology University, Singapore) Finance Technology: Future Commerce (Massachusetts Institute of Technology).",
-        "advisor-exp4": "Branson is currently an ex-co-member of the Singapore Fintech Association and heads the Talent Committee. With over 13 years’ experience in business development and channel partnership, Branson was selected as one of only two undergraduates during his university days to undergo internship with Sun Microsystems. Branson has worked at LinkedIn and Gartner Consulting and is currently heavily involved in the blockchain and start-up ecosystem. He is also an active public speaker for blockchain and Fintech events. He is currently founder of Morpheus Labs Pte Ltd.",
-
-        "advisor-name5": "Kazutaka Mori",
-        "advisor-country5": "",
-        "advisor-bg5": "",
-        "advisor-exp5": "Partner Lawyer of One Asia Lawyers. Head of Fintech and ICO team in Singapore. Qualified lawyer in Japan. Kazutaka Mori has about 10 years of experience in international legal affair. Focusing on Fintech, especially crypto in Asia. He has supported establishment of crypto currency exchanges and handled numerous ICO projects in Asia.",
-
-        "advisor-name6": "Bruce Lu (Technology Advisor)",
-        "advisor-country6": "Singapore",
-        "advisor-bg6": "Bachelor in Applied Mathematics (Tianjin University); Executive MBA (Rutgers Business School); Finance Technology: Future Commerce (Massachusetts Institute of Technology)",
-        "advisor-exp6": "Over 20 years in software development and technology innovation. Implemented a blockchain business application in production using HyperLedger Fabric V1.0, the first in the world.Bruce is the CTO of Morpheus Labs, responsible for blockchain technology research and development. Before joint Morpheus Labs, he worked with IBM, as a technical leader, focusing on cloud application development and technology innovation in various industries.",
-
-        "advisor-name7": "Jeffrey Tan ",
-        "advisor-country7": "Singapore",
-        "advisor-bg7": "",
-        "advisor-exp7": "Fortified with more than 15 years experience internationally across various industry sectors such as smart ports, maritime, shipping, logistics, trade, smart cities, smart buildings, real estate, facility management, property management, education, public sector, finance services, insurance and entertainment. An ever ready attitude to take on senior leadership roles to benefit organization to gain greater market space and execute business transformation globally.Accumulated relevant experiences in various capacities including general management, programme/project management, technical development, business process management, change management, management consulting, product management, key accounts management, business development, sales, presales and bid management.",
-
-        "advisor-name8": "Yumi Kitahama ",
-        "advisor-country8": "",
-        "advisor-bg8": "",
-        "advisor-exp8": "Consultant, life coach and live interpreter living in Singapore since 1999. Her mission is to bring out the limitless potential in each individual to excel in career, achieve goals and lead a fulfilling life. Based on her work experiences in globalized MNCs and diversified environments, her current project is to empower global leaders.",
-
-        "advisor-name9": "Lester Lim",
-        "advisor-country9": "Singapore",
-        "advisor-bg9": "",
-        "advisor-exp9": "Lester Lim is active advisor for ICOs, including projects like MXC, Cosmochain, Cardstack, HybridBlock, Dock.io, Ink Protocol, CoinFi and Banca. He advise selected token projects on marketing strategy, tokenomics, and also connects them to relevant Blockchain partners and Centralized & Decentralized exchanges for liquidity, in addition to fund raising activity.He is also a cryptocurrency investor and founder of a global private investor group investing in top ICOs.",
-
-        "advisor-name10": "Kunio Okuda",
-        "advisor-country10": "Japan",
-        "advisor-bg10": "",
-        "advisor-exp10": "An investor in cryptographic currency and also an entrepreneur. He is one of top influencers in Japan and skilled in ICO analysis. Currently involved in OmiseGO, Cindicator, GazeCoin, Swissborg, Lucyd and more.",
-
-        "advisor-name11": "Khal Achkar",
-        "advisor-country11": "Australia",
-        "advisor-bg11": "Mst Eng Mgt, American University",
-        "advisor-exp11": "Season entrepreneur with experience in various sectors and successfully driven several complex multi-million dollar projects to completion, achieving excellent financial outcomes. With area of expertise in BlockChain into business integration and Public Speaking, Presentations, Corporate Communications, and Cross-Functional Leadership. He is one of most prominent ICO advisors in Australia."
-    },
-    "LOGO":{
-        "title1": "Strategic partners",
-        "title2": "Clients",
-        "title3": "veriHUB3.5 is supported by",
-        "title4": "Global Food Chain"
-    },
-    "FOOTER": {
-        "legal-1":"© veriTAG. Inc | 2017 All rights reserved",
-        "legal-2":"Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
-    },
-    "FAQ": {
-        "title": "Frequently Asked Questions (FAQ)",
-
-        "Q1": "What is the main website for this ICO?",
-        "A1": "https://token.veriTAGs.io/",
-
-        "Q2": "Where to download the ICO White Paper (English)?",
-        "A2": "https://token.veriTAGs.io/assets/documents/WhitePaper.pdf",
-
-        "Q3": "Which country is this ICO from?",
-        "A3": "Singapore",
-
-        "Q4": "Who are the core team members?",
-        "A4": "See \"Our Team\" in the main website",
-
-        "Q5": "Who are the advisors?",
-        "A5": "See \"Founding Advisors\" in the main website",
-
-        "Q6": "Are the team members associated with any established Blockchain or Cryptocurrency Assocations?",
-        "A6": "Yes, with ACCESS (Singapore Cryptocurrency and Blockchain Industry Association) https://www.access-sg.org and SFA (Singapore Fintech Association) https://singaporefintech.org",
-
-        "Q7": "Are there minimum and maximum contribution amount?",
-        "A7": "Recommended minimum amount is 1 ETH to ensure a smooth transaction. No stated maximum amount for now.",
-
-        "Q8": "What is your timeline for your next phase? What is possibility for the respective token sale phase to close earlier?",
-        "A8-1": "Our Event timeline is as follows:",
-        "A8-bullet-1": "Private Placement (11th Feb - 23rd Feb)",
-        "A8-bullet-2": "Early Bird (24th Feb - 9th Mar)",
-        "A8-bullet-3": "Pre Sales (10th Mar - 23rd Mar)",
-        "A8-bullet-4": "Official Sales (24th Mar - 15th Apr)",
-        "A8-2": "Looking at our current take up rate, it is highly possible to close all stages earlier than expected. Register interest here:",
-        "A8-3": "https://tinyurl.com/goomlwl",
-
-        "Q9": "When will your MITx price be calculated and is it calculated on ETH or USD?",
-        "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start). MITx price is 8,000 MITx = 1 ETH",
-
-        "Q10": "When can I get my bonus tokens and what is the lock up period like?",
-        "A10-1": "You will receive all your tokens (plus bonuses if applicable) immediately after you have successfully sent in your funds to the wallet address. Private placement phase has a different bonus vesting period as it is processed manually. However, ALL tokens and bonuses will be sent before the end of the token sale event.",
-        "A10-2": "ALL tokens including bonus  will be unlocked after 15th April, 2018.",
-
-        "Q11": "Do you have any allocations for different phases of the token sales?",
-        "A11-1": "Yes, we have and the breakdown is as below:",
-        "A11-bullet-1": "Private Placement: 30% (Cap)",
-        "A11-bullet-2": "Early Bird: 30% (Cap)",
-        "A11-bullet-3": "Pre Sales: 30% (Cap)",
-        "A11-bullet-4": "Official Sales: 10% (Cap)",
-
-        "Q12": "You have a 30% token reservation for community. What is this for?",
-        "A12": "Our main business model is B2B and as a infrastructure hub, we will need to build a strong community not only with retail users but also business partners such as, distributorship, strategic alliance, Joint ventures, listing on major exchanges, establish strong presence in Greater China region, marketing & events, bounty and more.",
-
-        "Q13": "Do you have any plans or strategy to protect MITx token value?",
-        "A13": "Having great confidence in our business and line of business deals coming in, we will limit to 5% of token issuance per year if necessary.",
-
-        "Q14": "Can you share your current business progress?",
-        "A14": "Currently we have received proposals to set up subsidiary and presence in China, Japan, Malaysia and Dubai. For Japan and Malaysia, we are in midst of setting up our R&D and additional techical team. This should be up by end February. For China, we all know it is a big market. As such, we are taking a more strategics approach where resources could be intensive. Finally, for Dubai, we are still in negotiation with an interested party. Further to this, we are also in project scoping stage with Proline integrated Intelligence (Smart nation - Airport) and Y3 technologies on Supply chain",
-
-        "Q15": "Can you share your current Technical progress?",
-        "A15": "We are conducting enhancements on our MvP, we aim to complete our app store by mid Feb and continue with our roadmap milestone targeting the first commercial release in Q3, 2018.",
-
-        "Q16a": "Is there a video to see the core team members?",
-        "A16a": "The veritag team pitched in the Business Angel Network BANSEA, the oldest angel investing network in Southeast Asia on 1st Feb 2018. Branson (co-founder of veritag) and the others (Pei-han, Bruce and Dorcel) were also in the room with over 80 business angels, Youtube video:",
-        "A16a-link": "https://youtu.be/g5QfY-SRn-U",
-
-        "Q16b": "Where to locate the accompanied slides for the above video?",
-        "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
-
-        "Q17": "May I know the Communty Managers in your team?",
-        "A17": "Sure. We have the main community managers for different markets, Clara Zhou (clara@veritags.io) for Great China region with chinese; Hanna Bae (hanna@veritags.io) for Korean market. Do not hestate to ask them if you are interested in our project.",
-
-        "Q18": "What is the email to contact the ICO core team?",
-        "A18": "token@veritags.io",
-
-        "Q19": "Tell me more about your private sales",
-        "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rd Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
-
-        "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
-        "A20-addr": "0x2d8377 ################################### A25a304",
-        "A20": "This info can also be found under \"Token Generation Event (TGE) Structure\" in the official website: https://token.veritags.io",
-
-        "Q21": "I received a private telegram message asking me to send my funds to his or her address, what should I do it?",
-        "A21": "When in doubt, either (a) email token@veritags.io to clarify and/or (b) ask this question in the public Telegram channel so that the admins can detect if scammers have appeared",
-
-        "Q22": "What is lock in period mechanic and liquidity?",
-        "A22-1": "Liquidity. ",
-        "A22-2": "We understand investors want to be able to trade the tokens but listing on reputable exchanges comes with many requirements. One of which is that our token must be ERC-20 Compliant. As such, our smart contract has been written in a way that we conform to the ERC-20 standard. However, that also means we have to forgo another factor, which is to issue a lock-in condition on the sale of these tokens when it hits your wallets. ",
-        "A22-3": "Our rationale behind this:",
-        "A22-bullet-1": "Investors want to be able to trade their tokens as soon as possible.",
-        "A22-bullet-2": "Bonus will be processed approximately 1 month after the ICO event closed via air dropping. We have exchanges lined up and market makers arranged to stablise the price.",
-        "A22-bullet-3": "We believe buyers would not sell their tokens (without receiving bonus) unless they selling at profit.",
-        "A22-bullet-4": "All buyers are contractually bound not to sell all their tokens with a lock in period. If selling is discovered, their bonus will be forfeited.",
-        "A22-bullet-5": "The forfeited bonus will be redistributed to all investors.",
-
-        "Q23": "When can I transfer MITx Tokens received to other wallets?",
-        "A23": "You can only transfer MITx Tokens after 15th April.",
-
-        "Q24": "What stage are you at now?",
-        "A24-1": "Official Sales",
-        "A24-2": "",
-        "A24-3": "",
-        "A24-4": "",
-
-        "Q25": "What is the official Telegram Channel?",
-        "A25": "https://t.me/veritags"
-    }
+  "HEADER": {
+    "Morpheus": "veriTAG",
+    "About Morpheus": "About veriTAG",
+    "Solution": "Solution",
+    "White Paper": "White Paper",
+    "Token Events": "Token Events",
+    "Bounty": "Bounty",
+    "Team": "Team",
+    "Bounty": "Bounty",
+    "Language": "Language",
+    "whitepaper": "./assets/documents/WhitePaper.pdf",
+    "en": "EN",
+    "cn": "CN",
+    "kr": "KR",
+    "jp": "JP"
+  },
+  "TIMER": {
+    "BONUS SALE": "25%",
+    "stage starts in:": "BONUS",
+    "30% Bonus": "vtag token",
+    "DAYS": "BONUS",
+    "HOURS": "HOURS",
+    "MINUTES": "MINUTES",
+    "SECONDS": "SECONDS",
+    "Buy Token Now": "Buy Token Now",
+    "We accept BTC, ETH and other": "54,656,376 ETH worth of vtag",
+    "Soft cap reached": "Soft cap reached",
+    "SHARE WITH": "JOIN US"
+  },
+  "DASHBOARD": {
+    "Powerful Inclusive Full Stack Blockchain-Platform-As-a-Service for Enterprises.": "Next generation food ecosystem powered by blockchain"
+  },
+  "ABOUT": {
+    "header": "About veriTAG ecosystem",
+    "description1": "The diagram below is an illustration of proper ideal state of an ecosystem that we have achieved. Each pillar within our ecosystem delivers a key value proposition.",
+    "description2": "",
+    "description3": "",
+    "vh1": "veriTAG",
+    "vd1-1": "veriTAG is a blockchain enabled dual tagging system to give a unique identifier to each product. A birth QR that has a unique ID number to identify it through cloud and on the product itself. The tag has a hidden death QR which can only be accessed by peeling the tag. All data are stored in the cloud and on blockchain making it truly immutable and yet accessible anytime anywhere.",
+    "vd1-2": "",
+    "vd1-3": "",
+    "vh2": "veriHUB",
+    "vd2-1": "veriHUB is a cloud based, Blockchain and Token enabled, one stop food supply chain platform, currently it is mainly targeted for imported food into China. veriHUB effectively creates the most cost-effective way to import food into China. Built on veriTAG food safety as a foundation, veriHUB offers merchants to import their food products into China through consolidation of resources on both logistics, marketing and sales channel.",
+    "vd2-2": "",
+    "vd2-3": "",
+    "vh3": "veri$HOP",
+    "vd3-1": "veri$HOP is a WeChat app that links merchants directly with consumers via tags.  It provides referral marketing points and strong backend support.  It also enables customer behaviour through big data analysis thus ensuring higher customer loyalty and greater  profitability via direct selling. vtcash payment from veri$HOP will be enabled in future when the business environment allows it.",
+    "vd3-2": "",
+    "vd3-3": "",
+    "vh4": "veriHUB wallet",
+    "vd4-1": "A custom ERC20 compatible Ethereum wallet that is used for holding vtag and vtcash tokens and performing the token transactions, such as send, receive and convert tokens.",
+    "vd4-2": "The Wallet connects to the Token Exchange within the ecosystem to perform token exchanges between vtag and vtcashand other crypto tokens by interfacing with exchanges where vtag is listed.",
+    "vd4-3": "The wallet also provides user account and key management functions."
+  },
+  "PROBLEM": {
+    "header": "Problem Statements",
+    "title1": "Food safety",
+    "description1": "Food safety has been the top concern in the world. There is no foolproof way because a product cannot be uniquely identified. In a similar way, a person has to be identified with a ID card which store a unique signature of the person (fingerprint) that is immutable. Also, when the person moves on, a death certificate will have to be issued.",
+    "title2": "Logistic tracking limitation",
+    "description2": "Current processes in food logistic involve tracking by batches.This procedure is limited by the IOT put in place. At the same time, there is also additional cost of deployment on blockchain and technology limitation like the need for airspace on RFID.",
+    "title3": "Export of food to China ",
+    "description3": "China has regulations on the import of food into China especially, unprocessed food like fresh seafood and meat. Traders are not allowed to export fresh food and meat to China. Singapore, as a hub for wholesale trade is facing difficulties because of these restrictions.",
+    "title4": "Trade finance for food",
+    "description4": "Lack of trade finance instruments for food products due to the perishable nature of food. Perishable products depreciate in value with time and become negative value (need to pay to dispose the goods) when expired."
+  },
+  "SOLUTION": {
+    "header": "Our Solution",
+    "title1": "Track food product",
+    "title2": "One-stop food supply chain",
+    "title3": "Adopt Dual Tokens ",
+    "title4": "Enterprise Grade",
+    "description1": "A unique patented Cloud tagging solution is embedded in product label to track food products. Product tracking info are stored in blockchain which are immutable and are used to determine food origin, expiration date and other key info that concern food safety and authenticity.",
+    "description2": "A one-stop food supply chain platform is built using the latest blockchain technology to link all supply chain participants with trust and transparency which creates a cost-effective way to import food into China, and it will be expanded into Thailand, Canada and Vietnam in near future.",
+    "description3": "A dual token approach is adopted to create efficient tokenomics. A transaction token, called “vtcash”, will be introduced to pay for services within the supply chain ecosystem. It is pegged to the US currency (USD) to provide services with stabilized prices. Preservation of vtag token scarcity in the ecosystem which is directly related to its value is the key.",
+    "description4": "Secure, scalable and robust enterprise-grade blockchain platform for food supply chain and food tracking cross geolocations. A custom wallet is used to securely hold tokens and perform token transactions. The ecosystem can easily and securely onboard  new food products, new supply chain participants and add new supply chain networks; it can be extended for non food products in future."
+  },
+  "ADVANTAGE": {
+    "header": "Our Competitive Advantages",
+    "title1": "Robust & Scalable",
+    "title2": "Trusted",
+    "title3": "Accessible",
+    "title4": "An Ecosystem Approach",
+    "description1": "Blockchain applications are built using Morpheus Labs BPaaS (Blockchain Platform-as-a-Service) platform and all resources and support are made ready on the AWS cloud.This allows  applications to be built, enhanced and deployed anytime and anywhere in a secure, reliable and scalable environment.",
+    "description2": "Our solution has been hand-picked by Singapore government agencies, Infocomm Media Development Authority and Enterprise Singapore, to help Singaporean small and medium enterprises to expand their business overseas.",
+    "description3": "Our team is cross functional and has extensive experience in the business of food supply chain and blockchain technology.",
+    "description4": "An ecosystem built on three pillars veriTAG, veriHUB and veriSHOP.Each pillar within our ecosystem delivers a key value proposition."
+  },
+  "STAGE": {
+    "header": "Token Events",
+    "bonus1": "50% OFF + 5% BONUS",
+    "bonus2": "40% ALLOCATION",
+    "soldbonus2": "Sold 70.83%",
+    "bonus3": "35% BONUS",
+    "soldbonus3": "",
+    "bonus4": "30% ALLOCATION",
+    "soldbonus4": "",
+    "bonus5": "10% BONUS",
+    "soldbonus5": "",
+    "bonus6": "30% ALLOCATION",
+
+    "sold1": "",
+    "sold2": "70.83% sold",
+    "sold3": "",
+    "sold4": "",
+    "sold5": "",
+    "sold6": "",
+    "sold7": "",
+
+    "desc1": "Pre-ICO Platinum Bonus",
+    "desc2": "Type A",
+    "desc3": "Early-bird Premium Bonus",
+    "desc4": "Type B",
+    "desc5": "Pre-sales Additional Bonus",
+    "desc6": "Type C",
+    "desc7": "Unsold Tokens Release",
+
+    "date1": "2 Jan - 21 Jan",
+    "date2": "200 ETH",
+    "date3": "9 Mar - 18 Mar",
+    "date4": "20 ETH",
+    "date5": "2 Apr - 15 Apr",
+    "date6": "1 ETH",
+    "date7": "27 MAY ONWARD",
+
+    "eth2": "200 ETH",
+    "eth4": "20 ETH",
+    "eth6": "1 ETH",
+
+    "type2": "Type A",
+    "type4": "Type B",
+    "type6": "Type C",
+
+    "per2": "40%",
+    "per4": "30%",
+    "per6": "30%",
+
+    "time": "from 00:00AM (GMT+8)"
+  },
+  "TIMELINE": {
+    "header": "Token Timeline",
+    "current": "OFFICIAL SALES",
+    "time": "10 March 00:00:00 (GMT+8) - 15 April 2018",
+    "registration": "Registration date: 15th Oct 2018",
+    "ico-launch": "ICO launch date : 31st Oct 2018",
+    "closing": "Closing date: 15th Jan 2019",
+    "join-btn": "Join Early Bird Sale",
+    "buy-btn": "Buy Token"
+  },
+  "PLATFORM": {
+    "header": "Whitelist",
+    "text": "Container based virtualization technology are adopted to run the platform on the infrastructure hosted in AWS regional cloud data centers. This provides a reliable and scalable cloud environment to support rapid business growth.A  blockchain for food product tracking using private Ethereum blockchain for enterprise and a blockchain using Quorum blockchain for food supply finance. They are implemented in two separate private blockchain networks for better segregation to achieve different security and performance targets."
+  },
+  "WHY US": {
+    "header": "Why veriTAG Blockchain Ecosystem",
+    "text1": "Food supply chain is one of most complicated verticals as a result of the intersection of diverse  cross-border documentation formats, regulations and approving authorities. As most fundamental of human basic needs, there should be no compromises when it comes to food safety  and efficiency. We believe in the fundamental rights of every human beings to have access to food that are safe for consumption. This is more apparent and especially vital when food is delivered cross borders. veriTAG aims to help developing or developed countries ensure the vision of where rights trump profitability.",
+    "text2": "Incorporating of blockchain technology into Food supply chain creates most desirable outcome to solve the immediate society needs.",
+    "text3": "We are confident and committed to commercially and viably scaling our blockchain solution and capturing a huge food industry."
+  },
+  "BENEFIT": {
+    "header": "Tokenomics : ",
+    "and": " and ",
+    "vtag": "vtag",
+    "vtcash": "vtcash",
+    "summary0": "The beauty of ",
+    "summary1": " with ",
+    "sum-1": " ,the Exchange Token, is available in ICO token event and will be listed on crypto exchanges.It will be issued during ICO for sales and listed in crypto exchanges.Once changed to ",
+    "sum-10": " will be locked.",
+    "sum-2": " ,the Trade Token (or Transaction Token), is used in the Food Supply Chain Ecosystem.It is the key to unlock ",
+    "sum-20": " that have been converted to ",
+    "sum-21": " and locked. ",
+    "sum-22": " is used (spent), it will be burnt.It is pegged to USD to stabilize prices of services that can be purchased using ",
+    "Once": "Once ",
+
+    "listtitle1": "",
+    "listtitle2": "",
+    "listtitle3": "",
+    "listtitle4": "",
+    "listtitle5": "",
+
+    "listtext1": "vtag or vtcash can be converted within veriHub wallet.",
+    "listtext2": "Core functional services. veriTAG, veriHUB and veri$HOP systems provide functional services for the ecosystem. These systems access blockchains via Blockchain APIs. The functional services are built based microservices that can easily extend existing functions, build new functions or build new off-chain applications required by the ecosystem. The functional services can be exposed as APIs when needed.",
+    "listtext3": "Dual tokens are introduced in the platform. vtag token (an ERC20 token) is minted, distributed and transferred in the public Ethereum network. Token holders use veriTAG wallet to hold both vtcash and vtag token and perform transactions on the tokens.",
+
+    "detail1": "The primary use of the token is for both platform subscription and application-related usage, whereby users can use these tokens to procure any services within the platform network, and pay service providers within it. Users can switch among different subscription tiers with full flexibility. Upgrades are featured for applications that are chosen.",
+    "detail2": "As more blockchain applications are curated on our app store, MITx will also allow convertibility to discount coupons for other ICOs within our network. This will translate into cost savings and promotional items in other applications.",
+    "detail3": "Financial settlement and resources support between licensees and licensors, where distributorship could be easily managed, facilitates critical real-time support for any distributors or sub-distributors in any corner of the world. Easy token swapping among our app stores will also permit savings on transactional fees and more effective portfolio management for individual and corporate investors.",
+    "detail4": "MITx will be traded on crypto exchanges and this offers token holders the flexibility to trade and liquidate their holdings, if they so choose. They will be able to convert to fiat currency or swap to other cryptocurrencies. Holders can capitalise on trading opportunities and maximise value appreciation of their tokens.",
+
+    "Show More": "Show More",
+    "Show Less": "Show Less",
+    "Read Whitepaper": "Read Whitepaper",
+    "Register Now": "Register Now",
+
+    "cardtitle1": "Platform Subscription Payment",
+    "cardtitle2": "Applications Usage Fee",
+    "cardtitle3": "Distributorship Licensing Fee",
+    "cardtitle4": "Token Swapping and Trading",
+    "cardtext1": "Payment for different tiers of services",
+    "cardtext2": "Download to use wide range of applications in our app store with exclusive benefits. Download to customise or engage the application owner to customise for you",
+    "cardtext3": "Financial settlement for various tiers of licensing. Resources support and sharing",
+    "cardtext4": "Token swap among apps within the network. Traded on Cryptocurrency exchange"
+  },
+  "DISTRIBUTION": {
+    "TOKEN": "Token",
+    "DISTRIBUTION": "Distribution",
+    "Team": "Team",
+    "Community": "Ecosystem",
+    "Community-sub": "& Partnership",
+    "Token Sales": "Token Sales",
+    "Foundation": "Foundation",
+    "Foundation-sub": "(Strategy & Research)",
+    "Reserve Fund": "Reserve",
+
+    "FINANCE": "Financial",
+    "Platform Development": "Platform Development & ",
+    "Operations": "Operation",
+    "Platform Dev": "Platform Dev & ",
+    "Ops": "Ops",
+    "Marketing": "Sales & Marketing",
+    "Research Development": "Research Development",
+    "R&D": "R&D",
+    "Others, Legal": "Legal and Others"
+  },
+  "ROADMAP": {
+    "header": "Road Map",
+    "Technical": "Technical",
+    "Business": "Business",
+    "Phase": "Phase",
+    "tech-title0": "veriTAG",
+    "tech-title1": "veriHUB",
+    "tech-title2": "veri$HOP",
+    "tech-title3": "veriTAG Blockchain for food tracking",
+    "tech-title4": "veriHUB Blockchain for food supply chain phase 1",
+    "tech-title5": "veriHUB Blockchain for food supply chain phase 2",
+    "tech-title6": "veriHUB Blockchain for food supply chain phase 3",
+    "tech-date0": "2013",
+    "tech-date1": "2015",
+    "tech-date2": "2017",
+    "tech-date3": "Aug 2018",
+    "tech-date4": "Dec 2018",
+    "tech-date5": "Mar 2019",
+    "tech-date6": "Sept 2019",
+
+    "tech-desc0": "Developed veriTAG embedded Cloud tagging solution.",
+    "tech-desc1": "Developed veriHUB, one stop food import hub solution for China.",
+    "tech-desc2": "Developed veri$HOP, a WeChat mini app that links customers with merchants for shopping and interactions.",
+    "tech-desc3": "Setup veriTAG blockchain and API Gateway.Developed veriTAG blockchain smart contracts.Developed APIs for veriTAG blockchain smart contracts.",
+    "tech-desc4": "Setup veriHUB blockchain.Develop Token Exchange within veriHUB blockchain.Develop veriTAG wallet.Develop token smart contract.Enhancements for veriTAG blockchain.",
+    "tech-desc5": "Expand veriHUB blockchain network.Enhance Token Exchange within veriHUB blockchain.Enhance veriTAG wallet.Develop veriHUB blockchain smart contracts for food supply chain.",
+    "tech-desc6": "Future enhancements.Bring veri$HOP onto blockchains.",
+
+    "biz-title0": "",
+    "biz-title1": "",
+    "biz-title2": "",
+    "biz-title3": "",
+    "biz-title4": "",
+    "biz-title5": "",
+    "biz-date0": "2013",
+    "biz-date1": "2015",
+    "biz-date2": "2017",
+    "biz-date3": "1H 2018",
+    "biz-date4": "Q3 2018",
+    "biz-date5": "Q4 2018 ",
+    "biz-date6": "Q1 2019",
+    "biz-date7": "Q2 2019",
+    "biz-date8": "Q3 2019",
+    "biz-date9": "Q4 2019",
+    "biz-desc0": ["Setup and develop veriTAG for semiconductor"],
+    "biz-desc1": [
+      "Setup and develop veriHUB building upon veriTAG success",
+      "Focus on one stop solution for China"
+    ],
+    "biz-desc2": [
+      "Ink MOU with Y3 and Digitnexus to enhance services on veriHUB and to go on board blockchain",
+      "Develop and launch very$HOP"
+    ],
+    "biz-desc3": [
+      "veriTAG goes on blockchain",
+      "veriHUB3.5 upgraded to PSG under IMDA",
+      "Sign MOU with Rizon to extend on blockchain and logistic services in China ChongQing",
+      "Sign agreement with 17 Flash store (an unmanned technology provider under tencent company) to be part of the offline channels on veriHUB 3.5"
+    ],
+    "biz-desc4": [
+      "Ink agreement with SMF (Singapore manufacturing Association) to provide veriHUB services to its members (> 3000)",
+      "In development with 3 seafood associations in Singapore to set up Poseidon, a veriHUB ecosystem for seafood",
+      "In development with Halal Science Center to bring Halal on blockchain through veriTAG and Thailand Halal products through veriHUB to China (veriHUB Thailand)",
+      "Formation of GFCA (Global Food chain Alliance), a food ecosystem on blockchain to share resources for growth and token interoperation. 6 founding members are veriTAG, NULS, Morpheus Lab, Reefic protocol and Sakae Fintech"
+    ],
+    "biz-desc5": [
+      "Bring MUIS (Singapore Halal certification) onto veriTAG blockchain",
+      "Setup 17 unmanned stores in Chengdu China and Singapore",
+      "Establish Singapore booth into Ito Yokado, Isetan and G super in Chengdu",
+      "Establish collaboration linkup with Chengdu Food and Beverage Associations",
+      "Launch of vtag ICO"
+    ],
+    "biz-desc6": [
+      "Schedule to release veriHUB on blockchain in Dec 2018 with e-wallet for token interoperation",
+      "Embark veri$HOP onto Reefic protocol token program. veri$HOP credit points can be used to exchange rewards points for restaurant use in Singapore and Malaysia",
+      "Setup veriHUB Thailand for export of Singapore products to Thailand and Thailand products to China",
+      "Work with HSC in Thailand to bring Thai halal onto veriTAG blockchain"
+    ],
+    "biz-desc7": [
+      "Bring veri$HOP onto blockchain",
+      "Setup veri$HOP in Singapore and extend token to use in Singapore by consumers and merchants and through collaboration with Sakae"
+    ],
+    "biz-desc8": [
+      "Series A fund raising",
+      "Setup veriHUB Vietnam for export of Singapore products to Vietnam and Vietnam products to China"
+    ],
+    "biz-desc9": [
+      "Extend veriHUB operation from Chengdu to Chongqing, Guangzhou, Beijing and Shanghai"
+    ]
+  },
+  "GENERATION": {
+    "header": "Token Generation Event (TGE) Structure",
+    "summary": "A total of 1 billion vtag will be minted and only 700 million of vtag will be issued to the public in this Token Generation Event (TGE). The release of the 700 million vtag is to generate sufficient funding for us to achieve the milestones and to hold us accountable for the funds.",
+
+    "details-name-label": "Name",
+    "details-name-content": "veriTAG token",
+    "details-tokenName-label": "Token Name",
+    "details-tokenName-content": "vtag",
+    "details-totalSupply-label": "Total Supply",
+    "details-totalSupply-content": "1,000,000,000 (1B)",
+    "details-tokenSales-label": "Token Sales",
+    "details-tokenSales-content": "700,000,000 (700 million)",
+    "details-decimals-label": "Decimals",
+    "details-decimals-content": "18",
+
+    "note-1": "Please note, the full address can be found in our email to you.",
+    "note-emp": "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
+    "note-3": "token@mopheuslabs.io",
+    "details-value-label": "Value",
+    "details-value-content": "1 ETH = 20,000 vtag",
+    "details-token-label": "Wallet Address to Send Funds",
+    "details-token-address-frist-chunk": "",
+    "details-token-address-masked-chunk": "",
+    "details-token-address-second-chunk": "",
+
+    "note-1": "Please note, the full address can be found in our email to you.",
+    "note-emp": "If you did not receive the email but have whitelisted yourself, please send us an email immediately at ",
+    "note-3": "vtag@veriTAG.com",
+
+    "foot-1": "",
+    "foot-emp": "",
+    "foot-3": "Once the Hard cap of 25,000 ETH is reached, the TGE will be closed. Our token will be listed in exchanges upon token events closed, irregardless of the final amount raised. We will be announcing these exchanges in time to come.",
+
+    "Show More": "Show More",
+    "Show Less": "Show Less"
+  },
+  "TEAM": {
+    "member-header": "Our Team",
+
+    "member-name0": "Jason Lim",
+    "member-country0": "Singapore/China",
+    "member-bg0": "National University of Singapore with a BEng. (Honors) in (Mechanical Engineering) in 1996.",
+    "member-exp0": "In 2013, Jason founded veriTAG, a Singapore based technology company that focuses on product and asset tagging methods that are linked to the Cloud - henceforth coined as cloud tagging solutions.Such solutions were developed out of use cases to prevent fraudulent warranty claims from semiconductor clients in Jason's existing semiconductor businesses.As such use cases proved to be very successful, veriTAG was set up to commercialise the concept so that it could scale and extend to other industry sectors.  Under Jason's leadership, veriTAG has now penetrated into the food and asset management sectors and will be scaling up through aggressive client acquisition, brand positioning and capital expansion strategies.",
+
+    "member-name1": "Patrick Chong ",
+    "member-country1": "Singapore/China",
+    "member-bg1": "",
+    "member-exp1": "Patrick Chong has 15 years of experience in Asia’s fund management industry. He has a proven track record in raising assets in these new businesses. Currently, he is Head of Asia Pacific Financial Institutions Business Development of Aviva Investors.",
+
+    "member-name2": "Hu Ke ",
+    "member-country2": "Singapore/Italy",
+    "member-bg2": "",
+    "member-exp2": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
+
+    "member-name3": "David Peter",
+    "member-country3": "Singapore/India",
+    "member-bg3": "",
+    "member-exp3": "Experienced full stack, .net, Java and hybris developer. Worked on an array of ecommerce platforms. Remain fully involved in client and server side functionalities, including the implementation of new code and redevelopment of existing program structures.",
+
+    "member-name4": "Duong Van Sang",
+    "member-country4": "Vietnam",
+    "member-bg4": "",
+    "member-exp4": "More than 12 years of experiences in full stack software development and 6 years as technical lead and development manager. He has extensive experiences in blockchain architecture design and smart contract development.",
+
+    "member-name5": "Virginia Tan ",
+    "member-country5": "Singapore/China",
+    "member-bg5": "B.Multimedia Design (The One Academy of Malaysia)",
+    "member-exp5": "Virginia Tan is the founding partner of Teja Ventures, a venture capital fund with a gender lens targeting early stage ventures in Asia. She also founded and leads She Loves Tech, a global platform focusing on technology by women and technology for women, and housing the world's largest startup competition for women and technology which launched in 16 international locations in 2018. Virginia is the co-founder and president of Lean In China, a women's platform with over 100,000 members across more than 25 cities and 100 universities in China, which supports the goals and aspirations of Chinese women.",
+
+    "member-name6": "Edward Loke",
+    "member-country6": "Singapore",
+    "member-bg6": "B.Info System Tech & Design (Singapore University of technology and Design, Singapore)",
+    "member-exp6": "Delivered multiple applications for big clients from financial institutions & banks. A full stack developer & a advocate of Agile Development; a Blockchain Enthusiast.",
+
+    "member-name7": "Eric Xu Cong",
+    "member-country7": "Singapore/China",
+    "member-bg7": "B.Info System (National University of Singapore, Singapore)",
+    "member-exp7": "Senior full stack developer (UX) with experience in delivering multi-million applications with global clients from banking, retail and manufacturing; a Blockchain Enthusiast.",
+
+    "member-name8": "Clara Zhou",
+    "member-country8": "China",
+    "member-bg8": "Zhejiang Yuexiu University of Foreign Languages",
+    "member-exp8": "With extensive experience in English - Chinese translation, and season in community building, technical news & article write up. A blockchain Enthusiast with excellent PR & marketing skills.",
+
+    "member-name9": "Hanna Bae",
+    "member-country9": "South Korea",
+    "member-bg9": "M. Professional Accounting, Brisbane, Queensland University of Technology; B.Comms., Public Relations, Melbourne, RMIT University",
+    "member-exp9": "Hanna is fluent in both the language of business and communications. She has had great experience in online marketing and public relations. \n Her most recent experience in management consulting and accounting has equipped her to be better understanding of business operations and numbers. She’s a huge believer of blockchain technology and thinks that this will change the future for the better.",
+
+    "advisor-header": "Founding Advisors",
+
+    "advisor-name0": "Evan Go",
+    "advisor-country0": "China",
+    "advisor-bg0": "",
+    "advisor-exp0": "Evan is currently CEO of Zhaopin.com is a leading online recruiting company in china. He has vast experience in logistic and freight forwarding industry. He was member of board in Sinotrans - DHL and Chairman of Board in Sinotrans-OCS express. Prior to this, he was a partner in Mckinsey China ",
+
+    "advisor-name1": "Hu Ke",
+    "advisor-country1": "Singapore",
+    "advisor-bg1": "",
+    "advisor-exp1": "Hu Ke having more than decades experience in shipping and logistic as a senior management, such as director in Maersk, and he currently works a a General Manager in Pacific International Lines (Pte) Ltd.",
+
+    "advisor-name2": "James Ong ",
+    "advisor-country2": "Singapore",
+    "advisor-bg2": "",
+    "advisor-exp2": "Chief Investment Officer at YCH Group. Partner at Supply Chain Angels",
+
+    "advisor-name3": "Chuang Pei-Han",
+    "advisor-country3": "Malaysia/Singapore",
+    "advisor-bg3": "",
+    "advisor-exp3": "After seven years’ experience in banking, Pei-Han turned to his first venture and built a series of successful business. He has experience in raising multi-million investments and has built a proven track record in the management of accounts with large conglomerates. He has successfully grown one of his start-ups to a million dollar–generating business. His BPaaS was selected and incubated in SGInnovate, as first batch incubatees.Having been through the delivery of 25 software development cycles, he has developed core expertise in handling multi-million deals and high-level marketing campaigns. Pei-Han’s past clientele includes Scoot, Singapore Airlines, Vivocity, Shwe Taung Group, Chinsu Myanmar Group, Prince Hotel Group, Taiwan Tourism Board and other major enterprises. Currently he is Founder and CEO of Morpheus Labs Pte Ltd.",
+
+    "advisor-name4": "Branson Lee",
+    "advisor-country4": "Singapore",
+    "advisor-bg4": "Bachelor of Computer Engineering (Nanyang Technology University, Singapore) Finance Technology: Future Commerce (Massachusetts Institute of Technology).",
+    "advisor-exp4": "Branson is currently an ex-co-member of the Singapore Fintech Association and heads the Talent Committee. With over 13 years’ experience in business development and channel partnership, Branson was selected as one of only two undergraduates during his university days to undergo internship with Sun Microsystems. Branson has worked at LinkedIn and Gartner Consulting and is currently heavily involved in the blockchain and start-up ecosystem. He is also an active public speaker for blockchain and Fintech events. He is currently founder of Morpheus Labs Pte Ltd.",
+
+    "advisor-name5": "Kazutaka Mori",
+    "advisor-country5": "",
+    "advisor-bg5": "",
+    "advisor-exp5": "Partner Lawyer of One Asia Lawyers. Head of Fintech and ICO team in Singapore. Qualified lawyer in Japan. Kazutaka Mori has about 10 years of experience in international legal affair. Focusing on Fintech, especially crypto in Asia. He has supported establishment of crypto currency exchanges and handled numerous ICO projects in Asia.",
+
+    "advisor-name6": "Bruce Lu (Technology Advisor)",
+    "advisor-country6": "Singapore",
+    "advisor-bg6": "Bachelor in Applied Mathematics (Tianjin University); Executive MBA (Rutgers Business School); Finance Technology: Future Commerce (Massachusetts Institute of Technology)",
+    "advisor-exp6": "Over 20 years in software development and technology innovation. Implemented a blockchain business application in production using HyperLedger Fabric V1.0, the first in the world.Bruce is the CTO of Morpheus Labs, responsible for blockchain technology research and development. Before joint Morpheus Labs, he worked with IBM, as a technical leader, focusing on cloud application development and technology innovation in various industries.",
+
+    "advisor-name7": "Jeffrey Tan ",
+    "advisor-country7": "Singapore",
+    "advisor-bg7": "",
+    "advisor-exp7": "Fortified with more than 15 years experience internationally across various industry sectors such as smart ports, maritime, shipping, logistics, trade, smart cities, smart buildings, real estate, facility management, property management, education, public sector, finance services, insurance and entertainment. An ever ready attitude to take on senior leadership roles to benefit organization to gain greater market space and execute business transformation globally.Accumulated relevant experiences in various capacities including general management, programme/project management, technical development, business process management, change management, management consulting, product management, key accounts management, business development, sales, presales and bid management.",
+
+    "advisor-name8": "Yumi Kitahama ",
+    "advisor-country8": "",
+    "advisor-bg8": "",
+    "advisor-exp8": "Consultant, life coach and live interpreter living in Singapore since 1999. Her mission is to bring out the limitless potential in each individual to excel in career, achieve goals and lead a fulfilling life. Based on her work experiences in globalized MNCs and diversified environments, her current project is to empower global leaders.",
+
+    "advisor-name9": "Lester Lim",
+    "advisor-country9": "Singapore",
+    "advisor-bg9": "",
+    "advisor-exp9": "Lester Lim is active advisor for ICOs, including projects like MXC, Cosmochain, Cardstack, HybridBlock, Dock.io, Ink Protocol, CoinFi and Banca. He advise selected token projects on marketing strategy, tokenomics, and also connects them to relevant Blockchain partners and Centralized & Decentralized exchanges for liquidity, in addition to fund raising activity.He is also a cryptocurrency investor and founder of a global private investor group investing in top ICOs.",
+
+    "advisor-name10": "Kunio Okuda",
+    "advisor-country10": "Japan",
+    "advisor-bg10": "",
+    "advisor-exp10": "An investor in cryptographic currency and also an entrepreneur. He is one of top influencers in Japan and skilled in ICO analysis. Currently involved in OmiseGO, Cindicator, GazeCoin, Swissborg, Lucyd and more.",
+
+    "advisor-name11": "Khal Achkar",
+    "advisor-country11": "Australia",
+    "advisor-bg11": "Mst Eng Mgt, American University",
+    "advisor-exp11": "Season entrepreneur with experience in various sectors and successfully driven several complex multi-million dollar projects to completion, achieving excellent financial outcomes. With area of expertise in BlockChain into business integration and Public Speaking, Presentations, Corporate Communications, and Cross-Functional Leadership. He is one of most prominent ICO advisors in Australia."
+  },
+  "LOGO": {
+    "title1": "Strategic partners",
+    "title2": "Clients",
+    "title3": "veriHUB3.5 is supported by",
+    "title4": "Global Food Chain"
+  },
+  "FOOTER": {
+    "legal-1": "© veriTAG. Inc | 2017 All rights reserved",
+    "legal-2": "Investing in ICOs and digital tokens can be very rewarding, but it involves a number of risks and challenges. If you choose to invest,  you need to be aware of and accept three important considerations, 1. illiquidity , 2.Diversification, 3.Loss of Capital. This list of risk factors does not purport to be a complete enumeration or explanation of the risks. Prospective investors should review, at the very least, but not limited to, the whitepaper, team and also product roadmap in their entirety and consult with their own advisers before making any decision to invest."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions (FAQ)",
+
+    "Q1": "What is the main website for this ICO?",
+    "A1": "https://token.veriTAGs.io/",
+
+    "Q2": "Where to download the ICO White Paper (English)?",
+    "A2": "https://token.veriTAGs.io/assets/documents/WhitePaper.pdf",
+
+    "Q3": "Which country is this ICO from?",
+    "A3": "Singapore",
+
+    "Q4": "Who are the core team members?",
+    "A4": "See \"Our Team\" in the main website",
+
+    "Q5": "Who are the advisors?",
+    "A5": "See \"Founding Advisors\" in the main website",
+
+    "Q6": "Are the team members associated with any established Blockchain or Cryptocurrency Assocations?",
+    "A6": "Yes, with ACCESS (Singapore Cryptocurrency and Blockchain Industry Association) https://www.access-sg.org and SFA (Singapore Fintech Association) https://singaporefintech.org",
+
+    "Q7": "Are there minimum and maximum contribution amount?",
+    "A7": "Recommended minimum amount is 1 ETH to ensure a smooth transaction. No stated maximum amount for now.",
+
+    "Q8": "What is your timeline for your next phase? What is possibility for the respective token sale phase to close earlier?",
+    "A8-1": "Our Event timeline is as follows:",
+    "A8-bullet-1": "Private Placement (11th Feb - 23rd Feb)",
+    "A8-bullet-2": "Early Bird (24th Feb - 9th Mar)",
+    "A8-bullet-3": "Pre Sales (10th Mar - 23rd Mar)",
+    "A8-bullet-4": "Official Sales (24th Mar - 15th Apr)",
+    "A8-2": "Looking at our current take up rate, it is highly possible to close all stages earlier than expected. Register interest here:",
+    "A8-3": "https://tinyurl.com/goomlwl",
+
+    "Q9": "When will your MITx price be calculated and is it calculated on ETH or USD?",
+    "A9": "We will check and take in actual ETH price when sales executed (1st day of Funding start). MITx price is 8,000 MITx = 1 ETH",
+
+    "Q10": "When can I get my bonus tokens and what is the lock up period like?",
+    "A10-1": "You will receive all your tokens (plus bonuses if applicable) immediately after you have successfully sent in your funds to the wallet address. Private placement phase has a different bonus vesting period as it is processed manually. However, ALL tokens and bonuses will be sent before the end of the token sale event.",
+    "A10-2": "ALL tokens including bonus  will be unlocked after 15th April, 2018.",
+
+    "Q11": "Do you have any allocations for different phases of the token sales?",
+    "A11-1": "Yes, we have and the breakdown is as below:",
+    "A11-bullet-1": "Private Placement: 30% (Cap)",
+    "A11-bullet-2": "Early Bird: 30% (Cap)",
+    "A11-bullet-3": "Pre Sales: 30% (Cap)",
+    "A11-bullet-4": "Official Sales: 10% (Cap)",
+
+    "Q12": "You have a 30% token reservation for community. What is this for?",
+    "A12": "Our main business model is B2B and as a infrastructure hub, we will need to build a strong community not only with retail users but also business partners such as, distributorship, strategic alliance, Joint ventures, listing on major exchanges, establish strong presence in Greater China region, marketing & events, bounty and more.",
+
+    "Q13": "Do you have any plans or strategy to protect MITx token value?",
+    "A13": "Having great confidence in our business and line of business deals coming in, we will limit to 5% of token issuance per year if necessary.",
+
+    "Q14": "Can you share your current business progress?",
+    "A14": "Currently we have received proposals to set up subsidiary and presence in China, Japan, Malaysia and Dubai. For Japan and Malaysia, we are in midst of setting up our R&D and additional techical team. This should be up by end February. For China, we all know it is a big market. As such, we are taking a more strategics approach where resources could be intensive. Finally, for Dubai, we are still in negotiation with an interested party. Further to this, we are also in project scoping stage with Proline integrated Intelligence (Smart nation - Airport) and Y3 technologies on Supply chain",
+
+    "Q15": "Can you share your current Technical progress?",
+    "A15": "We are conducting enhancements on our MvP, we aim to complete our app store by mid Feb and continue with our roadmap milestone targeting the first commercial release in Q3, 2018.",
+
+    "Q16a": "Is there a video to see the core team members?",
+    "A16a": "The veritag team pitched in the Business Angel Network BANSEA, the oldest angel investing network in Southeast Asia on 1st Feb 2018. Branson (co-founder of veritag) and the others (Pei-han, Bruce and Dorcel) were also in the room with over 80 business angels, Youtube video:",
+    "A16a-link": "https://youtu.be/g5QfY-SRn-U",
+
+    "Q16b": "Where to locate the accompanied slides for the above video?",
+    "A16b": "http://ye.sg/download/ML/20180201_B1pitch",
+
+    "Q17": "May I know the Communty Managers in your team?",
+    "A17": "Sure. We have the main community managers for different markets, Clara Zhou (clara@veritags.io) for Great China region with chinese; Hanna Bae (hanna@veritags.io) for Korean market. Do not hestate to ask them if you are interested in our project.",
+
+    "Q18": "What is the email to contact the ICO core team?",
+    "A18": "token@veritags.io",
+
+    "Q19": "Tell me more about your private sales",
+    "A19": "Private sales starts 11th Feb 2018 - 00:00 (GMT+8) and ends on 23rd Feb 2018 - 23.59 (GMT+8). Private placement phase is for accredited investors & for contribution more than 62.5 ETH. We are now sending out emails with our wallet address by batches. You have to complete your contribution by 23rd Feb 2018 23.59 (GMT+8), after which your allocation of tokens will not be guaranteed.",
+
+    "Q20": "What is the wallet address to send funds to? (Showing only the prefix and suffix of the address)?",
+    "A20-addr": "0x2d8377 ################################### A25a304",
+    "A20": "This info can also be found under \"Token Generation Event (TGE) Structure\" in the official website: https://token.veritags.io",
+
+    "Q21": "I received a private telegram message asking me to send my funds to his or her address, what should I do it?",
+    "A21": "When in doubt, either (a) email token@veritags.io to clarify and/or (b) ask this question in the public Telegram channel so that the admins can detect if scammers have appeared",
+
+    "Q22": "What is lock in period mechanic and liquidity?",
+    "A22-1": "Liquidity. ",
+    "A22-2": "We understand investors want to be able to trade the tokens but listing on reputable exchanges comes with many requirements. One of which is that our token must be ERC-20 Compliant. As such, our smart contract has been written in a way that we conform to the ERC-20 standard. However, that also means we have to forgo another factor, which is to issue a lock-in condition on the sale of these tokens when it hits your wallets. ",
+    "A22-3": "Our rationale behind this:",
+    "A22-bullet-1": "Investors want to be able to trade their tokens as soon as possible.",
+    "A22-bullet-2": "Bonus will be processed approximately 1 month after the ICO event closed via air dropping. We have exchanges lined up and market makers arranged to stablise the price.",
+    "A22-bullet-3": "We believe buyers would not sell their tokens (without receiving bonus) unless they selling at profit.",
+    "A22-bullet-4": "All buyers are contractually bound not to sell all their tokens with a lock in period. If selling is discovered, their bonus will be forfeited.",
+    "A22-bullet-5": "The forfeited bonus will be redistributed to all investors.",
+
+    "Q23": "When can I transfer MITx Tokens received to other wallets?",
+    "A23": "You can only transfer MITx Tokens after 15th April.",
+
+    "Q24": "What stage are you at now?",
+    "A24-1": "Official Sales",
+    "A24-2": "",
+    "A24-3": "",
+    "A24-4": "",
+
+    "Q25": "What is the official Telegram Channel?",
+    "A25": "https://t.me/veritags"
+  }
 }
