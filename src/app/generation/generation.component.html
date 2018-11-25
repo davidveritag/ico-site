@@ -1,60 +1,188 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col generation-section">
-      <h1>{{ 'GENERATION.header' | translate }}</h1>
-      <p>
-        {{ 'GENERATION.summary' | translate }}
-      </p>
-      <div class="more-text"
-        *ngIf="showMore">
-
+      <h1>{{ "GENERATION.header" | translate }}</h1>
+      <p>{{ "GENERATION.summary" | translate }}</p>
+      <div class="more-text" *ngIf="showMore">
         <div class="content">
           <table>
             <tr>
-              <td class="label">{{ 'GENERATION.details-name-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-name-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-name-label" | translate }}
+              </td>
+              <td>{{ "GENERATION.details-name-content" | translate }}</td>
             </tr>
 
             <tr>
-              <td class="label">{{ 'GENERATION.details-tokenName-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-tokenName-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-tokenName-label" | translate }}
+              </td>
+              <td>{{ "GENERATION.details-tokenName-content" | translate }}</td>
             </tr>
 
             <tr>
-              <td class="label">{{ 'GENERATION.details-totalSupply-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-totalSupply-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-totalSupply-label" | translate }}
+              </td>
+              <td>
+                {{ "GENERATION.details-totalSupply-content" | translate }}
+              </td>
             </tr>
 
             <tr>
-              <td class="label">{{ 'GENERATION.details-tokenSales-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-tokenSales-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-tokenSales-label" | translate }}
+              </td>
+              <td>{{ "GENERATION.details-tokenSales-content" | translate }}</td>
             </tr>
 
             <tr>
-              <td class="label">{{ 'GENERATION.details-decimals-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-decimals-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-decimals-label" | translate }}
+              </td>
+              <td>{{ "GENERATION.details-decimals-content" | translate }}</td>
             </tr>
 
             <tr>
-              <td class="label">{{ 'GENERATION.details-value-label' | translate }}</td>
-              <td>{{ 'GENERATION.details-value-content' | translate }}</td>
+              <td class="label">
+                {{ "GENERATION.details-value-label" | translate }}
+              </td>
+              <td>{{ "GENERATION.details-value-content" | translate }}</td>
             </tr>
 
             <tr>
-              <td class="label-wallet-value">{{ 'GENERATION.details-token-label' | translate }}</td>
-              <td class="label-wallet-chunks">{{ 'GENERATION.details-token-address-frist-chunk' | translate }}
-              <a class="label-wallet-masked-chunks">{{ 'GENERATION.details-token-address-masked-chunk' | translate }}</a>
-              <a class="label-wallet-chunks">{{ 'GENERATION.details-token-address-second-chunk' | translate }}</a></td>
+              <td class="label-wallet-value">
+                {{ "GENERATION.details-token-label" | translate }}
+              </td>
+              <td class="label-wallet-chunks">
+                {{
+                  "GENERATION.details-token-address-frist-chunk" | translate
+                }}
+                <a class="label-wallet-masked-chunks">{{
+                  "GENERATION.details-token-address-masked-chunk" | translate
+                }}</a>
+                <a class="label-wallet-chunks">{{
+                  "GENERATION.details-token-address-second-chunk" | translate
+                }}</a>
+              </td>
             </tr>
-
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-investment-address" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="">
+                {{ "GENERATION.details-investment-address-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-eth" | translate }}
+              </td>
+              <td class="">{{ "GENERATION.details-eth-value" | translate }}</td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-bitcoin" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-bitcoin-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-usd" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="">{{ "GENERATION.details-usd-value" | translate }}</td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-account-no" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-account-no-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-GIRO-FAST" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-swift-bci-code" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-bci-code-value1" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-meps-telegraphic" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-swift-bci-code" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-bci-code-value2" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-rmb" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-chi1" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-chi1-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-chi2" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-chi2-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+              <td class="label-wallet-chunks">
+                {{ "GENERATION.details-chi3" | translate }}
+              </td>
+              <td class="">
+                {{ "GENERATION.details-chi3-value" | translate }}
+              </td>
+            </tr>
+            <tr>
+                <td>Industrial and Commercial Bank of China, Shanghai Branch</td>
+            </tr>
           </table>
         </div>
-        <p><strong>{{ 'GENERATION.note-1' | translate }}{{ 'GENERATION.note-emp' | translate }}</strong><a href="{{ 'GENERATION.note-3' | translate }}">{{ 'GENERATION.note-3' | translate }}</a></p>
-        <p>{{ 'GENERATION.foot-1' | translate }}<strong>{{ 'GENERATION.foot-emp' | translate }}</strong>{{ 'GENERATION.foot-3' | translate }}</p>
+        <p>
+          <strong
+            >{{ "GENERATION.note-1" | translate
+            }}{{ "GENERATION.note-emp" | translate }}</strong
+          ><a href="{{ 'GENERATION.note-3' | translate }}">{{
+            "GENERATION.note-3" | translate
+          }}</a>
+        </p>
+        <p>
+          {{ "GENERATION.foot-1" | translate
+          }}<strong>{{ "GENERATION.foot-emp" | translate }}</strong
+          >{{ "GENERATION.foot-3" | translate }}
+        </p>
       </div>
-      <button
-        class="btn mroe-btn"
-        (click)="toggleShowMore()">{{showMoreLabel}}</button>
+      <button class="btn mroe-btn" (click)="toggleShowMore()">
+        {{ showMoreLabel }}
+      </button>
     </div>
   </div>
 </div>
