@@ -1,0 +1,432 @@
+2018-12-01T10:31:04+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:31:20+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:33:46+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:33:52+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:34:50+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:284
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 284
+
+2018-12-01T10:35:31+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:283
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 283
+
+2018-12-01T10:35:35+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:283
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 283
+
+2018-12-01T10:35:39+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:283
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 283
+
+2018-12-01T10:39:08+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:39:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:47:37+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:282
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 282
+
+2018-12-01T10:48:27+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:284
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 284
+
+2018-12-01T10:48:31+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:284
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 284
+
+2018-12-01T10:48:47+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:283
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 283
+
+2018-12-01T10:48:50+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:283
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 283
+
+2018-12-01T10:50:37+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:288
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 288
+
+2018-12-01T10:50:41+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:288
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 288
+
+2018-12-01T10:58:59+00:00 CRITICAL syntax error, unexpected 'Helvetica' (T_STRING) in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 158
+
+2018-12-01T11:54:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T11:54:23+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T11:54:27+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T11:54:28+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T11:54:35+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T11:54:39+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:01:41+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:01:46+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:08:31+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:08:36+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:10:10+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:10:13+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:10:16+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:12:53+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:296
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 296
+
+2018-12-01T12:16:38+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:293
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 293
+
+2018-12-01T12:16:42+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:293
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 293
+
+2018-12-01T12:17:40+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:293
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 293
+
+2018-12-01T12:17:54+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:293
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 293
+
+2018-12-01T12:18:10+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:293
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 293
+
+2018-12-01T12:46:18+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+
+2018-12-01T12:46:22+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+
+2018-12-01T12:47:17+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+
+2018-12-01T12:48:54+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+
+2018-12-01T12:49:08+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+
+2018-12-01T12:49:11+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on boolean in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php:299
+Stack trace:
+#0 /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-init.php(98): ni_enquiry_listing->init()
+#1 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(286): ni_enquiry_init->add_page('')
+#2 /home/shamla6/public_html/vtag/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/shamla6/public_html/vtag/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/shamla6/public_html/vtag/wp-admin/admin.php(224): do_action('enquiry_page_ni...')
+#5 {main}
+  thrown in /home/shamla6/public_html/vtag/wp-content/plugins/ni-woocommerce-product-enquiry/include/ni-enquiry-listing.php on line 299
+

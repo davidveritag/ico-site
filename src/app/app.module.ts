@@ -45,6 +45,7 @@ import { routing } from './app.routing';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ProgressComponent } from './progress/progress.component';
+import { NewpageComponent } from './newpage/newpage.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -81,7 +82,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SiteLayoutComponent,
     LogosComponent,
     ModalContentComponent,
-    ProgressComponent
+    ProgressComponent,
+    NewpageComponent
     
   ],
   imports: [
